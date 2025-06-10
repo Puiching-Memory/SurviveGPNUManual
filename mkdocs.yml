@@ -1,0 +1,75 @@
+# https://squidfunk.github.io/mkdocs-material/setup/
+site_name: 广师大生存手册 survive GPNU manual
+site_url: https://puiching-memory.github.io/SurviveGPNUManual/
+theme:
+  name: material
+  custom_dir: overrides # html覆盖目录
+  logo: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
+  favicon: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
+  features:
+    - navigation.footer
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.prune
+    - navigation.indexes
+    - toc.follow
+    - navigation.top
+  language: zh # 默认语言
+  palette:
+    # 调色板依据系统主题自动设置
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: indigo # 主色调
+
+    # 调色板切换为亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo # 主色调
+
+    # 调色板切换为暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: indigo # 主色调
+
+nav: # 默认路由
+  - 序章: index.md
+  - 高考志愿: aspiration.md
+  - 校园生活: daily.md
+  - 技巧: tips.md
+  - 考试周: exam.md
+  - 读研: postgraduate.md
+  - 就业: job.md
+  - 后记: after.md
+  - 资料: data.md
+  - Blog: blog/index.md
+  - 分享你的故事: community.md
+plugins: # 插件
+  - search:
+      lang: zh
+  - meta
+  - blog
+  - git-authors
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+extra:
+  social: # 底端额外链接
+    - icon: fontawesome/brands/github
+      link: https://github.com/Puiching-Memory/
+repo_url: https://puiching-memory.github.io/SurviveGPNUManual/ # github状态标签
+repo_name: https://puiching-memory.github.io/SurviveGPNUManual/
