@@ -1,0 +1,111 @@
+# https://squidfunk.github.io/mkdocs-material/setup/
+site_name: 广师大生存手册 survive GPNU manual
+site_url: https://puiching-memory.github.io/SurviveGPNUManual/
+repo_url: https://github.com/Puiching-Memory/SurviveGPNUManual # github状态标签
+repo_name: github/SurviveGPNUManual
+
+theme:
+  name: material
+  custom_dir: overrides # html覆盖目录
+  logo: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
+  favicon: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
+  features:
+    - navigation.instant # 启用即时加载后，所有内部链接的点击都将被拦截并通过 XHR 调度，而无需完全重新加载页面。
+    - navigation.instant.progress # 进度指示器
+    - navigation.instant.preview # 全局启用即时预览
+    - navigation.footer
+    - navigation.tracking # 地址栏中的 URL 会自动更新为活动锚点
+    - navigation.tabs # 启用顶部导航栏
+    - navigation.tabs.sticky # 固定顶部导航栏
+    - navigation.sections # 平展树目录
+    - navigation.expand # 自动展开树目录
+    - navigation.prune # 自动修剪树目录
+    - navigation.indexes
+    - toc.follow
+    - toc.integrate 
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
+    - navigation.top # 返回顶部按钮
+  language: zh # 默认语言
+  palette:
+    # 调色板依据系统主题自动设置
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: indigo # 主色调
+
+    # 调色板切换为亮色模式
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: indigo # 主色调
+
+    # 调色板切换为暗色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+      primary: indigo # 主色调
+
+nav: # 默认路由
+  - 序章: index.md
+  - 升学: aspiration.md
+  - 校园生活: daily.md
+  - 技巧: tips.md
+  - 学业: exam.md
+  - 读研: postgraduate.md
+  - 就业: job.md
+  - 后记: after.md
+  - 资料: data.md
+  - Blog: blog/index.md
+  - 分享你的故事: community.md
+plugins: # 插件
+  - search:
+      lang:
+        - zh
+        - en
+  - meta
+  - blog:
+      blog_dir: blog
+      post_readtime_words_per_minute: 80 # 每分钟阅读字数
+  - glightbox # 图像查看器
+  - charts
+  - print-site
+
+# https://facelessuser.github.io/pymdown-extensions/
+markdown_extensions:
+  - admonition
+  - pymdownx.tilde
+  - pymdownx.keys
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+  - toc:
+      permalink: true
+
+extra_css:
+  - css/main.css
+
+extra_javascript:
+  - javascripts/mathjax-config.js
+  - javascripts/baidu-tongji.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
+
+extra:
+  social: # 底端额外链接
+    - icon: fontawesome/brands/github
+      link: https://github.com/Puiching-Memory/
+
+dev_addr: 'localhost:8080'
