@@ -1,8 +1,8 @@
 ## 校历 2024-2025年度
 
-![2025xiaoli-1](assets/2025xiaoli-1.jpg)
-![2025xiaoli-2](assets/2025xiaoli-2.jpg)
-![2025xiaoli-3](assets/2025xiaoli-3.jpg)
+![2025xiaoli-1](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-1.jpg)
+![2025xiaoli-2](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-2.jpg)
+![2025xiaoli-3](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-3.jpg)
 
 !!! 注意
     目前(2025年)晚上熄灯与就寝并无强制要求
