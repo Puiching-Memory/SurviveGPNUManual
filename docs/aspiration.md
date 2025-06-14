@@ -3,9 +3,9 @@
 ## 学校排名
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
-<div id="container-01" style="height: 200px"></div>
+<div id="container-01" style="height: 250px"></div>
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
-<div id="container-02" style="height: 200px"></div>
+<div id="container-02" style="height: 250px"></div>
 
 <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
 <script type="text/javascript">

@@ -26,7 +26,8 @@ def main():
     response.raise_for_status()
     deployments = response.json()
 
-    for deployment in deployments:
+    for index,deployment in enumerate(deployments):
+        if index == 0:continue # 第一个部署为活动部署,无法删除
         print(deployment)
         print("="*80)
         deployment_id = deployment['id']

@@ -1,23 +1,32 @@
 # https://squidfunk.github.io/mkdocs-material/setup/
 site_name: 广师大生存手册 survive GPNU manual
 site_url: https://puiching-memory.github.io/SurviveGPNUManual/
+repo_url: https://puiching-memory.github.io/SurviveGPNUManual/ # github状态标签
+repo_name: github/SurviveGPNUManual
+
 theme:
   name: material
   custom_dir: overrides # html覆盖目录
   logo: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
   favicon: https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/gpnu-logo.svg
   features:
+    - navigation.instant # 启用即时加载后，所有内部链接的点击都将被拦截并通过 XHR 调度，而无需完全重新加载页面。
+    - navigation.instant.progress # 进度指示器
+    - navigation.instant.preview # 全局启用即时预览
     - navigation.footer
-    - navigation.instant.progress
-    - navigation.tracking
-    - navigation.tabs
-    - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.prune
+    - navigation.tracking # 地址栏中的 URL 会自动更新为活动锚点
+    - navigation.tabs # 启用顶部导航栏
+    - navigation.tabs.sticky # 固定顶部导航栏
+    - navigation.sections # 平展树目录
+    - navigation.expand # 自动展开树目录
+    - navigation.prune # 自动修剪树目录
     - navigation.indexes
     - toc.follow
-    - navigation.top
+    - toc.integrate 
+    - search.suggest # 搜索建议
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
+    - navigation.top # 返回顶部按钮
   language: zh # 默认语言
   palette:
     # 调色板依据系统主题自动设置
@@ -60,7 +69,9 @@ plugins: # 插件
       lang: zh
   - meta
   - blog
-  - git-authors
+  - git-committers:
+      repository: Puiching-Memory/SurviveGPNUManual
+      branch: main
 
 markdown_extensions:
   - admonition
@@ -71,5 +82,3 @@ extra:
   social: # 底端额外链接
     - icon: fontawesome/brands/github
       link: https://github.com/Puiching-Memory/
-repo_url: https://puiching-memory.github.io/SurviveGPNUManual/ # github状态标签
-repo_name: https://puiching-memory.github.io/SurviveGPNUManual/
