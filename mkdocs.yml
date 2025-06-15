@@ -69,6 +69,7 @@ plugins: # 插件
       lang: zh
   - meta
   - blog
+  - glightbox # 图像查看器
   - git-committers:
       repository: Puiching-Memory/SurviveGPNUManual
       branch: main
