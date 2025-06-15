@@ -24,4 +24,15 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
+添加Github token到环境变量(可选)
+
+1. MKDOCS_GIT_COMMITTERS_APIKEY
+2. GITHUB_TOKEN
+
+example:
+```
+powershell $env:GITHUB_TOKEN = "your_token_here"
+cmd set GITHUB_TOKEN=your_token_here
+```
+
 ## 致谢
