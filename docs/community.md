@@ -24,3 +24,31 @@
 第三步：查找是否有人已经提交相同的问题
 
 第四步：创建一个新问题
+
+## 提供学习资料？发送到邮箱！
+
+邮箱：1138663075@qq.com
+标题参考：[广师大生存手册]学院-专业-课程
+文件参考：PDF/World/PPT/Excel/...
+
+## 可视化编辑
+
+使用conda管理虚拟环境
+
+```
+conda create -n gpnu python=3.12
+conda activate gpnu
+pip install -r requirements.txt
+```
+
+启动调试服务器
+
+```
+mkdocs serve
+```
+
+## 软件使用指南
+
+### Git
+
+### Conda
