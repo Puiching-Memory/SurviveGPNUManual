@@ -108,6 +108,8 @@
 
 <video src="https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/welcome2025.mp4" title="/assets/welcome2025.mp4" controls></video>
 
+## 民族专项
+
 !!! 注意
     在某些志愿辅助软件中，少数民族专项的分数会成为该专业录取最低分，请注意甄别。
 
