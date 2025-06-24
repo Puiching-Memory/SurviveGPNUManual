@@ -1,4 +1,4 @@
-# 广师大高考志愿填报指南
+## 高考志愿填报
 
 ## 学校排名
 
@@ -104,10 +104,6 @@
     window.addEventListener('resize', myChart.resize);
 </script>
 
-## 宣传视频 2025
-
-<video src="https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/welcome2025.mp4" title="/assets/welcome2025.mp4" controls></video>
-
 ## 民族专项
 
 !!! 注意
@@ -126,3 +122,10 @@
 | 网络工程               |            | 白云4年 | [[官网链接](https://dxxy.gpnu.edu.cn/info/1114/2560.htm)] |                  |
 | 应用电子技术教育       |            |         | [[官网链接](https://dxxy.gpnu.edu.cn/info/1114/2557.htm)] |                  |
 | 通信工程               |            |         | [[官网链接](https://dxxy.gpnu.edu.cn/info/1114/6261.htm)] |                  |
+
+## 专升本
+
+[[广东省2025年普通高等学校专升本招生工作规定](https://mp.weixin.qq.com/s?__biz=MzI4NjYzMTM4MA==&mid=2247559843&idx=1&sn=94f42b8883d63b94cc162ed0e17e5937&chksm=ea9501be5af47255603d47d0b6e00f45a27d04b9dcc162b48c700ed2cf94716aa998ef87a1b8&mpshare=1&scene=23&srcid=06241ANrxBOHboRARHOh9lLn&sharer_shareinfo=6bfc745c2f68b1c50055aa0d92da4018&sharer_shareinfo_first=6bfc745c2f68b1c50055aa0d92da4018#rd)]
+
+[[2025年普通专升本招生录取情况](https://bkzs.gpnu.edu.cn/listInfo?menuId=7&parentId=2&id=4623)]
+

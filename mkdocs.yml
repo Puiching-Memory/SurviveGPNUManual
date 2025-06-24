@@ -54,7 +54,7 @@ theme:
 
 nav: # 默认路由
   - 序章: index.md
-  - 高考志愿: aspiration.md
+  - 升学: aspiration.md
   - 校园生活: daily.md
   - 技巧: tips.md
   - 考试周: exam.md
