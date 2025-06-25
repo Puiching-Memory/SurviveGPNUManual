@@ -1,3 +1,4 @@
+<script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
 ## 校历 2024-2025年度
 
 ![2025xiaoli-1](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-1.jpg)
@@ -64,6 +65,20 @@
 
 ### 第一教学楼
 ### 第二教学楼
+<table style="margin: 0 auto; width: 600px; border-collapse: collapse;">
+  <tr>
+    <td style="text-align: center; padding: 10px;">
+      <img src="./assets/TH2-1.jpg" alt="TH2-1" width="300">
+    </td>
+    <td style="text-align: center; padding: 10px;">
+      <img src="./assets/TH2-2.jpg" alt="TH2-2" width="300">
+    </td>
+  </tr>
+</table>
+<p style="text-align: center; margin-top: 10px; font-style: italic;">
+  Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering"</a>
+</p>
+
 ### 第三教学楼
 
 ### 第一实训楼
@@ -107,3 +122,7 @@
 ## 北校区
 
 ### 地图
+
+## 社团
+
+### 社团列表
