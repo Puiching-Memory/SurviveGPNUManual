@@ -104,6 +104,11 @@
     window.addEventListener('resize', myChart.resize);
 </script>
 
+## 高考招生
+[[广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)]
+
+[[广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)]
+
 ## 民族专项
 
 !!! 注意
@@ -129,3 +134,5 @@
 
 [[2025年普通专升本招生录取情况](https://bkzs.gpnu.edu.cn/listInfo?menuId=7&parentId=2&id=4623)]
 
+## 国际班
+[[广东技术师范大学2025年国际班招生简章](https://mp.weixin.qq.com/s/0BlayJsTstNvzbAS23iDMA)]
