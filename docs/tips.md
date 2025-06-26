@@ -22,11 +22,23 @@
 
 ## Git基本使用方法
 
-## 报销流程
+## 财务报销流程
 
-## 学生邮箱
+## 教育邮箱
 
 [关于开通师生校内电子邮箱自助申请服务的通知](https://www.gpnu.edu.cn/info/1040/59634.htm)  
 邮箱地址: [https://mail.stu.gpnu.edu.cn/](https://mail.stu.gpnu.edu.cn/)
 
+## 广东技术师范大学教务系统
+### 校园网登录
+广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
+### VPN 登录/非校园网登录
+
+
 ## 四六级报考
+
+## GPA/绩点
+
+## 综合测评
+
+

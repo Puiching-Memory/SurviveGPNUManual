@@ -13,6 +13,9 @@
 
 ### 地图
 
+### 南门小吃街
+![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
+
 ## 白云校区
 
 ### QA栏目
@@ -43,18 +46,16 @@
 
 ### 地图
 
+### 推荐阅读
+[blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
+
 ### B区宿舍
-
 #### 3D建模
-
 #### 水费
-
 #### 电费
-
 #### 报修
 
 ### A区宿舍
-
 ### 小唐宿舍
 
 ### 第一饭堂
@@ -68,10 +69,10 @@
 <table style="margin: 0 auto; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="text-align: center; padding: 10px;">
-      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/TH2-1.jpg" alt="TH2-1" style="width: 49%; height: auto;">
+      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-1.jpg" alt="TH2-1" style="width: 49%; height: auto;">
     </
     <td style="text-align: center; padding: 10px;">
-      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/TH2-2.jpg" alt="TH2-2" style="width: 49%; height: auto;">
+      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-2.jpg" alt="TH2-2" style="width: 49%; height: auto;">
     </td>
   </tr>
 </table>
@@ -98,9 +99,6 @@
 
 ### 快递
 
-### 邮政编码
-广东技术师范大学白云校区：**510450**
-
 ## 东校区
 
 ### 地图
@@ -119,6 +117,20 @@
 
 ### 地图
 
+### 饭堂
+![XQ-FT-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg)
+
+### 春晖园
+![XQ-CHY-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg)
+
+### 操场
+![XQ-CC-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg)
+
+### 信创楼
+![XQ-XCL-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg)
+
+### 
+
 ## 北校区
 
 ### 地图
@@ -126,3 +138,9 @@
 ## 社团
 
 ### 2025社团列表
+
+## 邮政编码
+广东技术师范大学白云校区：**510450** 地址：广州市白云区江高镇环镇西路155号
+广东技术师范大学东校区：**510665** 地址：广州市天河区中山大道西293号
+广东技术师范大学西校区：**510630** 地址：广州市天河区龙口西路576号
+广东技术师范大学河源校区：**517500** 地址：广东省河源市东源县仙塘镇东江教育城东环路东侧

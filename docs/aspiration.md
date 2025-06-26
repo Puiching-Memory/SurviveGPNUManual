@@ -144,14 +144,14 @@
 [电子与信息学院官网](https://dxxy.gpnu.edu.cn/)
 
 #### 本科专业
-| 专业                   | 往届分数线 | 排位 | 校区 | 资料                                                                                                                                                                                                                  |
-| ---------------------- | ---------- | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 电子信息工程           |            |      |      | [2023版电子信息工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6206)<br>[电子信息工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2652.htm)     |
-| 智能科学与技术         |            |      |      | [2023版智能科学与技术专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6204)<br>[智能科学与技术专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/4731.htm) |
-| 集成电路设计与集成系统 |            |      |      | [集成电路设计与集成系统-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6273.htm)                                                                                                                                |
-| 网络工程               |            |      |      | [2023版网络工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6202)<br>[网络工程-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2560.htm)            |
-| 应用电子技术教育       |            |      |      | [应用电子技术教育专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2557.htm)                                                                                                                                       |
-| 通信工程               |            |      |      | [通信工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6261.htm)                                                                                                                                               |
+| 专业                   | 排位 | 校区 | 资料                                                                                                                                                                                                                  |
+| ---------------------- | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 电子信息工程           |      |      | [2023版电子信息工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6206)<br>[电子信息工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2652.htm)     |
+| 智能科学与技术         |      |      | [2023版智能科学与技术专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6204)<br>[智能科学与技术专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/4731.htm) |
+| 集成电路设计与集成系统 |      |      | [集成电路设计与集成系统-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6273.htm)                                                                                                                                |
+| 网络工程               |      |      | [2023版网络工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6202)<br>[网络工程-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2560.htm)            |
+| 应用电子技术教育       |      |      | [应用电子技术教育专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2557.htm)                                                                                                                                       |
+| 通信工程               |      |      | [通信工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6261.htm)                                                                                                                                               |
 
 #### 同学分享 
 
