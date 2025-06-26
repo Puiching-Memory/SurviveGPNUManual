@@ -35,4 +35,6 @@ powershell $env:GITHUB_TOKEN = "your_token_here"
 cmd set GITHUB_TOKEN=your_token_here
 ```
 
+推荐使用等宽字体，如[Maple Mono]()
+
 ## 致谢

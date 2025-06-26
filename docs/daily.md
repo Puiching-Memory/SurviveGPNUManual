@@ -65,13 +65,13 @@
 
 ### 第一教学楼
 ### 第二教学楼
-<table style="margin: 0 auto; width: 600px; border-collapse: collapse;">
+<table style="margin: 0 auto; width: 100%; border-collapse: collapse;">
   <tr>
     <td style="text-align: center; padding: 10px;">
-      <img src="./assets/TH2-1.jpg" alt="TH2-1" width="300">
-    </td>
+      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/TH2-1.jpg" alt="TH2-1" style="width: 49%; height: auto;">
+    </
     <td style="text-align: center; padding: 10px;">
-      <img src="./assets/TH2-2.jpg" alt="TH2-2" width="300">
+      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/TH2-2.jpg" alt="TH2-2" style="width: 49%; height: auto;">
     </td>
   </tr>
 </table>
@@ -99,7 +99,7 @@
 ### 快递
 
 ### 邮政编码
-广东技术师范大学白云校区：510450
+广东技术师范大学白云校区：**510450**
 
 ## 东校区
 
@@ -125,4 +125,4 @@
 
 ## 社团
 
-### 社团列表
+### 2025社团列表

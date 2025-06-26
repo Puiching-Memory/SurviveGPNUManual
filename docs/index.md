@@ -12,7 +12,7 @@
 ## 掌握信息
 
 官方微信公众号：早安广师大/广师大招生就业办公室  
-官网链接 https://www.gpnu.edu.cn/index.htm
+官网链接 [https://www.gpnu.edu.cn/index.htm](https://www.gpnu.edu.cn/index.htm)
 
 !!! 注意
     官方无BiliBili，微博账号
@@ -32,3 +32,5 @@
 对于博客页面，要求：  
 1. 搬运前必须与原作者联系  
 2. 媒体文件必须控制大小
+
+## 致谢
