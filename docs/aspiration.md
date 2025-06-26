@@ -104,10 +104,11 @@
 
 ## 高考招生
 **志愿代码：10588**
-
 [广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)
-
 [广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)
+
+### QA
+
 
 ## 民族专项
 
@@ -137,104 +138,136 @@
 [关于做好我校2025年学生转专业工作通知](https://www.gpnu.edu.cn/info/1039/61509.htm)
 
 ## 辅修专业/第二专业
+TODO
 
 ## 专业信息
 
 ### 电子与信息学院
 [电子与信息学院官网](https://dxxy.gpnu.edu.cn/)
+校区：白云校区
 
 #### 本科专业
-| 专业                   | 排位 | 校区 | 资料                                                                                                                                                                                                                  |
-| ---------------------- | ---- | ---- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 电子信息工程           |      |      | [2023版电子信息工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6206)<br>[电子信息工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2652.htm)     |
-| 智能科学与技术         |      |      | [2023版智能科学与技术专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6204)<br>[智能科学与技术专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/4731.htm) |
-| 集成电路设计与集成系统 |      |      | [集成电路设计与集成系统-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6273.htm)                                                                                                                                |
-| 网络工程               |      |      | [2023版网络工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6202)<br>[网络工程-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2560.htm)            |
-| 应用电子技术教育       |      |      | [应用电子技术教育专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2557.htm)                                                                                                                                       |
-| 通信工程               |      |      | [通信工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6261.htm)                                                                                                                                               |
+| 专业                   | 资料                                                                                                                                                                                                                  |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 电子信息工程           | [2023版电子信息工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6206)<br>[电子信息工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2652.htm)     |
+| 智能科学与技术         | [2023版智能科学与技术专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6204)<br>[智能科学与技术专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/4731.htm) |
+| 集成电路设计与集成系统 | [集成电路设计与集成系统-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6273.htm)                                                                                                                                |
+| 网络工程               | [2023版网络工程专业课程教学大纲](https://dxxy.gpnu.edu.cn/content.jsp?urltype=news.NewsContentUrl&wbtreeid=1288&wbnewsid=6202)<br>[网络工程-专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2560.htm)            |
+| 应用电子技术教育       | [应用电子技术教育专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/2557.htm)                                                                                                                                       |
+| 通信工程               | [通信工程专业人才培养方案](https://dxxy.gpnu.edu.cn/info/1114/6261.htm)                                                                                                                                               |
 
 #### 同学分享 
+[blog/三年来的一些感悟](blog/posts/tieba-9790547930.md)
+
+---
 
 ### 机电学院
 [机电学院官网](https://jdxy.gpnu.edu.cn/)
+校区：
 
 #### 本科专业
 
-| 专业                   | 往届分数线 | 校区 | 资料                                                                                                                                                                                                                                                                     |
-| ---------------------- | ---------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| 机械设计制造及其自动化 |            |      | [机械设计制造及其自动化专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4122)                                                                                                                                       |
-| 机械电子工程           |            |      |                                                                                                                                                                                                                                                                          |
-| 材料成型及控制工程     |            |      | [材料成型及控制工程专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4130)<br>[材料成型及控制工程（师范）专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4131) |
-| 机器人工程             |            |      |                                                                                                                                                                                                                                                                          |
+| 专业                   | 资料                                                                                                                                                                                                                                                                     |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 机械设计制造及其自动化 | [机械设计制造及其自动化专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4122)                                                                                                                                       |
+| 机械电子工程           |                                                                                                                                                                                                                                                                          |
+| 材料成型及控制工程     | [材料成型及控制工程专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4130)<br>[材料成型及控制工程（师范）专业课程教学大纲](https://jdxy.gpnu.edu.cn/nry.jsp?urltype=news.NewsContentUrl&wbtreeid=1283&wbnewsid=4131) |
+| 机器人工程             |                                                                                                                                                                                                                                                                          |
+
+---
 
 ### 计算机科学学院
 [计算机科学学院官网](https://jkxy.gpnu.edu.cn/)
+校区：东校区
 
 ### 汽车与交通工程学院
 [汽车与交通工程学院官网](https://qcxy.gpnu.edu.cn/)
+校区：
 
 ### 自动化学院
 [自动化学院官网](https://zdhxy.gpnu.edu.cn/)
+校区：
 
 ### 光电工程学院
 [光电工程学院官网](https://gdxy.gpnu.edu.cn/)
+校区：
 
 ### 体育与健康学院
 [体育与健康学院官网](https://tyb.gpnu.edu.cn/)
+校区：
 
 ### 数学与系统科学学院
 [数学与系统科学学院官网](https://sxxy.gpnu.edu.cn/)
+校区：
 
 ### 数据科学与工程学院
 [数据科学与工程学院官网](https://dase.gpnu.edu.cn/)
+校区：
 
 ### 教育科学学院
 [教育科学学院官网](https://jky.gpnu.edu.cn/)
+校区：
 
 ### 网络空间安全学院
 [网络空间安全学院官网](https://scs.gpnu.edu.cn/)
+校区：
 
 ### 财经学院
 [财经学院官网](https://cjxy.gpnu.edu.cn/)
+校区：
 
 ### 法学与知识产权学院
 [法学与知识产权学院官网](https://fzxy.gpnu.edu.cn/)
+校区：
 
 ### 管理学院
 [管理学院官网](https://glxy.gpnu.edu.cn/)
+校区：
 
 ### 外国语学院
 [外国语学院官网](https://wgyxy.gpnu.edu.cn/)
+校区：
 
 ### 文学与传媒学院
 [文学与传媒学院官网](https://wxycb.gpnu.edu.cn/)
+校区：
 
 ### 美术学院
 [美术学院官网](https://msxy.gpnu.edu.cn/)
+校区：
 
 ### 音乐学院
 [音乐学院官网](https://yyxy.gpnu.edu.cn/)
+校区：
 
 ### 民族学院
 [民族学院官网](https://mzxy.gpnu.edu.cn/)
+校区：
 
 ### 马克思主义学院
 [马克思主义学院官网](https://mksxy.gpnu.edu.cn/)
+校区：
 
 ### 国际教育学院
 [国际教育学院官网](https://gjxy.gpnu.edu.cn/)
+校区：
 
 ### 基础教育学院
 [基础教育学院官网](https://jcjy.gpnu.edu.cn/)
+校区：
 
 ### 数字创意学院
 [数字创意学院官网](https://szcy.gpnu.edu.cn/)
+校区：
 
 ### 继续教育学院
 [继续教育学院官网](https://jxjy.gpnu.edu.cn//)
+校区：
 
 ### 广东工业实训中心
 [广东工业实训中心官网](https://gyzx.gpnu.edu.cn/)
+校区：东校区
 
 ### 创新创业学院
 [创新创业学院官网](https://cxxy.gpnu.edu.cn/)
+校区：

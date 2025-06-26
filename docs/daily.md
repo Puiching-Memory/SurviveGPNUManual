@@ -9,14 +9,21 @@
     目前(2025年)晚上熄灯与就寝并无强制要求
     校历源：[学校官网](https://gpnu.edu.cn/dfiles/2024-2025xiaoli.pdf)
 
+---
+
 ## 河源校区
 
 ### 地图
 
 ### 南门小吃街
-![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg" alt="HY-NMXCJ-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
+---
 
 ## 白云校区
+![白云校区-首图](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-首图.jpg)
 
 ### QA栏目
 
@@ -63,6 +70,7 @@
 ### 第三饭堂
 
 ### 图书馆
+![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpg)
 
 ### 第一教学楼
 ### 第二教学楼
@@ -99,6 +107,8 @@
 
 ### 快递
 
+---
+
 ## 东校区
 
 ### 地图
@@ -113,21 +123,32 @@
 
 ### 通勤
 
+---
+
 ## 西校区
 
 ### 地图
 
 ### 饭堂
-![XQ-FT-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 春晖园
-![XQ-CHY-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 操场
-![XQ-CC-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg" alt="XQ-CC-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 信创楼
-![XQ-XCL-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg)
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg" alt="XQ-XCL-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 
 ### 
 
@@ -140,7 +161,7 @@
 ### 2025社团列表
 
 ## 邮政编码
-广东技术师范大学白云校区：**510450** 地址：广州市白云区江高镇环镇西路155号
-广东技术师范大学东校区：**510665** 地址：广州市天河区中山大道西293号
-广东技术师范大学西校区：**510630** 地址：广州市天河区龙口西路576号
-广东技术师范大学河源校区：**517500** 地址：广东省河源市东源县仙塘镇东江教育城东环路东侧
+广东技术师范大学白云校区：**510450** 地址：广州市白云区江高镇环镇西路155号  
+广东技术师范大学东校区：**510665** 地址：广州市天河区中山大道西293号  
+广东技术师范大学西校区：**510630** 地址：广州市天河区龙口西路576号  
+广东技术师范大学河源校区：**517500** 地址：广东省河源市东源县仙塘镇东江教育城东环路东侧  
