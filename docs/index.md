@@ -6,17 +6,17 @@
 该项目维护者仅由本校学生组成,**无任何利益关系**,经供参考。
 
 ## 推荐阅读
-[blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
-[blog/三年来的一些感悟](blog/posts/tieba-9790547930.md)
+- [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
+- [blog/三年来的一些感悟](blog/posts/tieba-9790547930.md)
 
 ## 掌握信息
 
-官方微信公众号：[早安广师大](https://www.gpnu.edu.cn/info/1331/28295.htm)  
-官方企业微信：https://www.gpnu.edu.cn/info/1331/28296.htm  
-校报：[广东技术师范大学报](https://xiaobao.gpnu.edu.cn/)
-分部门微信公众号：[广师大招生就业办公室] [广东技术师范大学教务处]
-官网链接 [https://www.gpnu.edu.cn/index.htm](https://www.gpnu.edu.cn/index.htm)
-学校基本信息：https://www.gpnu.edu.cn/xxgk/xxjj.htm
+- 官方微信公众号：[早安广师大](https://www.gpnu.edu.cn/info/1331/28295.htm)  
+- 官方企业微信：[https://www.gpnu.edu.cn/info/1331/28296.htm](https://www.gpnu.edu.cn/info/1331/28296.htm)  
+- 校报：[广东技术师范大学报](https://xiaobao.gpnu.edu.cn/)  
+- 分部门微信公众号：[广师大招生就业办公室] [广东技术师范大学教务处]  
+- 官网链接 [https://www.gpnu.edu.cn/index.htm](https://www.gpnu.edu.cn/index.htm)  
+- 学校基本信息：[https://www.gpnu.edu.cn/xxgk/xxjj.htm](https://www.gpnu.edu.cn/xxgk/xxjj.htm)
 
 !!! 注意
     官方无BiliBili，微博账号

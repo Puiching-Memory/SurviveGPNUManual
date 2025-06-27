@@ -1,10 +1,3 @@
-## 学校排名
-
-[软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
-<div id="container-01" style="height: 250px"></div>
-[武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
-<div id="container-02" style="height: 250px"></div>
-
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js"></script>
 <script type="text/javascript">
     var dom = document.getElementById('container-01');
@@ -102,6 +95,13 @@
     window.addEventListener('resize', myChart.resize);
 </script>
 
+## 学校排名
+
+[软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
+<div id="container-01" style="height: 250px"></div>
+[武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
+<div id="container-02" style="height: 250px"></div>
+
 ## 高考招生
 **志愿代码：10588**
 [广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)
@@ -143,8 +143,8 @@ TODO
 ## 专业信息
 
 ### 电子与信息学院
-[电子与信息学院官网](https://dxxy.gpnu.edu.cn/)
-校区：白云校区
+[电子与信息学院官网](https://dxxy.gpnu.edu.cn/)  
+校区：白云校区 4年
 
 #### 本科专业
 | 专业                   | 资料                                                                                                                                                                                                                  |

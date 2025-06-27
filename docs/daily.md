@@ -50,6 +50,7 @@
 | 学校里面的共享单车数目与种类如何？                       | 没有共享单车，校内共享单车疑似烂尾                                                                                                                                                                          |
 | 现阶段学校的门禁情况如何？                               | 晚上23:00开始关门，刷脸出入，(白云校区)晚归也是可以扫脸进去的，但是被阿姨抓到要登记。                                                                                                                       |
 | 宿舍晚上查寝吗                                           | 不查寝                                                                                                                                                                                                      |
+| B区宿舍旁边高铁会吵吗？                                  | 火车经过时会很吵，学长学姐们都习惯了                                                                                                                                                                        |
 
 ### 地图
 
@@ -63,14 +64,17 @@
 #### 报修
 
 ### A区宿舍
-### 小唐宿舍
+### 小塘公寓
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 第一饭堂
 ### 第二饭堂
 ### 第三饭堂
 
 ### 图书馆
-![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpg)
+![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpeg)
 
 ### 第一教学楼
 ### 第二教学楼
@@ -92,6 +96,10 @@
 
 ### 第一实训楼
 ### 第二实训楼
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG" alt="白云校区-第二实训楼" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 ### 第三实训楼
 ### 第四实训楼
 
@@ -113,15 +121,8 @@
 
 ### 地图
 
-### 宿舍
+### 广东工业实训中心
 
-### 饭堂
-
-### 其他设施
-
-### 周边活动区域
-
-### 通勤
 
 ---
 
