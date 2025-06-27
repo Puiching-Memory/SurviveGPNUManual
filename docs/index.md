@@ -1,3 +1,5 @@
+<script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
+
 # 广师大生存手册 survive GPNU manual
 
 ## 序章
@@ -7,6 +9,8 @@
 
 ## 推荐阅读
 - [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
+- [blog/广师大河源校区生存指北](blog/posts/tieba-8394029114.md)  
+- [blog/广东技术师范大学 东校区 食用指北](blog/posts/tieba-9053331608.md)  
 - [blog/三年来的一些感悟](blog/posts/tieba-9790547930.md)
 
 ## 掌握信息
@@ -38,3 +42,5 @@
 2. 媒体文件必须控制大小
 
 ## 致谢
+
+@梦归云帆 @L1NINE @mybear123 @光钻 @eisofia

@@ -1,4 +1,5 @@
 <script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
+
 ## 校历 2024-2025年度
 
 ![2025xiaoli-1](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-1.jpg)
@@ -14,6 +15,9 @@
 ## 河源校区
 
 ### 地图
+
+### 推荐阅读
+[blog/广师大河源校区生存指北](blog/posts/tieba-8394029114.md)  
 
 ### 南门小吃街
 <div style="text-align:center;">
@@ -51,6 +55,7 @@
 | 现阶段学校的门禁情况如何？                               | 晚上23:00开始关门，刷脸出入，(白云校区)晚归也是可以扫脸进去的，但是被阿姨抓到要登记。                                                                                                                       |
 | 宿舍晚上查寝吗                                           | 不查寝                                                                                                                                                                                                      |
 | B区宿舍旁边高铁会吵吗？                                  | 火车经过时会很吵，学长学姐们都习惯了                                                                                                                                                                        |
+| 宿舍隔音怎么样？                                         | 挺好的，完全安静的情况下听不到聊天，只有大喊大叫的能听见                                                                                                                                                    |
 
 ### 地图
 
@@ -121,7 +126,15 @@
 
 ### 地图
 
+### 推荐阅读
+[blog/广东技术师范大学 东校区 食用指北](blog/posts/tieba-9053331608.md)  
+
 ### 广东工业实训中心
+
+### 春晖园
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 
 ---
@@ -133,11 +146,6 @@
 ### 饭堂
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
-
-### 春晖园
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 ### 操场
@@ -159,10 +167,13 @@
 
 ## 社团
 
-### 2025社团列表
+
 
 ## 邮政编码
-广东技术师范大学白云校区：**510450** 地址：广州市白云区江高镇环镇西路155号  
-广东技术师范大学东校区：**510665** 地址：广州市天河区中山大道西293号  
-广东技术师范大学西校区：**510630** 地址：广州市天河区龙口西路576号  
-广东技术师范大学河源校区：**517500** 地址：广东省河源市东源县仙塘镇东江教育城东环路东侧  
+
+| 校区                     | 邮政编码   | 地址                                         |
+| ------------------------ | ---------- | -------------------------------------------- |
+| 广东技术师范大学白云校区 | **510450** | 广州市白云区江高镇环镇西路155号              |
+| 广东技术师范大学东校区   | **510665** | 广州市天河区中山大道西293号                  |
+| 广东技术师范大学西校区   | **510630** | 广州市天河区龙口西路576号                    |
+| 广东技术师范大学河源校区 | **517500** | 广东省河源市东源县仙塘镇东江教育城东环路东侧 |
