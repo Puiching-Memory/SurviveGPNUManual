@@ -107,6 +107,9 @@
 [广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)
 [广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)
 
+## 排名线
+[早安广师大 | 划重点！多少分可以上广师大](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649988203&idx=1&sn=196cd6af1ee2bac457b2c390f9f669d7&chksm=8f8f37f595b8c88db8c8f0c80bc1e97ce6c3ad9c2ff013c700223b1ef13880bbb2354d308d21&mpshare=1&scene=23&srcid=0627R4BoK3DNtlmgPodtufhw&sharer_shareinfo=e6bf194cf2e7fa15f970984e4b44931a&sharer_shareinfo_first=3abbad667b56b33dac8c535e0944d469#rd)
+
 ### QA
 
 
@@ -178,91 +181,91 @@ TODO
 
 ### 计算机科学学院
 [计算机科学学院官网](https://jkxy.gpnu.edu.cn/)
-校区：东校区
+校区：河源校区 1年 + 东校区 3年
 
 ### 汽车与交通工程学院
 [汽车与交通工程学院官网](https://qcxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 自动化学院
 [自动化学院官网](https://zdhxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 光电工程学院
 [光电工程学院官网](https://gdxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 体育与健康学院
 [体育与健康学院官网](https://tyb.gpnu.edu.cn/)
-校区：
+校区：河源校区 4年
 
 ### 数学与系统科学学院
 [数学与系统科学学院官网](https://sxxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 数据科学与工程学院
 [数据科学与工程学院官网](https://dase.gpnu.edu.cn/)
-校区：
+校区：河源校区 4年
 
 ### 教育科学学院
 [教育科学学院官网](https://jky.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 网络空间安全学院
 [网络空间安全学院官网](https://scs.gpnu.edu.cn/)
-校区：
+校区：西校区 4年
 
 ### 财经学院
 [财经学院官网](https://cjxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 法学与知识产权学院
 [法学与知识产权学院官网](https://fzxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 管理学院
 [管理学院官网](https://glxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 外国语学院
 [外国语学院官网](https://wgyxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 文学与传媒学院
 [文学与传媒学院官网](https://wxycb.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 美术学院
 [美术学院官网](https://msxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 东校区 3年
 
 ### 音乐学院
 [音乐学院官网](https://yyxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 东校区 3年
 
 ### 民族学院
 [民族学院官网](https://mzxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 马克思主义学院
 [马克思主义学院官网](https://mksxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 国际教育学院
 [国际教育学院官网](https://gjxy.gpnu.edu.cn/)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 基础教育学院
 [基础教育学院官网](https://jcjy.gpnu.edu.cn/)
-校区：
+校区：河源校区 4年
 
 ### 数字创意学院
 [数字创意学院官网](https://szcy.gpnu.edu.cn/)
-校区：
+校区：河源校区 4年
 
 ### 继续教育学院
 [继续教育学院官网](https://jxjy.gpnu.edu.cn//)
-校区：
+校区：河源校区 1年 + 白云校区 3年
 
 ### 广东工业实训中心
 [广东工业实训中心官网](https://gyzx.gpnu.edu.cn/)
@@ -270,4 +273,4 @@ TODO
 
 ### 创新创业学院
 [创新创业学院官网](https://cxxy.gpnu.edu.cn/)
-校区：
+校区：东校区 白云校区
