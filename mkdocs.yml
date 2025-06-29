@@ -1,7 +1,7 @@
 # https://squidfunk.github.io/mkdocs-material/setup/
 site_name: 广师大生存手册 survive GPNU manual
 site_url: https://puiching-memory.github.io/SurviveGPNUManual/
-repo_url: https://puiching-memory.github.io/SurviveGPNUManual/ # github状态标签
+repo_url: https://github.com/Puiching-Memory/SurviveGPNUManual # github状态标签
 repo_name: github/SurviveGPNUManual
 
 theme:
@@ -57,7 +57,7 @@ nav: # 默认路由
   - 升学: aspiration.md
   - 校园生活: daily.md
   - 技巧: tips.md
-  - 考试周: exam.md
+  - 学业: exam.md
   - 读研: postgraduate.md
   - 就业: job.md
   - 后记: after.md

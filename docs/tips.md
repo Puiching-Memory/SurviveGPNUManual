@@ -34,11 +34,6 @@
 广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
 ### VPN 登录/非校园网登录
 
-
-## CET大学英语等级考试/四六级
-## 计算机等级考试
-## 普通话等级考试
-
 ## GPA/绩点
 
 ## 综合测评

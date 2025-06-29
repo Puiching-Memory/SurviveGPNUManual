@@ -97,6 +97,9 @@
 
 ## 学校排名
 
+!!! ISSUE
+    待修复错误：此处图表第一次不会加载，需要一次手动刷新才可见
+
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 <div id="container-01" style="height: 250px"></div>
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
