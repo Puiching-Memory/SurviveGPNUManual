@@ -137,10 +137,18 @@
 [blog/广东技术师范大学 东校区 食用指北](blog/posts/tieba-9053331608.md)  
 
 ### 广东工业实训中心
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-广东工业实训中心-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 春晖园
 <div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CHY-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-春晖园-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
+### 操场
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-操场-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 
