@@ -112,12 +112,10 @@
 **志愿代码：10588**
 [广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)
 [广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)
+[广东技术师范大学-本科招生信息网](https://bkzs.gpnu.edu.cn/index)
 
 ## 排名线
 [早安广师大 | 划重点！多少分可以上广师大](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649988203&idx=1&sn=196cd6af1ee2bac457b2c390f9f669d7&chksm=8f8f37f595b8c88db8c8f0c80bc1e97ce6c3ad9c2ff013c700223b1ef13880bbb2354d308d21&mpshare=1&scene=23&srcid=0627R4BoK3DNtlmgPodtufhw&sharer_shareinfo=e6bf194cf2e7fa15f970984e4b44931a&sharer_shareinfo_first=3abbad667b56b33dac8c535e0944d469#rd)
-
-### QA
-
 
 ## 民族专项
 
@@ -129,6 +127,7 @@
 !!! warning
     此处的消息未经验证，请仔细分辨
 
+[2024年广东省夏季高考（少数民族）招生专业录取情况统计](https://bkzs.gpnu.edu.cn/listInfo?menuId=42&parentId=40&id=4570)
 
 ## 加分资格
 [《官宣！最高20分！今年高考有2807人可加分上大学！》--广东考学妹](https://mp.weixin.qq.com/s/tmBaQLomi6sFuqwLTCzX9g)  
