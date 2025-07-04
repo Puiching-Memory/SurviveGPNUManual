@@ -65,7 +65,16 @@
 [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
 
 ### B区宿舍
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-1.jpg" alt="白云校区-B区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+* B区的床上铺理论上是有蚊帐支架的，这个图没有
+
 ### A区宿舍
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg" alt="白云校区-A区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 ### 小塘公寓
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
@@ -104,8 +113,12 @@
 ### 第一实训楼
 ### 第二实训楼
 <div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG" alt="白云校区-第二实训楼" style="width: 100%; max-width: 600px; height: auto;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG" alt="白云校区-第二实训楼.JPG" style="width: 100%; max-width: 600px; height: auto;">
 </div>
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-二训-3D.jpg" alt="白云校区-二训-3D.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 
 ### 第三实训楼
 ### 第四实训楼
@@ -113,6 +126,9 @@
 ### 青春广场
 
 ### 学生活动中心
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg" alt="白云校区-学生活动中心-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 大咖
 
