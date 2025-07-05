@@ -30,13 +30,20 @@
 邮箱地址: [https://mail.stu.gpnu.edu.cn/](https://mail.stu.gpnu.edu.cn/)
 
 ## 广东技术师范大学教务系统
+
 ### 校园网登录
 广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
 ### VPN 登录/非校园网登录
 
+*允许**不连接校园网**访问的网址
+[广东技术师范大学 WebVPN](https://webvpn.gpnu.edu.cn/)
+
 ## GPA/绩点
 
-## 综合测评
+## 学生综合测评
+
+## 课程评价
+
 
 ## 知网
 

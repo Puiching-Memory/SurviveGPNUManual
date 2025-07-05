@@ -21,6 +21,7 @@
 - 分部门微信公众号：[广师大招生就业办公室] [广东技术师范大学教务处]  
 - 官网链接 [https://www.gpnu.edu.cn/index.htm](https://www.gpnu.edu.cn/index.htm)  
 - 学校基本信息：[https://www.gpnu.edu.cn/xxgk/xxjj.htm](https://www.gpnu.edu.cn/xxgk/xxjj.htm)
+- 广师大AI助手[deepseek-R1/网信AI/教务AI]: [https://chat.gpnu.edu.cn/home](https://chat.gpnu.edu.cn/home)
 
 !!! 注意
     官方无BiliBili，微博账号
