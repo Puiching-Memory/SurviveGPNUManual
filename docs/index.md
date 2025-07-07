@@ -23,8 +23,9 @@
 - 学校基本信息：[https://www.gpnu.edu.cn/xxgk/xxjj.htm](https://www.gpnu.edu.cn/xxgk/xxjj.htm)
 - 广师大AI助手[deepseek-R1/网信AI/教务AI]: [https://chat.gpnu.edu.cn/home](https://chat.gpnu.edu.cn/home)
 
-!!! 注意
-    官方无BiliBili，微博账号
+!!! warning
+    官方无BiliBili，微博账号  
+    微信公众号:[广师校园] 并非官方账号，并且经常发布不实消息，请直接加入黑名单
 
 ---
 ## 统计数据
