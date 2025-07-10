@@ -32,11 +32,12 @@
 ## 广东技术师范大学教务系统
 
 ### 校园网登录
-广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
+广东技术师范大学教务系统 https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html
 ### VPN 登录/非校园网登录
 
 允许**不连接校园网**访问的网址  
 [广东技术师范大学 WebVPN](https://webvpn.gpnu.edu.cn/)
+广东技术师范大学教务系统 WebVPN https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html
 
 ## GPA/绩点
 
@@ -69,7 +70,8 @@
 3. 在**企业微信--微公寓--假期留校申请**上申请假期留宿
 
 ## 驾照报考流程
-需要证件：身份证  
+需要证件：身份证
+
 1. 寻找当地驾校报名，费用通常在2K~5K左右
 2. 前往照相馆拍照，不能使用已有照片，因为需要回执
 3. 前往指定医院体检，视力/色盲/手脚是否残疾/听力/身高体重，**允许佩戴眼镜**，视力要求最低4.9
