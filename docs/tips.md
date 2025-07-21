@@ -13,7 +13,8 @@
 
 允许**不连接校园网**访问的网址  
 广东技术师范大学 WebVPN [https://webvpn.gpnu.edu.cn/](https://webvpn.gpnu.edu.cn/)  
-广东技术师范大学教务系统 WebVPN [https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html](https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html)
+广东技术师范大学教务系统 WebVPN [https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html](https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html)  
+*各学院子官网不支持VPN访问，部分文档需要连接校园网才可以访问。
 
 ## 身份证过期更换
 !!! warning
@@ -49,30 +50,6 @@
 账号为手机号，上面可以查到教育部记录的个人档案，部分网站要求学信网认证  
 [中国高等教育学生信息网（学信网）](https://www.chsi.com.cn/)
 
-## 更多校园社区
-
-### 有料
-
-### 百度贴吧
-
-### 小红书
-
-### 校园墙
-
-## 常用APP工具
-
-### 课程表
-
-### 记账
-
-### 任务表
-
-### 笔记
-
-### 电子书阅读器
-
-## Git基本使用方法
-
 ## 财务报销流程
 
 ## GPA/绩点
@@ -88,5 +65,23 @@
 ## 校园网
 
 ## 银行/ATM
+1. 学校录取通知书附带的银行卡需要激活，请前往线下最近的站点
 
 ## 助学贷款
+
+
+## 更多校园社区
+### 有料
+### 百度贴吧
+### 小红书
+### 校园墙
+
+## 常用APP工具
+### 课程表
+### 记账
+### 任务表
+### 笔记
+### 电子书阅读器
+
+## Git基本使用方法
+
