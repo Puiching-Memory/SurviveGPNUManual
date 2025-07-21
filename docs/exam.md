@@ -1,8 +1,7 @@
 ## 课程学习资料
 
 !!! 提示
-    使用Ctrl+F可搜索当前页面关键词  
-    或使用网站顶部搜索工具  
+    使用Ctrl+F可搜索当前页面关键词或使用网站顶部搜索工具  
     大学生唯一指定考试周视频：[【考试周破防】4K高清重制版](https://www.bilibili.com/video/BV1XM4y1c7Jp/)
 
 数据将存放于Github Release页面  

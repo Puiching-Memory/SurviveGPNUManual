@@ -2,16 +2,18 @@
 
 [关于开通师生校内电子邮箱自助申请服务的通知](https://www.gpnu.edu.cn/info/1040/59634.htm)  
 邮箱地址: [https://mail.stu.gpnu.edu.cn/](https://mail.stu.gpnu.edu.cn/)
+!!! 注意
+    mail.gpnu.edu.cn为教职工邮箱，mail.stu.gpnu.edu.cn为学生邮箱
 
 ## 广东技术师范大学教务系统
 
 ### 校园网登录
-广东技术师范大学教务系统 https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html
+广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
 ### VPN 登录/非校园网登录
 
 允许**不连接校园网**访问的网址  
-[广东技术师范大学 WebVPN](https://webvpn.gpnu.edu.cn/)
-广东技术师范大学教务系统 WebVPN https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html
+广东技术师范大学 WebVPN [https://webvpn.gpnu.edu.cn/](https://webvpn.gpnu.edu.cn/)  
+广东技术师范大学教务系统 WebVPN [https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html](https://jwglxt-443.webvpn.gpnu.edu.cn/jwglxt/xtgl/index_initMenu.html)
 
 ## 身份证过期更换
 !!! warning
@@ -35,12 +37,17 @@
 3. 前往指定医院体检，视力/色盲/手脚是否残疾/听力/身高体重，**允许佩戴眼镜**，视力要求最低4.9
 4. 前往驾校总部签署协议，有些驾校会额外要求收费
 5. 安装驾校指定APP，需要刷够720小时才能报考科目1，每次登录需人脸验证
+6. 时长刷够后，安装12315手机APP，报考科目1，费用70
 
 ## 打车
 1. 司机无权索要额外费用，如果司机要求返程费，请拒绝并联系客服
 
 ## 移动充电宝
 1. 聪明的厂家会在饭店里放充电宝
+
+## 学信网
+账号为手机号，上面可以查到教育部记录的个人档案，部分网站要求学信网认证  
+[中国高等教育学生信息网（学信网）](https://www.chsi.com.cn/)
 
 ## 更多校园社区
 
