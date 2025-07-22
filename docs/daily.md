@@ -7,7 +7,7 @@
 ![2025xiaoli-3](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-3.jpg)
 
 !!! 注意
-    目前(2025年)晚上熄灯与就寝并无强制要求
+    目前(2025年)晚上熄灯与就寝并无强制要求，晚上不断网不断电。作息时间表**仅上课时间强制要求**，其他时间同学们自己安排生活作息  
     校历源：[学校官网](https://gpnu.edu.cn/dfiles/2024-2025xiaoli.pdf)
 
 ---
@@ -60,6 +60,7 @@
 | 饮水是办水卡还是订桶装水？                               | 订桶装水，饮水机自己想办法，桶装水每次最少订两桶，有两种型号，9元/桶或13元/桶                                                                                                                                                                                 |
 
 ### 地图
+白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)
 
 ### 推荐阅读
 [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
@@ -131,6 +132,40 @@
 </div>
 
 ### 大咖
+<div class="sketchfab-embed-wrapper" style="text-align: center; margin: 20px 0;"> 
+  <iframe 
+    title="大咖3D模型" 
+    frameborder="0" 
+    allowfullscreen 
+    mozallowfullscreen="true" 
+    webkitallowfullscreen="true" 
+    allow="autoplay; fullscreen; xr-spatial-tracking" 
+    xr-spatial-tracking 
+    execution-while-out-of-viewport 
+    execution-while-not-rendered 
+    web-share 
+    width="100%" 
+    height="600" 
+    style="max-width: 1000px; min-height: 480px;"
+    src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"> 
+  </iframe> 
+  <p style="font-size: 13px; font-weight: normal; margin: 10px 5px; color: #4A4A4A; text-align: center;"> 
+    <a href="https://sketchfab.com/3d-models/0b4e15231f8a4d3dbae673c5325969cf?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
+      校园大咖3D模型 
+    </a> 
+    by 
+    <a href="https://sketchfab.com/Puiching-Memory?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
+      Puiching-Memory 
+    </a> 
+    on 
+    <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+      Sketchfab
+    </a>
+  </p>
+  <div style="margin-top: 10px; padding: 8px; background: rgba(28, 170, 217, 0.1); border-radius: 4px; font-size: 12px; color: #666;">
+    💡 提示：点击并拖拽可旋转视角，滚轮缩放，右键拖拽平移视角
+  </div>
+</div>
 
 ### 后街
 
