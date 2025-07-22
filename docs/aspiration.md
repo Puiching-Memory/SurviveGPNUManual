@@ -110,9 +110,9 @@
 
 ## 高考招生
 **志愿代码：10588**
-[广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)
-[广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)
-[广东技术师范大学-本科招生信息网](https://bkzs.gpnu.edu.cn/index)
+[广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)  
+[广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)  
+[广东技术师范大学-本科招生信息网](https://bkzs.gpnu.edu.cn/index)  
 
 ## 排名线
 [早安广师大 | 划重点！多少分可以上广师大](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649988203&idx=1&sn=196cd6af1ee2bac457b2c390f9f669d7&chksm=8f8f37f595b8c88db8c8f0c80bc1e97ce6c3ad9c2ff013c700223b1ef13880bbb2354d308d21&mpshare=1&scene=23&srcid=0627R4BoK3DNtlmgPodtufhw&sharer_shareinfo=e6bf194cf2e7fa15f970984e4b44931a&sharer_shareinfo_first=3abbad667b56b33dac8c535e0944d469#rd)
@@ -223,8 +223,10 @@
 ---
 
 ## 专业信息
-**如何快速了解某个专业?**  
-最快的方法是寻找同专业学长学姐，前往学院官网，寻找对应专业人才培养方案/课程设计，了解未来4年大概的学习内容  
+!!! tips
+    **如何快速了解某个专业?**  
+    最快的方法是寻找同专业学长学姐，前往学院官网，寻找对应专业人才培养方案/课程设计，了解未来4年大概的学习内容  
+
 制表策略：师范类，创新班，卓越班，全部合并到同一个专业中
 
 ### 电子与信息学院
@@ -532,6 +534,7 @@
 ### 民族学院
 [民族学院官网](https://mzxy.gpnu.edu.cn/)
 校区：东校区 4年
+
 | 学科                     |
 | ------------------------ |
 | 民族学                   |

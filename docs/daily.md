@@ -7,7 +7,7 @@
 ![2025xiaoli-3](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-3.jpg)
 
 !!! 注意
-    目前(2025年)晚上熄灯与就寝并无强制要求，晚上不断网不断电。作息时间表**仅上课时间强制要求**，其他时间同学们自己安排生活作息  
+    目前(2025年)晚上，白云校区：熄灯无强制要求，河源校区：11：30后熄灯，晚上不断网不断电。作息时间表**仅上课时间强制要求**，其他时间同学们自己安排生活作息  
     校历源：[学校官网](https://gpnu.edu.cn/dfiles/2024-2025xiaoli.pdf)
 
 ---
@@ -62,6 +62,10 @@
 ### 地图
 白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)
 
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.jpg" alt="白云校区-地图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 ### 推荐阅读
 [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
 
@@ -74,11 +78,6 @@
 ### A区宿舍
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg" alt="白云校区-A区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
-
-### 小塘公寓
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 ### 第一饭堂
@@ -109,6 +108,19 @@
   Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering"</a>
 </p>
 
+<div style="text-align: center; margin: 20px 0;">
+  <iframe 
+    src="https://poly.cam/capture/faa1bd81-14a0-467c-b8d9-acb40f10cf82/embed" 
+    title="第二教学楼 - Polycam 3D扫描" 
+    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" 
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+  <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
+    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
+  </div>
+</div>
+
 ### 第三教学楼
 
 ### 第一实训楼
@@ -131,7 +143,7 @@
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg" alt="白云校区-学生活动中心-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
-### 大咖
+### 大咖广场/小塘公寓
 <div class="sketchfab-embed-wrapper" style="text-align: center; margin: 20px 0;"> 
   <iframe 
     title="大咖3D模型" 
@@ -146,7 +158,7 @@
     web-share 
     width="100%" 
     height="600" 
-    style="max-width: 1000px; min-height: 480px;"
+    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
     src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"> 
   </iframe> 
   <p style="font-size: 13px; font-weight: normal; margin: 10px 5px; color: #4A4A4A; text-align: center;"> 
@@ -165,6 +177,10 @@
   <div style="margin-top: 10px; padding: 8px; background: rgba(28, 170, 217, 0.1); border-radius: 4px; font-size: 12px; color: #666;">
     💡 提示：点击并拖拽可旋转视角，滚轮缩放，右键拖拽平移视角
   </div>
+</div>
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 ### 后街
