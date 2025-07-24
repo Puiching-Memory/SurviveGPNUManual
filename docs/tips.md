@@ -56,8 +56,18 @@
 
 ## 访问外网
 1. 访问外网（YouTube/Github等）在国内网络会受到限制，通常我们使用**代理/VPN**作为解决方案。
-2. 代理服务器：推荐[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) 纯CLI服务器推荐[mihomo](https://github.com/MetaCubeX/mihomo)
+2. 代理服务器：带图形界面推荐[clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) 纯CLI服务器推荐[mihomo](https://github.com/MetaCubeX/mihomo)
 3. 代理规则：仅有代理服务器是不够的，我们需要知道如何重定向你的流量，所以我们需要向任一**梯子提供商**购买套餐，它会提供给你配置文件的。
+- VPN本质上是借用别人的服务器，因此**需要付费**才是常态
+
+## 购买个人电脑
+*此话题非常广泛，但是有些技巧是通用的*  
+
+- 如果你是工科，学校实训课会有许多祖传软件，你**必须考虑**到系统兼容性，因此搭载Windows系统的电脑是首选
+- 如果需要GPU/图形加速功能，目前（2025年），仅推荐购买NVIDIA RTX 20系列以上的显卡，因为更旧的型号已经不再更新驱动
+- 关于是否选购AMD系列的GPU，目前（2025年），市面上仍然有大量的软件**仅支持**CUDA（即NVIDIA显卡），因此你**必须考虑**软件兼容性
+- 对于某个品牌是否可选，可以多看看B站上的维修UP主，看看他们大部分时间都在修哪个型号的
+- 如果你有使用虚拟机/游戏开发/视频制作等的**中高负载需求**，系统内存请优先考虑32GB的型号
 
 ## 搜索引擎
 
