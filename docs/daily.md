@@ -57,7 +57,8 @@
 | B区宿舍旁边高铁会吵吗？                                  | 火车经过时会很吵，学长学姐们都习惯了                                                                                                                                                                        |
 | 宿舍隔音怎么样？                                         | 挺好的，完全安静的情况下听不到聊天，只有大喊大叫的能听见                                                                                                                                                    |
 | 洗澡是不是也要钱？                                       | 使用学生卡刷卡出水，按照出水量计费                                                                                                                                                                          |
-| 饮水是办水卡还是订桶装水？                               | 订桶装水，饮水机自己想办法，桶装水每次最少订两桶，有两种型号，9元/桶或13元/桶                                                                                                                                                                                 |
+| 饮水是办水卡还是订桶装水？                               | 订桶装水，饮水机自己想办法，桶装水每次最少订两桶，有两种型号，9元/桶或13元/桶                                                                                                                               |
+| 洗衣机要自己买吗？                                       | 要的                                                                                                                                                                                                        |
 
 ### 地图
 白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)
@@ -125,6 +126,20 @@
 
 ### 第一实训楼
 ### 第二实训楼
+
+<div style="text-align: center; margin: 20px 0;">
+  <iframe 
+    src="https://poly.cam/capture/fe6354d5-824d-49fa-893f-a47bacdb1f65/embed" 
+    title="第二教学楼 - Polycam 3D扫描" 
+    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" 
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
+  <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
+    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
+  </div>
+</div>
+
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG" alt="白云校区-第二实训楼.JPG" style="width: 100%; max-width: 600px; height: auto;">
 </div>

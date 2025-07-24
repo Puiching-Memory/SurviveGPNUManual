@@ -26,7 +26,7 @@
 - 官网链接 [https://www.gpnu.edu.cn/index.htm](https://www.gpnu.edu.cn/index.htm)  
 - 学校基本信息：[https://www.gpnu.edu.cn/xxgk/xxjj.htm](https://www.gpnu.edu.cn/xxgk/xxjj.htm)
 - 广师大AI助手[deepseek-R1/网信AI/教务AI]: [https://chat.gpnu.edu.cn/home](https://chat.gpnu.edu.cn/home)
-- 广师大维基百科：[]()
+- 广师大维基百科：[广东技术师范大学](https://zh.wikipedia.org/wiki/%E5%B9%BF%E4%B8%9C%E6%8A%80%E6%9C%AF%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6)
 
 !!! warning
     官方无BiliBili，微博账号  
