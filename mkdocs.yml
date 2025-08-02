@@ -79,6 +79,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra_css:
+  - stylesheets/extra.css
+
 extra:
   social: # 底端额外链接
     - icon: fontawesome/brands/github

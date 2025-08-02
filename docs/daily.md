@@ -59,12 +59,13 @@
 | 洗澡是不是也要钱？                                       | 使用学生卡刷卡出水，按照出水量计费                                                                                                                                                                          |
 | 饮水是办水卡还是订桶装水？                               | 订桶装水，饮水机自己想办法，桶装水每次最少订两桶，有两种型号，9元/桶或13元/桶                                                                                                                               |
 | 洗衣机要自己买吗？                                       | 要的                                                                                                                                                                                                        |
+| B区宿舍有电梯吗？                                        | 一栋楼两台电梯                                                                                                                                                                                              |
 
 ### 地图
 白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)
 
 <div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.jpg" alt="白云校区-地图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.webp" alt="白云校区-地图.webp" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 ### 推荐阅读
@@ -120,7 +121,7 @@
     allowfullscreen>
   </iframe>
   <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
-    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
+    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
   </div>
 </div>
 
@@ -138,7 +139,7 @@
     allowfullscreen>
   </iframe>
   <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
-    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
+    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
   </div>
 </div>
 
@@ -223,7 +224,7 @@
 - 广东省广州市白云区江高镇环镇西路155号广东技术师范大学慢慢选超市对面栏杆
 - 广东省广州市白云区江高镇环镇西路155号广东技术师范大学coco广场铁门  
 
-或参考白云地图
+*或参考白云地图*
 
 ### 校园网入网教程
 TODO:此处需要验证各个校区是否都一样（我猜不一样）  
@@ -231,10 +232,11 @@ TODO:此处需要验证各个校区是否都一样（我猜不一样）
 !!! warning
     开学前几周该方法会因为**各种不可抗力因素**不管用，会有人在各处架设办卡网点，办卡上网固然可以，但是这段时间过去以后常规方法也是可以的
 
-- 企业微信->工作台->我的校园网（广州校区）->中国移动二维码->长按二维码->识别图中二维码->跳转至“聚类带宽”小程序->手机号登录->套餐订购
+- 企业微信→工作台→我的校园网（广州校区）→中国移动二维码→长按二维码→识别图中二维码→跳转至“聚类带宽”小程序→手机号登录→套餐订购
 - 校园网有三个套餐：30元一个月50M，225元一年10M，300元一年50M
 - 通常我们放假不在学校，所以**不推荐**购买包年的套餐
 - 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
+
 
 ---
 

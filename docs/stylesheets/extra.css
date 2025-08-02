@@ -1,0 +1,184 @@
+/* 博客风格自定义样式 - 精简版 + 主题响应式 */
+
+/* 导航标签样式优化 */
+.md-tabs__link {
+    color: #ecf0f1 !important; /* 未选中标签的浅色 */
+    opacity: 0.8;
+    transition: all 0.3s ease;
+}
+
+.md-tabs__link:hover {
+    color: #ffffff !important;
+    opacity: 1;
+}
+
+.md-tabs__link--active {
+    color: #ffffff !important; /* 选中标签的白色 */
+    opacity: 1;
+    font-weight: 500;
+}
+
+/* 如果使用了标签指示器 */
+.md-tabs__item--active .md-tabs__link {
+    color: #ffffff !important;
+}
+
+/* 顶部导航栏整体优化 */
+.md-tabs {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 10px rgba(102,126,234,0.2);
+}
+
+/* 主导航栏背景优化 */
+.md-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    box-shadow: 0 2px 10px rgba(102,126,234,0.2);
+}
+
+/* 导航栏标题颜色 */
+.md-header__title {
+    color: #ffffff !important;
+}
+
+/* 搜索框样式 */
+.md-search__input {
+    background-color: rgba(255,255,255,0.15);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #ffffff;
+}
+
+.md-search__input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+/* 移动端菜单按钮 */
+.md-header__button {
+    color: #ffffff !important;
+}
+
+/* GitHub链接和仓库链接样式 */
+.md-header__source {
+    color: #ffffff !important;
+}
+
+.md-header__source:hover {
+    color: #ffffff !important;
+    opacity: 0.8;
+}
+
+/* GitHub图标 */
+.md-source__icon {
+    color: #ffffff !important;
+}
+
+/* 仓库名称 */
+.md-source__repository {
+    color: #ffffff !important;
+}
+
+/* 版本号或分支名 */
+.md-source__version {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+/* 头部所有链接元素 */
+.md-header a {
+    color: #ffffff !important;
+}
+
+.md-header a:hover {
+    color: rgba(255,255,255,0.8) !important;
+}
+
+/* 确保图标也是白色 */
+.md-header .md-icon {
+    color: #ffffff !important;
+}
+
+/* 首页专用样式 - 主题响应式 */
+
+/* 亮色模式样式 */
+[data-md-color-scheme="default"] {
+    /* 渐变按钮 - 亮色模式 */
+    --gradient-btn-bg: linear-gradient(45deg, #667eea 0%, #764ba2 100%);
+    --gradient-btn-shadow: 0 8px 20px rgba(102,126,234,0.4);
+    --gradient-btn-color: #ffffff; /* 亮色模式按钮文字为白色 */
+    --card-bg: #ffffff;
+    --card-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    --text-primary: #2c3e50;
+    --text-secondary: #7f8c8d;
+    --border-color: rgba(0,0,0,0.1);
+}
+
+/* 暗色模式样式 */
+[data-md-color-scheme="slate"] {
+    /* 渐变按钮 - 暗色模式 */
+    --gradient-btn-bg: linear-gradient(45deg, #8b7cf6 0%, #a855f7 100%);
+    --gradient-btn-shadow: 0 8px 20px rgba(139,124,246,0.4);
+    --gradient-btn-color: #ffffff; /* 暗色模式按钮文字也为白色 */
+    --card-bg: var(--md-default-bg-color);
+    --card-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    --text-primary: var(--md-default-fg-color);
+    --text-secondary: var(--md-default-fg-color--light);
+    --border-color: var(--md-default-fg-color--lightest);
+}
+
+/* 响应式渐变按钮 */
+.gradient-btn {
+    background: var(--gradient-btn-bg);
+    color: var(--gradient-btn-color) !important;
+    text-decoration: none;
+    padding: 0.8rem 2rem;
+    border-radius: 25px;
+    font-weight: 500;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.gradient-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--gradient-btn-shadow);
+    color: var(--gradient-btn-color) !important;
+    text-decoration: none;
+}
+
+/* 响应式卡片样式 */
+.theme-card {
+    background: var(--card-bg);
+    border-radius: 15px;
+    box-shadow: var(--card-shadow);
+    transition: all 0.3s ease;
+}
+
+.theme-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* 响应式文本样式 */
+.theme-text-primary {
+    color: var(--text-primary);
+}
+
+.theme-text-secondary {
+    color: var(--text-secondary);
+}
+
+/* 响应式边框 */
+.theme-border {
+    border: 1px solid var(--border-color);
+}
+
+/* 响应式网格 */
+.responsive-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    .responsive-grid {
+        grid-template-columns: 1fr;
+    }
+}
