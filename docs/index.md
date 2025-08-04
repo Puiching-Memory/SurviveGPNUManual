@@ -41,7 +41,7 @@
       <p class="theme-text-secondary" style="margin: 0; font-size: 0.9em;">2025年最新版本</p>
     </div>
   </div>
-  <a href="blog/posts/tieba-9754849630/" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">📖 阅读全文</a>
+  <a href="blog/2025/06/11/2025广师大白云校区入门手册" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">📖 阅读全文</a>
 </div>
 
 <div class="theme-card" style="padding: 1.5rem;">
@@ -52,7 +52,7 @@
       <p class="theme-text-secondary" style="margin: 0; font-size: 0.9em;">山区校园生活指南</p>
     </div>
   </div>
-  <a href="blog/posts/tieba-8394029114/" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">🗺️ 查看指南</a>
+  <a href="blog/2025/06/26/广师大河源校区生存指北" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">🗺️ 查看指南</a>
 </div>
 
 <div class="theme-card" style="padding: 1.5rem;">
@@ -63,7 +63,7 @@
       <p class="theme-text-secondary" style="margin: 0; font-size: 0.9em;">本部校区全攻略</p>
     </div>
   </div>
-  <a href="blog/posts/tieba-9053331608/" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">🍽️ 美食探索</a>
+  <a href="blog/2025/06/27/广东技术师范大学-东校区-食用指北" class="gradient-btn" style="padding: 0.5rem 1.5rem; font-size: 0.9em;">🍽️ 美食探索</a>
 </div>
 
 </div>

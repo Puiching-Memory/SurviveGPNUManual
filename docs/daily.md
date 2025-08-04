@@ -12,6 +12,33 @@
 
 ---
 
+## 统一栏目
+
+### FQA
+| Q（提问）              | A（回答） |
+| ---------------------- | --------- |
+| 我们学校有开学考试吗？ | 没有      |
+| 军训是什么时候？       | 冬训      |
+
+### 校园网入网教程
+TODO:此处需要验证各个校区是否都一样
+
+!!! warning
+    开学前几周该方法会因为**各种不可抗力因素**不管用，会有人在各处架设办卡网点，办卡上网固然可以，但是这段时间过去以后常规方法也是可以的
+
+- 企业微信→工作台→我的校园网（广州校区/河源校区）→中国移动二维码→长按二维码→识别图中二维码→跳转至“聚类带宽”小程序→手机号登录→套餐订购
+- 校园网有三个套餐：30元一个月50M，225元一年10M，300元一年50M
+- 通常我们放假不在学校，所以**不推荐**购买包年的套餐
+- 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg" alt="白云校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg" alt="河源校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 ## 河源校区
 
 ### 地图
@@ -29,7 +56,7 @@
 ## 白云校区
 ![白云校区-首图](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-首图.jpg)
 
-### QA栏目
+### FQA栏目
 
 | Q（提问）                                                | A（回答）                                                                                                                                                                                                   |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -75,6 +102,15 @@
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-1.jpg" alt="白云校区-B区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
 </div>
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-2.jpg" alt="白云校区-B区宿舍-2.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-3.jpg" alt="白云校区-B区宿舍-3.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
+
 
 - B区的床，上铺是有蚊帐支架的，两个床之间会有个梯子，这个图是完工前的所以没有
 - B区所有宿舍规格相同
@@ -211,10 +247,12 @@
 - 大咖广场有菜鸟驿站，京东派，顺丰
 
 ### 校园点餐外卖平台
+微信小程序：校园食堂智慧点餐--广州市安开信息科技有限公司  
+
 - 假期该平台不提供服务
 - 可以点校内所有饭堂的饭，会有外卖员送到各个宿舍指定的存餐柜中，扫码解锁即可取餐。
 - B区有两个存餐柜，B5/B6北方一个，B1/B2南方一个
-- **下雨天不要点**，外卖员不会立刻送的，而且该平台没有超时惩罚。
+- **下雨天不要点**，外卖员不会立刻送的，而且该平台没有超时惩罚，所以大概要提前1小时。
 - 有些饭馆会在美团/淘宝/京东开店，通常比直接在这个小程序点便宜的多
 
 ### 外卖
@@ -225,18 +263,6 @@
 - 广东省广州市白云区江高镇环镇西路155号广东技术师范大学coco广场铁门  
 
 *或参考白云地图*
-
-### 校园网入网教程
-TODO:此处需要验证各个校区是否都一样（我猜不一样）  
-
-!!! warning
-    开学前几周该方法会因为**各种不可抗力因素**不管用，会有人在各处架设办卡网点，办卡上网固然可以，但是这段时间过去以后常规方法也是可以的
-
-- 企业微信→工作台→我的校园网（广州校区）→中国移动二维码→长按二维码→识别图中二维码→跳转至“聚类带宽”小程序→手机号登录→套餐订购
-- 校园网有三个套餐：30元一个月50M，225元一年10M，300元一年50M
-- 通常我们放假不在学校，所以**不推荐**购买包年的套餐
-- 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
-
 
 ---
 
@@ -284,6 +310,10 @@ TODO:此处需要验证各个校区是否都一样（我猜不一样）
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg" alt="XQ-XCL-1" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
+### 宿舍
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/西校区宿舍.jpg" alt="西校区宿舍.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 
 
