@@ -42,7 +42,7 @@ powershell $env:MKDOCS_GIT_COMMITTERS_APIKEY = "your_token_here"
 cmd set MKDOCS_GIT_COMMITTERS_APIKEY=your_token_here
 ```
 
-推荐使用等宽字体，如[Maple Mono]()
+推荐使用等宽字体，如[Maple Mono](https://github.com/subframe7536/maple-font)
 
 ## 致谢
 

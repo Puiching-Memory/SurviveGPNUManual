@@ -86,3 +86,5 @@ extra:
   social: # 底端额外链接
     - icon: fontawesome/brands/github
       link: https://github.com/Puiching-Memory/
+
+dev_addr: 'localhost:8080'
