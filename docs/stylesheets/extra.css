@@ -236,6 +236,13 @@
     margin-block: 1.25rem; /* 统一更明显的间距 */
 }
 
+/* 排除 .md-author 容器内的所有图片（博客作者头像） */
+.md-author img {
+    display: inline-block !important;
+    margin-block: 0 !important;
+    border-radius: 50% !important; /* 保持圆形头像 */
+}
+
 /* 与 GLightbox 配合：悬停轻微浮起（遵循减少动画偏好） */
 a.glightbox img {
     transition: transform 0.2s ease, box-shadow 0.2s ease;
