@@ -2,7 +2,7 @@
 
 <div style="text-align: center; margin: 2rem 0;">
   <h1 class="theme-text-primary" style="font-size: 2.5em; margin-bottom: 0.5rem; font-weight: 300;">
-    🎓 广师大生存手册
+    广师大生存手册
   </h1>
   <p class="theme-text-secondary" style="font-size: 1.2em; margin: 0; font-style: italic;">
     Survive GPNU Manual - 记录校园生活

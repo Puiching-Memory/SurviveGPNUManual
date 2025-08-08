@@ -1,99 +1,4 @@
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js"></script>
-<script type="text/javascript">
-    var dom = document.getElementById('container-01');
-    var myChart = echarts.init(dom, null, {
-        renderer: 'canvas',
-        useDirtyRect: false
-    });
-    var app = {};
-
-    var option;
-
-    option = {
-    title: {
-        text: '广东技术师范大学  软科中国大学排名（主榜）'
-    },
-    toolbox: {
-        show: true,
-        feature: {
-            saveAsImage: {}
-        }
-    },
-    xAxis: {
-    type: 'category',
-    data: ['2021', '2022', '2023', '2024', '2025']
-    },
-    yAxis: {
-    type: 'value',
-    min: 250,
-    max: 350,
-    inverse: true,
-    },
-    series: [
-    {
-        data: [306, 292, 314, 328, 319],
-        type: 'line',
-        smooth: true,
-        label:{
-            show: true
-        }
-    }
-    ]
-    };
-
-    if (option && typeof option === 'object') {
-        myChart.setOption(option);
-    }
-
-    window.addEventListener('resize', myChart.resize);
-</script>
-<script type="text/javascript">
-    var dom = document.getElementById('container-02');
-    var myChart = echarts.init(dom, null, {
-        renderer: 'canvas',
-        useDirtyRect: false
-    });
-    var app = {};
-
-    var option;
-
-    option = {
-    title: {
-        text: '广东技术师范大学  武书连中国大学排名'
-    },
-    toolbox: {
-        show: true,
-        feature: {
-            saveAsImage: {}
-        }
-    },
-    xAxis: {
-    type: 'category',
-    data: ['2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025']
-    },
-    yAxis: {
-    type: 'value',
-    min: 200,
-    inverse: true,
-    },
-    series: [
-    {
-        data: [400, 403, 439, 462, 474, 459, 469, 480, 454, 445, 438, 402, 449, 473, 454, 437, 478, 496, 468, 536, 481, 628, 416, 424],
-        type: 'line',
-        smooth: true,
-        label:{
-            show: true
-        }
-    }
-    ]
-    };
-
-    if (option && typeof option === 'object') {
-        myChart.setOption(option);
-    }
-
-    window.addEventListener('resize', myChart.resize);
-</script>
+<!-- 图表脚本已移至全站 javascripts/charts-init.js 中，以适配 MkDocs Material 的 SPA 导航并确保容器渲染后再初始化 -->
 
 ## 学校排名
 
@@ -109,7 +14,7 @@
 <div id="container-02" style="height: 250px"></div>
 
 ## 高考招生
-**志愿代码：10588**
+**志愿代码：10588**  
 [广东技术师范大学2025招生指南](https://mp.weixin.qq.com/s/Ppvia214q0oKWw5OLIthgA)  
 [广东技术师范大学2025年夏季高考招生计划](https://mp.weixin.qq.com/s?__biz=MzIwMzA3NzIyNg==&mid=2649987370&idx=1&sn=e7fa1b0532e8d7a6bd8de72ea6de4da3&chksm=8f9ec7091e67aa47345e6de49e1695389ddf93af745b587a9c61cd0ae01a0d0e4549c38d25b2&scene=0&xtrack=1&subscene=90#rd)  
 [广东技术师范大学-本科招生信息网](https://bkzs.gpnu.edu.cn/index)  

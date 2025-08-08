@@ -131,32 +131,40 @@ TODO:此处需要验证各个校区是否都一样
 
 ### 图书馆
 ![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpeg)
+![白云校区-图书馆-2](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-2.jpeg)
 
 ### 第一教学楼
 ### 第二教学楼
-<table style="margin: 0 auto; width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="text-align: center; padding: 10px;">
-      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-1.jpg" alt="TH2-1" style="width: 49%; height: auto;">
-    </
-    <td style="text-align: center; padding: 10px;">
-      <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-2.jpg" alt="TH2-2" style="width: 49%; height: auto;">
-    </td>
-  </tr>
-</table>
-<p style="text-align: center; margin-top: 10px; font-style: italic;">
-  Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering"</a>
-</p>
+<div class="two-col-images">
+  <figure class="two-col-item">
+    <img
+      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-1.jpg"
+      alt="TH2-1"
+      loading="lazy"
+    />
+  </figure>
+  <figure class="two-col-item">
+    <img
+      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-2.jpg"
+      alt="TH2-2"
+      loading="lazy"
+    />
+  </figure>
+  
+  <figcaption class="two-col-caption">
+    Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
+  </figcaption>
+</div>
 
-<div style="text-align: center; margin: 20px 0;">
+<div class="embed-card">
   <iframe 
     src="https://poly.cam/capture/faa1bd81-14a0-467c-b8d9-acb40f10cf82/embed" 
     title="第二教学楼 - Polycam 3D扫描" 
-    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" 
+    class="embed-frame"
     frameborder="0"
     allowfullscreen>
   </iframe>
-  <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
+  <div class="embed-note embed-note--blue">
     第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
   </div>
 </div>
@@ -166,24 +174,34 @@ TODO:此处需要验证各个校区是否都一样
 ### 第一实训楼
 ### 第二实训楼
 
-<div style="text-align: center; margin: 20px 0;">
+<div class="two-col-images">
+  <figure class="two-col-item">
+    <img
+      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG"
+      alt="白云校区-第二实训楼"
+      loading="lazy"
+    />
+  </figure>
+  <figure class="two-col-item">
+    <img
+      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-二训-3D.jpg"
+      alt="白云校区-第二实训楼-3D"
+      loading="lazy"
+    />
+  </figure>
+</div>
+
+<div class="embed-card">
   <iframe 
     src="https://poly.cam/capture/fe6354d5-824d-49fa-893f-a47bacdb1f65/embed" 
-    title="第二教学楼 - Polycam 3D扫描" 
-    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);" 
+    title="第二实训楼 - Polycam 3D扫描" 
+    class="embed-frame"
     frameborder="0"
     allowfullscreen>
   </iframe>
-  <div style="margin-top: 10px; padding: 8px; background: rgba(0, 123, 255, 0.1); border-radius: 4px; font-size: 12px; color: #666; max-width: 1000px; margin-left: auto; margin-right: auto;">
-    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
+  <div class="embed-note embed-note--blue">
+    第二实训楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
   </div>
-</div>
-
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG" alt="白云校区-第二实训楼.JPG" style="width: 100%; max-width: 600px; height: auto;">
-</div>
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-二训-3D.jpg" alt="白云校区-二训-3D.jpg" style="width: 100%; max-width: 600px; height: auto;">
 </div>
 
 
@@ -198,7 +216,7 @@ TODO:此处需要验证各个校区是否都一样
 </div>
 
 ### 大咖广场/小塘公寓
-<div class="sketchfab-embed-wrapper" style="text-align: center; margin: 20px 0;"> 
+<div class="sketchfab-embed-wrapper embed-card"> 
   <iframe 
     title="大咖3D模型" 
     frameborder="0" 
@@ -210,12 +228,10 @@ TODO:此处需要验证各个校区是否都一样
     execution-while-out-of-viewport 
     execution-while-not-rendered 
     web-share 
-    width="100%" 
-    height="600" 
-    style="width: 100%; height: 600px; max-width: 1000px; min-height: 480px; border: none; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.15);"
+    class="embed-frame"
     src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"> 
   </iframe> 
-  <p style="font-size: 13px; font-weight: normal; margin: 10px 5px; color: #4A4A4A; text-align: center;"> 
+  <p class="embed-credits"> 
     <a href="https://sketchfab.com/3d-models/0b4e15231f8a4d3dbae673c5325969cf?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
       校园大咖3D模型 
     </a> 
@@ -228,7 +244,7 @@ TODO:此处需要验证各个校区是否都一样
       Sketchfab
     </a>
   </p>
-  <div style="margin-top: 10px; padding: 8px; background: rgba(28, 170, 217, 0.1); border-radius: 4px; font-size: 12px; color: #666;">
+  <div class="embed-note embed-note--cyan">
     💡 提示：点击并拖拽可旋转视角，滚轮缩放，右键拖拽平移视角
   </div>
 </div>

@@ -70,9 +70,9 @@ plugins: # 插件
   - meta
   - blog
   - glightbox # 图像查看器
-  - git-committers:
-      repository: Puiching-Memory/SurviveGPNUManual
-      branch: main
+  # - git-committers:
+  #     repository: Puiching-Memory/SurviveGPNUManual
+  #     branch: main
 
 markdown_extensions:
   - admonition
@@ -81,6 +81,11 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js
+  - javascripts/media-enhance.js
+  - javascripts/charts-init.js
 
 extra:
   social: # 底端额外链接
