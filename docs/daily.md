@@ -20,32 +20,24 @@
 | 我们学校有开学考试吗？ | 没有      |
 | 军训是什么时候？       | 冬训      |
 
-### 校园网入网教程
-
-!!! warning
-    开学前几周该方法会因为**各种不可抗力因素**不管用，会有人在各处架设办卡网点，办卡上网固然可以，但是这段时间过去以后常规方法也是可以的
-
-- 企业微信→工作台→我的校园网（广州校区/河源校区）→中国移动二维码→长按二维码→识别图中二维码→跳转至“聚类带宽”小程序→手机号登录→套餐订购
-- 校园网有三个套餐：30元一个月50M，225元一年10M，300元一年50M
-- 通常我们放假不在学校，所以**不推荐**购买包年的套餐
-- 线下办卡与线上小程序是互相独立的业务，不能视作相同效果
-- 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
-- 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
-
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg" alt="白云校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
-
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg" alt="河源校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
-
 ## 河源校区
 
 ### 地图
 
 ### 推荐阅读
 [blog/广师大河源校区生存指北](blog/posts/tieba-8394029114.md)  
+
+### 河源校园网入网教程
+
+报道完带身份证到学活107领学生卡和校园卡，然后照着指引一路跟着走  
+中间一句话不说也没问题，业务办完过一两个钟联网认证  
+账号是校园卡的号码密码是学号后六位  
+中间要预充值一百块  
+卡每月扣29+10元，有流量通话和100m的校园网宽带  
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg" alt="河源校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### 南门小吃街
 <div style="text-align:center;">
@@ -94,7 +86,7 @@
 
 
 ### 地图
-白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)
+白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)  
 白云校区卫星标注地图（带定位）:[]()
 
 <div style="text-align:center;">
@@ -103,6 +95,22 @@
 
 ### 推荐阅读
 [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
+
+### 白云校园网入网教程
+
+!!! warning
+    开学前几周该方法会因为**各种不可抗力因素**不管用，会有人在各处架设办卡网点，办卡上网固然可以，但是这段时间过去以后常规方法也是可以的
+
+- 企业微信→工作台→我的校园网（广州校区）→中国移动二维码→长按二维码→识别图中二维码→跳转至“聚类带宽”小程序→手机号登录→套餐订购
+- 校园网有三个套餐：30元一个月50M，225元一年10M，300元一年50M
+- 通常我们放假不在学校，所以**不推荐**购买包年的套餐
+- 线下办卡与线上小程序是互相独立的业务，不能视作相同效果
+- 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
+- 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
+
+<div style="text-align:center;">
+  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg" alt="白云校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
+</div>
 
 ### B区宿舍
 <div style="text-align:center;">

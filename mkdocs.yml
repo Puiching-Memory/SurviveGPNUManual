@@ -76,8 +76,7 @@ plugins: # 插件
 
 markdown_extensions:
   - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
 
