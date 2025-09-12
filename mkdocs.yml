@@ -78,6 +78,8 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
 
 extra_css:
   - stylesheets/extra.css
@@ -86,6 +88,8 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js
   - javascripts/media-enhance.js
   - javascripts/charts-init.js
+  - javascripts/mathjax-config.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
 extra:
   social: # 底端额外链接
