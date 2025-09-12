@@ -30,6 +30,7 @@
 - 通常我们放假不在学校，所以**不推荐**购买包年的套餐
 - 线下办卡与线上小程序是互相独立的业务，不能视作相同效果
 - 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
+- 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
 
 <div style="text-align:center;">
   <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg" alt="白云校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
@@ -121,6 +122,7 @@
 - B区所有宿舍规格相同
 - B区24年开始安装了人脸识别门禁
 - B区垃圾站在B2南方
+- 上铺杆子高？米
 
 ### A区宿舍
 <div style="text-align:center;">
