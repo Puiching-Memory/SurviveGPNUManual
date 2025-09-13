@@ -70,10 +70,15 @@ plugins: # 插件
   - meta
   - blog
   - glightbox # 图像查看器
-  # - git-committers:
-  #     repository: Puiching-Memory/SurviveGPNUManual
-  #     branch: main
+  # - to-pdf:
+  #     cover_title: 广师大生存手册
+  #     cover_subtitle: survive GPNU manual
+  #     copyright: GPNU 2025
+  #     author: 梦归云帆 L1NINE mybear123 光钻 eisofia 林登徒 Dimo 我可以 猫的双月术
+  #     download_link: header
+  - print-site
 
+# https://facelessuser.github.io/pymdown-extensions/
 markdown_extensions:
   - admonition
   - pymdownx.tilde
