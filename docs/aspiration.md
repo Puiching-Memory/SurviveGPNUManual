@@ -2,16 +2,74 @@
 
 ## 学校排名
 
-!!! ISSUE 025-06-29
-    FIXME待修复错误：此处图表第一次不会加载，需要一次手动刷新才可见
+!!! Bug 025-06-29
+    FIXME[错误]：此处图表第一次不会加载，需要一次手动刷新才可见
 
-!!! ISSUE 025-06-30
-    FIXME待修复错误：专业名称未添加入静态索引，无法被搜索工具找到
+!!! Bug 025-06-30
+    FIXME[错误]：专业名称未添加入静态索引，无法被搜索工具找到
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
-<div id="container-01" style="height: 250px"></div>
+
+```vegalite 
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "background": "transparent",
+    "config": { "view": { "fill": "transparent" }},
+    "title": { "text": "软科中国大学排名--广东技术师范大学", "frame": "bounds" },
+    "data": { "url": "assets/charts/shanghairranking.csv" },
+    "encoding": {
+        "x": { "field": "年份", "type": "nominal", "axis": { "labelAngle": 0, "grid": true, "ticks": true, "tickSize": 6 } },
+        "tooltip": [
+            { "field": "年份", "type": "nominal" },
+            { "field": "排名", "type": "quantitative" }
+        ]
+    },
+    "layer": [
+        {
+            "mark": { "type": "line", "interpolate": "monotone" },
+            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false }, "axis": { "grid": true, "ticks": true} } }
+        },
+        {
+            "mark": { "type": "point", "filled": false, "fill": "white", "size": 60 },
+            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
+        }
+        ,
+        {
+            "mark": { "type": "point", "filled": true, "opacity": 0, "size": 400 },
+            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
+        }
+    ]
+}
+```
+
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
-<div id="container-02" style="height: 250px"></div>
+
+```vegalite 
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
+    "background": "transparent",
+    "config": { "view": { "fill": "transparent" }},
+    "title": { "text": "武书连中国大学排名--广东技术师范大学", "frame": "bounds" },
+    "data": { "url": "assets/charts/wurank.csv" },
+    "encoding": {
+        "x": { "field": "年份", "type": "nominal", "axis": { "labelAngle": 0, "grid": true, "ticks": true, "tickSize": 6 } },
+        "tooltip": [
+            { "field": "年份", "type": "nominal" },
+            { "field": "排名", "type": "quantitative" }
+        ]
+    },
+    "layer": [
+        {
+            "mark": { "type": "line", "interpolate": "monotone" },
+            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false }, "axis": { "grid": true, "ticks": true} } }
+        },
+        {
+            "mark": { "type": "point", "filled": false, "fill": "white", "size": 60 },
+            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
+        }
+    ]
+}
+```
 
 ## 高考招生
 **志愿代码：10588**  

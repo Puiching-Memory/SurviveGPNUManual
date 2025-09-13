@@ -36,14 +36,10 @@
 中间要预充值一百块  
 卡每月扣29+10元，有流量通话和100m的校园网宽带  
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg" alt="河源校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![河源校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg)
 
 ### 南门小吃街
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg" alt="HY-NMXCJ-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
 
 ---
 
@@ -90,9 +86,7 @@
 白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)  
 白云校区卫星标注地图（带定位）:[]()
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.webp" alt="白云校区-地图.webp" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-地图.webp](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.webp)
 
 ### 推荐阅读
 [blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
@@ -109,22 +103,14 @@
 - 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
 - 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg" alt="白云校区-入网阔谱图.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg)
 
 ### B区宿舍
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-1.jpg" alt="白云校区-B区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-B区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-1.jpg)
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-2.jpg" alt="白云校区-B区宿舍-2.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-B区宿舍-2.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-2.jpg)
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-3.jpg" alt="白云校区-B区宿舍-3.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-B区宿舍-3.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-3.jpg)
 
 
 - B区的床，上铺是有蚊帐支架的，两个床之间会有个梯子，这个图是完工前的所以没有
@@ -134,9 +120,7 @@
 - 上铺杆子高？米
 
 ### A区宿舍
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg" alt="白云校区-A区宿舍-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-A区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg)
 
 ### 第一饭堂
 餐馆列表：TODO
@@ -229,9 +213,7 @@
 ### 青春广场
 
 ### 学生活动中心
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg" alt="白云校区-学生活动中心-1.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-学生活动中心-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg)
 
 ### 大咖广场/小塘公寓
 <div class="sketchfab-embed-wrapper embed-card"> 
@@ -267,9 +249,7 @@
   </div>
 </div>
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![白云校区-小塘公寓.JPG](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG)
 
 ## 充电桩
 
@@ -285,6 +265,7 @@
 - 你的快递不能直接送到宿舍门前（有同学提供此类服务）
 - 校内有3大快递站，B6架空层一个，大咖广场一个，A2架空层一个
 - 大咖广场有菜鸟驿站，京东派，顺丰
+- 快递站晚上7点关门
 
 ### 校园点餐外卖平台
 微信小程序：校园食堂智慧点餐--广州市安开信息科技有限公司  
@@ -323,19 +304,13 @@
 [blog/广东技术师范大学 东校区 食用指北](blog/posts/tieba-9053331608.md)  
 
 ### 广东工业实训中心
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-广东工业实训中心-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![东校区-广东工业实训中心-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-广东工业实训中心-1.jpg)
 
 ### 春晖园
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-春晖园-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![东校区-春晖园-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-春晖园-1.jpg)
 
 ### 操场
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-操场-1.jpg" alt="XQ-CHY-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![东校区-操场-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-操场-1.jpg)
 
 
 ---
@@ -345,24 +320,16 @@
 ### 地图
 
 ### 饭堂
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg" alt="XQ-FT-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![XQ-FT-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg)
 
 ### 操场
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg" alt="XQ-CC-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![XQ-CC-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg)
 
 ### 信创楼
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg" alt="XQ-XCL-1" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![XQ-XCL-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg)
 
 ### 宿舍
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/西校区宿舍.jpg" alt="西校区宿舍.jpg" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![西校区宿舍.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/西校区宿舍.jpg)
 
 ### 
 

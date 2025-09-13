@@ -8,7 +8,9 @@
 ## 广东技术师范大学教务系统
 
 ### 校园网登录
-广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)
+广东技术师范大学教务系统 [https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html](https://jwglxt.gpnu.edu.cn/jwglxt/xtgl/login_slogin.html)  
+默认密码：Gpnu+身份证后六位+@
+
 ### VPN 登录/非校园网登录
 
 允许**不连接校园网**访问的网址  
@@ -111,6 +113,10 @@ $$
 3. 通知班委，学习委员。因为是他们负责考勤。
 
 结论：平时你出个校门口，没什么大不了的，这不是高中。
+
+## 街机音游
+
+查询周边舞萌，你可以前往：[maimai中国玩家站](https://dev.maimai.moe/)
 
 ## 助学金申请流程
 

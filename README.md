@@ -4,8 +4,9 @@
 
 [https://puiching-memory.github.io/SurviveGPNUManual/](https://puiching-memory.github.io/SurviveGPNUManual/)
 
-## 是否能部署国内页面？目前无计划
+## 页面部署
 
+仅部署github pages，因为：  
 gitee pages已下线，gitcode pages仅为企业用户开放，gitlab为国内代理模式（它有正经入口吗？）
 
 ## 开发环境
@@ -44,6 +45,10 @@ cmd set MKDOCS_GIT_COMMITTERS_APIKEY=your_token_here
 ```
 
 推荐使用等宽字体，如[Maple Mono](https://github.com/subframe7536/maple-font)
+
+## vega-lite图表
+
+在线编辑器：https://vega.github.io/editor/?#/examples/vega-lite/line_monotone
 
 ## 致谢
 

@@ -76,6 +76,7 @@ plugins: # 插件
   #     copyright: GPNU 2025
   #     author: 梦归云帆 L1NINE mybear123 光钻 eisofia 林登徒 Dimo 我可以 猫的双月术
   #     download_link: header
+  - charts
   - print-site
 
 # https://facelessuser.github.io/pymdown-extensions/
@@ -84,16 +85,21 @@ markdown_extensions:
   - pymdownx.tilde
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: vegalite
+          class: vegalite
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
 
 extra_css:
-  - stylesheets/extra.css
+  - css/main.css
 
 extra_javascript:
-  - https://cdnjs.cloudflare.com/ajax/libs/echarts/5.6.0/echarts.min.js
-  - javascripts/media-enhance.js
-  - javascripts/charts-init.js
   - javascripts/mathjax-config.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  - https://cdn.jsdelivr.net/npm/vega@5
+  - https://cdn.jsdelivr.net/npm/vega-lite@5
+  - https://cdn.jsdelivr.net/npm/vega-embed@6
 
 extra:
   social: # 底端额外链接
