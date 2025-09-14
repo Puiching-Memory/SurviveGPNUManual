@@ -22,6 +22,7 @@
 | 用校园网翻墙或看一些成人多媒体会被抓吗？ | 某些学校确实会，但是广技师目前未听闻 |
 
 ## 河源校区
+![河源-图书馆](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-图书馆.jpg)
 
 ### 地图
 
@@ -37,6 +38,9 @@
 卡每月扣29+10元，有流量通话和100m的校园网宽带  
 
 ![河源校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg)
+
+### A区宿舍
+![河源-a区宿舍](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-a区宿舍.jpg)
 
 ### 南门小吃街
 ![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
