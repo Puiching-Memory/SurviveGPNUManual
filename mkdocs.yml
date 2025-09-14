@@ -66,7 +66,9 @@ nav: # 默认路由
   - 分享你的故事: community.md
 plugins: # 插件
   - search:
-      lang: zh
+      lang:
+        - zh
+        - en
   - meta
   - blog
   - glightbox # 图像查看器
@@ -83,6 +85,7 @@ plugins: # 插件
 markdown_extensions:
   - admonition
   - pymdownx.tilde
+  - pymdownx.keys
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences:
@@ -90,12 +93,15 @@ markdown_extensions:
         - name: vegalite
           class: vegalite
           format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+  - toc:
+      permalink: true
 
 extra_css:
   - css/main.css
 
 extra_javascript:
   - javascripts/mathjax-config.js
+  - javascripts/baidu-tongji.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
   - https://cdn.jsdelivr.net/npm/vega@5
   - https://cdn.jsdelivr.net/npm/vega-lite@5
