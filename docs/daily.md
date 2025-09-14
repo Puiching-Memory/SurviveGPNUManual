@@ -106,6 +106,7 @@
 - 线下办卡与线上小程序是互相独立的业务，不能视作相同效果
 - 部分学校网站，企业微信功能，抢课系统**必须链接校园网**才能使用
 - 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
+- 可以拉物理网线，出口在天花板路由器，所以至少需要2米长的网线
 
 ![白云校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg)
 
@@ -115,7 +116,6 @@
 ![白云校区-B区宿舍-2.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-2.jpg)
 
 ![白云校区-B区宿舍-3.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-3.jpg)
-
 
 - B区的床，上铺是有蚊帐支架的，两个床之间会有个梯子，这个图是完工前的所以没有
 - B区所有宿舍规格相同
@@ -142,6 +142,7 @@ TODO餐馆列表：
 ![白云校区-图书馆-2](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-2.jpeg)
 
 ### 第一教学楼
+
 ### 第二教学楼
 <div class="two-col-images">
   <figure class="two-col-item">
@@ -214,12 +215,21 @@ TODO餐馆列表：
 
 
 ### 第三实训楼
+
 ### 第四实训楼
+
+属于电子与信息学院
+
+### 科研楼
+
+半完工，仅部分教室可用
 
 ### 青春广场
 
 ### 学生活动中心
 ![白云校区-学生活动中心-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg)
+
+三楼和四楼：创新创业学院
 
 ### 大咖广场/小塘公寓
 <div class="sketchfab-embed-wrapper embed-card"> 
@@ -257,15 +267,28 @@ TODO餐馆列表：
 
 ![白云校区-小塘公寓.JPG](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG)
 
-## 充电桩
-
-
 ### 后街
 
+何布村最大的夜市，从东门出就是了
+
 ### 医务室
+
 ### 药店
 
+### 电动车充电站
+
+位置：二教和三教之间，B2南方。
+
 ### 通勤
+
+最近的地铁站：8号线，滘心
+
+### 订水
+
+微信小程序->真如校园
+- 订水每次至少两桶，9.5元/桶或13元/桶
+- 押金150元，赠送饮水机
+- 下单后第二天会送上门
 
 ### 快递
 - 你的快递不能直接送到宿舍门前（有同学提供此类服务）

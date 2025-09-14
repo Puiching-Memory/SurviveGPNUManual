@@ -23,7 +23,7 @@ pip install -r requirements.txt
 启动调试服务器
 
 ```bash
-mkdocs serve --verbose
+mkdocs serve
 ```
 
 添加Github token到环境变量(可选)

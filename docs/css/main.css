@@ -130,3 +130,57 @@ img.avatar,
 	}
 }
 
+/* ===== 以下覆盖：保护作者头像、导航 logo 与小图标，不被内容区通用 img 规则影响 ===== */
+/* 作者头像（文章列表 / 文章头部等） */
+.md-post__authors img,
+.md-author img,
+.md-post__header img {
+	display: inline-block; /* 防止被 display:block 推起换行 */
+	width: 48px;
+	height: 48px;
+	max-width: none; /* 覆盖 max-width:75% */
+	margin: 0; /* 覆盖居中样式 */
+	border-radius: 50%;
+	object-fit: cover;
+	box-shadow: none;
+}
+
+/* 侧边栏 / 顶部 logo：确保 logo 保持原始外观（无圆角、无阴影） */
+.md-sidebar .md-logo img,
+.md-nav__button.md-logo img,
+.md-header .md-logo img {
+	border-radius: 0 !important;
+	box-shadow: none !important;
+	max-width: 100%;
+	height: auto;
+}
+
+/* 对于任何放在链接或小控件中的图标，限制被全局规则污染的风险 */
+.md-post__meta img,
+.md-meta img,
+.md-sidebar img {
+	max-width: none;
+	height: auto;
+}
+
+/* 如果需要，可以在模板中为作者头像添加 class="avatar"，下面规则作为兜底（不强制） */
+.avatar img,
+img.avatar {
+	width: 48px;
+	height: 48px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+/* 兼容：取消任何在其它样式表中对 .md-typeset .md-author 的强制样式影响
+   如果你在某处看到如下规则并希望完全关闭，请在生成的 CSS 中移除或注释：
+   .md-typeset .md-author { ... }
+   下面通过增加更具体的选择器并重置常见属性，来确保作者头像恢复默认小图行为。
+*/
+.md-typeset .md-author {
+	display: inline-block !important;
+	width: auto !important;
+	height: auto !important;
+	overflow: visible !important;
+	border-radius: 50% !important;
+}
+
