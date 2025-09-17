@@ -22,7 +22,7 @@
 | 用校园网翻墙或看一些成人多媒体会被抓吗？ | 某些学校确实会，但是广技师目前未听闻 |
 
 ## 河源校区
-![河源-图书馆](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-图书馆.jpg)
+![河源校区-首图](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-首图.jpg)
 
 ### 地图
 
@@ -41,6 +41,10 @@
 
 ### A区宿舍
 ![河源-a区宿舍](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-a区宿舍.jpg)
+
+### 图书馆
+![河源-图书馆](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-图书馆.jpg)
+图书馆在建中，尚未开放。
 
 ### 南门小吃街
 ![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
@@ -308,7 +312,7 @@ TODO餐馆列表：
 
 - 假期该平台不提供服务
 - 可以点校内所有饭堂的饭，会有外卖员送到各个宿舍指定的存餐柜中，扫码解锁即可取餐。
-- B区有三个存餐柜，B5/B6北方一个，B1/B2南方一个，B4一个
+- B区有三个存餐柜，B5/B6北方一个，B1/B2南方一个，B4一个，小塘一个
 - **下雨天不要点**，外卖员不会立刻送的，而且该平台没有超时惩罚，所以大概要提前1小时。
 - 有些饭馆会在美团/淘宝/京东开店，通常比直接在这个小程序点便宜的多（例如淘宝闪购）
 - 该平台和拼好饭没有任何关系
