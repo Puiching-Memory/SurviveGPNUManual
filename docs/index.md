@@ -3,7 +3,7 @@
     广师大生存手册
   </h1>
   <p class="theme-text-secondary" style="font-size: 1.15em; margin: 0; margin-top: 0.15rem; font-weight: 300; letter-spacing: 0.04em; opacity: 0.9;">
-    Survive GPNU Manual V2025.09.15
+    Survive GPNU Manual V2025.09.17
   </p>
 
   <p class="theme-text-secondary" style="font-size: 0.85em; margin: 0.35rem 0 0; opacity: 0.7;">
