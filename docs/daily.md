@@ -140,10 +140,13 @@ TODO餐馆列表：
 TODO餐馆列表：
 
 - 有咖啡厅
+- 二楼有两台打印机
 
 ### 图书馆
 ![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpeg)
 ![白云校区-图书馆-2](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-2.jpeg)
+
+- 开放时间：早上8:00~晚上22:00
 
 ### 第一教学楼
 
@@ -270,6 +273,9 @@ TODO餐馆列表：
 </div>
 
 ![白云校区-小塘公寓.JPG](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG)
+
+- 有两家复印店，都配有很多打印机，有红印泥，本科毕业论文需要特殊纸张，可以去那里打印
+- 小塘公寓在大咖广场上面
 
 ### 后街
 
