@@ -72,14 +72,8 @@ plugins: # 插件
   - meta
   - blog:
       blog_dir: blog
-      post_readtime_words_per_minute: 100 # 每分钟阅读字数
+      post_readtime_words_per_minute: 80 # 每分钟阅读字数
   - glightbox # 图像查看器
-  # - to-pdf:
-  #     cover_title: 广师大生存手册
-  #     cover_subtitle: survive GPNU manual
-  #     copyright: GPNU 2025
-  #     author: 梦归云帆 L1NINE mybear123 光钻 eisofia 林登徒 Dimo 我可以 猫的双月术
-  #     download_link: header
   - charts
   - print-site
 
