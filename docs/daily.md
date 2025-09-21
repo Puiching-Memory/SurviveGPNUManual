@@ -127,6 +127,11 @@
 - B区垃圾站在B2南方
 - 上铺杆子高？米
 
+#### 水费支付
+微信-->广东技术师范大学财务处-->学生缴费
+*宿舍水费使用另一个不同的账号
+*每个月交一次
+
 ### A区宿舍
 ![白云校区-A区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg)
 

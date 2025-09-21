@@ -23,6 +23,7 @@ pip install -r requirements.txt
 
 ```bash
 mkdocs serve
+mkdocs serve -a 0.0.0.0:80 --no-livereload
 ```
 
 添加Github token到环境变量(可选)
@@ -51,4 +52,4 @@ cmd set MKDOCS_GIT_COMMITTERS_APIKEY=your_token_here
 
 ## 致谢
 
-@梦归云帆 @L1NINE @mybear123 @光钻 @eisofia @林登徒 @Dimo @我可以 @猫的双月术
+@梦归云帆 @L1NINE @mybear123 @光钻 @eisofia @林登徒 @Dimo @我可以 @猫的双月术 @小小登下士

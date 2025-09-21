@@ -3,11 +3,11 @@
     广师大生存手册
   </h1>
   <p class="theme-text-secondary" style="font-size: 1.15em; margin: 0; margin-top: 0.15rem; font-weight: 300; letter-spacing: 0.04em; opacity: 0.9;">
-    Survive GPNU Manual V2025.09.18
+    Survive GPNU Manual V2025.09.21
   </p>
 
   <p class="theme-text-secondary" style="font-size: 0.85em; margin: 0.35rem 0 0; opacity: 0.7;">
-    梦归云帆 &nbsp; L1NINE &nbsp; mybear123 &nbsp; 光钻 &nbsp; eisofia &nbsp; 林登徒 &nbsp; Dimo &nbsp; 我可以 &nbsp; 猫的双月术
+    梦归云帆 &nbsp; L1NINE &nbsp; mybear123 &nbsp; 光钻 &nbsp; eisofia &nbsp; 林登徒 &nbsp; Dimo &nbsp; 我可以 &nbsp; 猫的双月术 &nbsp; 小小登下士
   </p>
 </div>
 
