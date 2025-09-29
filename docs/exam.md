@@ -138,8 +138,8 @@ A: 大三开始没有外语课
 - 网络课需要先加入QQ群，要看《公共选修课的开课通知》
 
 抢课页面（校园网）：[http://202.192.72.43/jwglxt/server.htm](http://202.192.72.43/jwglxt/server.htm)  
-2025选课通知：[https://gpnu.edu.cn/info/1039/62981.htm](https://gpnu.edu.cn/info/1039/62981.htm)
-关于2025-2026学年第一学期全校网络公共选修课的开课通知: [https://www.gpnu.edu.cn/info/1039/63184.htm](https://www.gpnu.edu.cn/info/1039/63184.htm)
+2025选课通知：[https://gpnu.edu.cn/info/1039/62981.htm](https://gpnu.edu.cn/info/1039/62981.htm)  
+关于2025-2026学年第一学期全校网络公共选修课的开课通知: [https://www.gpnu.edu.cn/info/1039/63184.htm](https://www.gpnu.edu.cn/info/1039/63184.htm)  
 
 ## 成绩计算
 

@@ -132,6 +132,12 @@
 *宿舍水费使用另一个不同的账号
 *每个月交一次
 
+#### 电费支付
+先依据*校园卡充值*将钱充到在线数值上
+然后：企业微信-->我的校园卡-->缴电费
+房间号格式：b/a0x0xxx
+密码：身份证后六位
+
 ### A区宿舍
 ![白云校区-A区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg)
 
