@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:04:31.447Z
+date: 2025-10-14T10:09:17.419Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -62,7 +62,7 @@ dateCreated: 2025-10-14T08:47:33.049Z
 ---
 
 ## 白云校区
-![白云校区-首图](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-首图.jpg)
+![白云校区-首图.jpg](/assets/白云校区-首图.jpg)
 
 ### FQA栏目
 
@@ -104,10 +104,10 @@ dateCreated: 2025-10-14T08:47:33.049Z
 白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)  
 白云校区卫星标注地图（带定位）:[]()
 
-![白云校区-地图.webp](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-地图.webp)
+![白云校区-地图.webp](/assets/白云校区-地图.webp)
 
 ### 推荐阅读
-[blog/[2025]广师大白云校区入门手册](blog/posts/tieba-9754849630.md)  
+[blog/[2025]广师大白云校区入门手册](/blog/tieba-9754849630)
 
 ### 白云校园网入网教程
 
@@ -122,14 +122,12 @@ dateCreated: 2025-10-14T08:47:33.049Z
 - 暂未购买校园网，gpnu.edu.cn这个WIFI能够临时免费使用，不过质量特别差
 - 可以拉物理网线，出口在天花板路由器，所以至少需要2米长的网线
 
-![白云校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-入网阔谱图.jpg)
+![白云校区-入网阔谱图.jpg](/assets/白云校区-入网阔谱图.jpg)
 
 ### B区宿舍
-![白云校区-B区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-1.jpg)
-
-![白云校区-B区宿舍-2.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-2.jpg)
-
-![白云校区-B区宿舍-3.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-B区宿舍-3.jpg)
+![白云校区-b区宿舍-1.jpg](/assets/白云校区-b区宿舍-1.jpg)
+![白云校区-b区宿舍-2.jpg](/assets/白云校区-b区宿舍-2.jpg)
+![白云校区-b区宿舍-3.jpg](/assets/白云校区-b区宿舍-3.jpg)
 
 - B区的床，上铺是有蚊帐支架的，两个床之间会有个梯子，这个图是完工前的所以没有
 - B区所有宿舍规格相同
@@ -149,7 +147,7 @@ dateCreated: 2025-10-14T08:47:33.049Z
 密码：身份证后六位
 
 ### A区宿舍
-![白云校区-A区宿舍-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-A区宿舍-1.jpg)
+![白云校区-a区宿舍-1.jpg](/assets/白云校区-a区宿舍-1.jpg)
 
 ### 第一饭堂
 TODO餐馆列表：
@@ -164,8 +162,8 @@ TODO餐馆列表：
 - 二楼有两台打印机
 
 ### 图书馆
-![白云校区-图书馆-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-1.jpeg)
-![白云校区-图书馆-2](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-图书馆-2.jpeg)
+![白云校区-图书馆-1.jpeg](/assets/白云校区-图书馆-1.jpeg)
+![白云校区-图书馆-2.jpeg](/assets/白云校区-图书馆-2.jpeg)
 
 - 开放时间：早上8:00~晚上22:00
 
@@ -257,7 +255,7 @@ TODO餐馆列表：
 ### 青春广场
 
 ### 学生活动中心
-![白云校区-学生活动中心-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-学生活动中心-1.jpg)
+![白云校区-学生活动中心-1.jpg](/assets/白云校区-学生活动中心-1.jpg)
 
 三楼和四楼：创新创业学院
 
@@ -295,7 +293,7 @@ TODO餐馆列表：
   </div>
 </div>
 
-![白云校区-小塘公寓.JPG](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-小塘公寓.JPG)
+![白云校区-小塘公寓.jpg](/assets/白云校区-小塘公寓.jpg)
 
 - 有两家复印店，都配有很多打印机，有红印泥，本科毕业论文需要特殊纸张，可以去那里打印
 - 小塘公寓在大咖广场上面
@@ -373,16 +371,16 @@ TODO餐馆列表：
 ### 地图
 
 ### 推荐阅读
-[blog/广东技术师范大学 东校区 食用指北](blog/posts/tieba-9053331608.md)  
+[blog/广东技术师范大学 东校区 食用指北](/blog/tieba-9053331608)
 
 ### 广东工业实训中心
-![东校区-广东工业实训中心-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-广东工业实训中心-1.jpg)
+![东校区-广东工业实训中心-1.jpg](/assets/东校区-广东工业实训中心-1.jpg)
 
 ### 春晖园
-![东校区-春晖园-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-春晖园-1.jpg)
+![东校区-春晖园-1.jpg](/assets/东校区-春晖园-1.jpg)
 
 ### 操场
-![东校区-操场-1.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/东校区-操场-1.jpg)
+![东校区-操场-1.jpg](/assets/东校区-操场-1.jpg)
 
 
 ---
@@ -392,16 +390,16 @@ TODO餐馆列表：
 ### 地图
 
 ### 饭堂
-![XQ-FT-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-FT-1.jpg)
+![xq-ft-1.jpg](/assets/xq-ft-1.jpg)
 
 ### 操场
-![XQ-CC-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-CC-1.jpg)
+![xq-cc-1.jpg](/assets/xq-cc-1.jpg)
 
 ### 信创楼
-![XQ-XCL-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/XQ-XCL-1.jpg)
+![xq-xcl-1.jpg](/assets/xq-xcl-1.jpg)
 
 ### 宿舍
-![西校区宿舍.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/西校区宿舍.jpg)
+![西校区宿舍.jpg](/assets/西校区宿舍.jpg)
 
 ### 
 
