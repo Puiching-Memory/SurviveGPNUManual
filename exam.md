@@ -1,3 +1,13 @@
+---
+title: 学业
+description: 
+published: true
+date: 2025-10-14T12:28:23.302Z
+tags: 
+editor: markdown
+dateCreated: 2025-10-14T12:28:23.302Z
+---
+
 ## 课程学习资料
 
 !!! 提示
