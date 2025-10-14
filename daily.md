@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:01:48.667Z
+date: 2025-10-14T10:04:31.447Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -32,12 +32,12 @@ dateCreated: 2025-10-14T08:47:33.049Z
 | 用校园网翻墙或看一些成人多媒体会被抓吗？ | 某些学校确实会，但是广技师目前未听闻 |
 
 ## 河源校区
-![河源校区-首图](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-首图.jpg)
+![河源校区-首图.jpg](/assets/河源校区-首图.jpg)
 
 ### 地图
 
 ### 推荐阅读
-[blog/广师大河源校区生存指北](blog/posts/tieba-8394029114.md)  
+[blog/广师大河源校区生存指北](/blog/tieba-8394029114)
 
 ### 河源校园网入网教程
 
@@ -47,17 +47,17 @@ dateCreated: 2025-10-14T08:47:33.049Z
 中间要预充值一百块  
 卡每月扣29+10元，有流量通话和100m的校园网宽带  
 
-![河源校区-入网阔谱图.jpg](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源校区-入网阔谱图.jpg)
+![河源校区-入网阔谱图.jpg](/assets/河源校区-入网阔谱图.jpg)
 
 ### A区宿舍
-![河源-a区宿舍](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-a区宿舍.jpg)
+![河源-a区宿舍.jpg](/assets/河源-a区宿舍.jpg)
 
 ### 图书馆
-![河源-图书馆](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/河源-图书馆.jpg)
+![河源-图书馆.jpg](/assets/河源-图书馆.jpg)
 图书馆在建中，尚未开放。
 
 ### 南门小吃街
-![HY-NMXCJ-1](https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/HY-NMXCJ-1.jpg)
+![hy-nmxcj-1.jpg](/assets/hy-nmxcj-1.jpg)
 
 ---
 
