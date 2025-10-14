@@ -1,10 +1,20 @@
+---
+title: 校园生活
+description: 
+published: true
+date: 2025-10-14T10:01:48.667Z
+tags: 
+editor: markdown
+dateCreated: 2025-10-14T08:47:33.049Z
+---
+
 <script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
 
 ## 校历 2024-2025年度
 
-![2025xiaoli-1](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-1.jpg)
-![2025xiaoli-2](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-2.jpg)
-![2025xiaoli-3](https://media.githubusercontent.com/media/Puiching-Memory/SurviveGPNUManual/refs/heads/main/docs/assets/2025xiaoli-3.jpg)
+![2025xiaoli-1.jpg](/assets/2025xiaoli-1.jpg)
+![2025xiaoli-2.jpg](/assets/2025xiaoli-2.jpg)
+![2025xiaoli-3.jpg](/assets/2025xiaoli-3.jpg)
 
 !!! 注意
     目前(2025年)晚上，白云校区：熄灯无强制要求，河源校区：11：30后熄灯，晚上不断网不断电。作息时间表**仅上课时间强制要求**，其他时间同学们自己安排生活作息  
