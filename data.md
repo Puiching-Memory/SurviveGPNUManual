@@ -1,13 +1,3 @@
----
-title: 资料
-description: 
-published: true
-date: 2025-10-13T12:33:06.330Z
-tags: 
-editor: markdown
-dateCreated: 2025-10-13T12:33:06.330Z
----
-
 
 ## 3DGS技术使用指南
 

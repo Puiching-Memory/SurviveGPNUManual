@@ -1,13 +1,3 @@
----
-title: 校园生活
-description: 
-published: true
-date: 2025-10-13T12:31:45.692Z
-tags: 
-editor: markdown
-dateCreated: 2025-10-13T12:31:45.692Z
----
-
 <script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
 
 ## 校历 2024-2025年度

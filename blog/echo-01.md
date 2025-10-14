@@ -1,14 +1,4 @@
 ---
-title: 在外实习感悟
-description: 
-published: true
-date: 2025-10-13T12:59:00.520Z
-tags: 
-editor: markdown
-dateCreated: 2025-10-13T12:59:00.519Z
----
-
----
 date: 2025-08-02
 title: 在外实习感悟
 authors:

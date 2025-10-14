@@ -1,13 +1,3 @@
----
-title: 升学
-description: 
-published: true
-date: 2025-10-13T12:25:53.441Z
-tags: 
-editor: markdown
-dateCreated: 2025-10-13T12:25:53.441Z
----
-
 <!-- 图表脚本已移至全站 javascripts/charts-init.js 中，以适配 MkDocs Material 的 SPA 导航并确保容器渲染后再初始化 -->
 
 ## 学校排名

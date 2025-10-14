@@ -1,13 +1,3 @@
----
-title: 技巧
-description: 
-published: true
-date: 2025-10-13T12:30:18.942Z
-tags: 
-editor: markdown
-dateCreated: 2025-10-13T12:30:18.942Z
----
-
 ## 教育邮箱
 
 [关于开通师生校内电子邮箱自助申请服务的通知](https://www.gpnu.edu.cn/info/1040/59634.htm)  
