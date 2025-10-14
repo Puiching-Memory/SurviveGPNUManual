@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:59:10.294Z
+date: 2025-10-14T11:00:49.957Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -236,35 +236,37 @@ Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaus
 三楼和四楼：创新创业学院
 
 ### 大咖广场/小塘公寓
-<div class="sketchfab-embed-wrapper embed-card"> 
-  <iframe 
-    title="大咖3D模型" 
-    frameborder="0" 
-    allowfullscreen 
-    mozallowfullscreen="true" 
-    webkitallowfullscreen="true" 
-    allow="autoplay; fullscreen; xr-spatial-tracking" 
-    xr-spatial-tracking 
-    execution-while-out-of-viewport 
-    execution-while-not-rendered 
-    web-share 
-    class="embed-frame"
-    src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"> 
-  </iframe> 
-  <p class="embed-credits"> 
-    <a href="https://sketchfab.com/3d-models/0b4e15231f8a4d3dbae673c5325969cf?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
-      校园大咖3D模型 
+<div style="width: 100%; max-width: 800px; margin: 0 auto;">
+  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
+    <iframe 
+      title="大咖3D模型" 
+      frameborder="0" 
+      allowfullscreen 
+      mozallowfullscreen="true" 
+      webkitallowfullscreen="true" 
+      allow="autoplay; fullscreen; xr-spatial-tracking" 
+      xr-spatial-tracking 
+      execution-while-out-of-viewport 
+      execution-while-not-rendered 
+      web-share 
+      src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+  </div>
+  <p style="margin: 8px 0; font-size: 14px; line-height: 1.4; color: #333;">
+    <a href="https://sketchfab.com/3d-models/0b4e15231f8a4d3dbae673c5325969cf?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
+      校园大咖3D模型
     </a> 
     by 
-    <a href="https://sketchfab.com/Puiching-Memory?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> 
-      Puiching-Memory 
+    <a href="https://sketchfab.com/Puiching-Memory?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
+      Puiching-Memory
     </a> 
     on 
-    <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">
+    <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
       Sketchfab
     </a>
   </p>
-  <div class="embed-note embed-note--cyan">
+  <div style="background-color: #e0f7fa; color: #006064; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
     💡 提示：点击并拖拽可旋转视角，滚轮缩放，右键拖拽平移视角
   </div>
 </div>
