@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:54:30.648Z
+date: 2025-10-14T10:55:59.980Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -187,7 +187,7 @@ Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaus
     </iframe>
   </div>
   <div style="background-color: #e6f2ff; color: #004085; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
-    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
+    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
   </div>
 </div>
 
