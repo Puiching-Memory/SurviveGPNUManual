@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:55:59.980Z
+date: 2025-10-14T10:59:10.294Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -191,38 +191,27 @@ Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaus
   </div>
 </div>
 
+
 ### 第三教学楼
 
 ### 第一实训楼
 ### 第二实训楼
+![白云校区-第二实训楼.jpg](/assets/白云校区-第二实训楼.jpg)
+![白云校区-二训-3d.jpg](/assets/白云校区-二训-3d.jpg)
 
-<div class="two-col-images">
-  <figure class="two-col-item">
-    <img
-      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-第二实训楼.JPG"
-      alt="白云校区-第二实训楼"
-      loading="lazy"
-    />
-  </figure>
-  <figure class="two-col-item">
-    <img
-      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/白云校区-二训-3D.jpg"
-      alt="白云校区-第二实训楼-3D"
-      loading="lazy"
-    />
-  </figure>
-</div>
 
-<div class="embed-card">
-  <iframe 
-    src="https://poly.cam/capture/fe6354d5-824d-49fa-893f-a47bacdb1f65/embed" 
-    title="第二实训楼 - Polycam 3D扫描" 
-    class="embed-frame"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-  <div class="embed-note embed-note--blue">
-    第二实训楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
+<div style="width: 100%; max-width: 800px; margin: 0 auto;">
+  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
+    <iframe 
+      src="https://poly.cam/capture/fe6354d5-824d-49fa-893f-a47bacdb1f65/embed"
+      title="第二实训楼 - Polycam 3D扫描"
+      frameborder="0"
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+  </div>
+  <div style="background-color: #e6f2ff; color: #004085; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
+    第二实训楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
   </div>
 </div>
 
