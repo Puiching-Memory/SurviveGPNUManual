@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:09:17.419Z
+date: 2025-10-14T10:50:51.463Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -170,26 +170,11 @@ TODO餐馆列表：
 ### 第一教学楼
 
 ### 第二教学楼
-<div class="two-col-images">
-  <figure class="two-col-item">
-    <img
-      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-1.jpg"
-      alt="TH2-1"
-      loading="lazy"
-    />
-  </figure>
-  <figure class="two-col-item">
-    <img
-      src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/BYQ-TH2-2.jpg"
-      alt="TH2-2"
-      loading="lazy"
-    />
-  </figure>
-  
-  <figcaption class="two-col-caption">
-    Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
-  </figcaption>
-</div>
+![byq-th2-1.jpg](/assets/byq-th2-1.jpg)
+![byq-th2-2.jpg](/assets/byq-th2-2.jpg)
+
+Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
+
 
 <div class="embed-card">
   <iframe 
