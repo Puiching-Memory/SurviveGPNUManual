@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T10:50:51.463Z
+date: 2025-10-14T10:54:30.648Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -176,15 +176,17 @@ TODO餐馆列表：
 Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
 
 
-<div class="embed-card">
-  <iframe 
-    src="https://poly.cam/capture/faa1bd81-14a0-467c-b8d9-acb40f10cf82/embed" 
-    title="第二教学楼 - Polycam 3D扫描" 
-    class="embed-frame"
-    frameborder="0"
-    allowfullscreen>
-  </iframe>
-  <div class="embed-note embed-note--blue">
+<div style="width: 100%; max-width: 800px; margin: 0 auto;">
+  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
+    <iframe 
+      src="https://poly.cam/capture/faa1bd81-14a0-467c-b8d9-acb40f10cf82/embed"
+      title="第二教学楼 - Polycam 3D扫描"
+      frameborder="0"
+      allowfullscreen
+      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
+    </iframe>
+  </div>
+  <div style="background-color: #e6f2ff; color: #004085; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
     第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏，FIXME:手机无法显示
   </div>
 </div>
