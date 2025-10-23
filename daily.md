@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-23T15:51:42.004Z
+date: 2025-10-23T15:54:51.761Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -409,6 +409,8 @@ Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaus
 ### 学生会
 ### 社团联合会
 ### 志愿者协会
+一般负责组织校园志愿活动，刷志愿时长可以考虑参加他们发布的一些校内志愿活动（有时会和外面组织合作举办一些校外活动，比如去河源万绿湖捡垃圾）
+
 ### 研究生会
 ### 艺术团
 ### 红十字会
