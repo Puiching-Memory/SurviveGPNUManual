@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-14T11:00:49.957Z
+date: 2025-10-23T15:39:42.654Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -59,6 +59,7 @@ dateCreated: 2025-10-14T08:47:33.049Z
 ### 南门小吃街
 ![hy-nmxcj-1.jpg](/assets/hy-nmxcj-1.jpg)
 
+###医务室
 ---
 
 ## 白云校区
