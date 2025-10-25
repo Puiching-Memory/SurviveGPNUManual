@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-25T15:21:02.448Z
+date: 2025-10-25T15:22:36.015Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -62,6 +62,7 @@ dateCreated: 2025-10-14T08:47:33.049Z
 
 ### 南门小吃街
 ![hy-nmxcj-1.jpg](/assets/hy-nmxcj-1.jpg)
+###订水
 
 ### 医务室
 河源医务室位于学生活动中心107室
