@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-23T15:54:51.761Z
+date: 2025-10-25T15:17:26.665Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -49,12 +49,16 @@ dateCreated: 2025-10-14T08:47:33.049Z
 
 ![河源校区-入网阔谱图.jpg](/assets/河源校区-入网阔谱图.jpg)
 
-### A区宿舍
+### 北苑宿舍
 ![河源-a区宿舍.jpg](/assets/河源-a区宿舍.jpg)
+
+### 南苑宿舍
 
 ### 图书馆
 ![河源-图书馆.jpg](/assets/河源-图书馆.jpg)
 图书馆在建中，尚未开放。
+
+### 北门小吃街
 
 ### 南门小吃街
 ![hy-nmxcj-1.jpg](/assets/hy-nmxcj-1.jpg)
