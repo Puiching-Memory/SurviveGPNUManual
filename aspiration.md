@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T06:32:50.578Z
+date: 2025-10-26T06:51:59.414Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -15,33 +15,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 <script src="echarts.js"></script>
 <div id="main" style="width: 600px;height:400px;"></div>
 <script type="text/javascript">
-      // 基于准备好的dom，初始化echarts实例
-      var myChart = echarts.init(document.getElementById('main'));
-
-      // 指定图表的配置项和数据
-      var option = {
-        title: {
-          text: 'ECharts 入门示例'
-        },
-        tooltip: {},
-        legend: {
-          data: ['销量']
-        },
-        xAxis: {
-          data: ['衬衫', '羊毛衫', '雪纺衫', '裤子', '高跟鞋', '袜子']
-        },
-        yAxis: {},
-        series: [
-          {
-            name: '销量',
-            type: 'bar',
-            data: [5, 20, 36, 10, 10, 20]
-          }
-        ]
-      };
-
-      // 使用刚指定的配置项和数据显示图表。
-      myChart.setOption(option);
+  var myChart = echarts.init(document.getElementById('main'));
 </script>
 
 
@@ -150,9 +124,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 河源校区单独编设院校代码招生，招生学院为体育与健康学院、数据科学与工程学院、数字创意学院和基础教育学院。  
 学生入学后如需申请转专业，**只限**在单独编设院校代码的招生院校专业间进行。  
 
-<div style="text-align:center;">
-  <img src="https://github.com/Puiching-Memory/SurviveGPNUManual/raw/refs/heads/main/docs/assets/2024转专业要求-部分.png" alt="2024转专业要求-部分.png" style="width: 100%; max-width: 600px; height: auto;">
-</div>
+![2024转专业要求-部分.png](/assets/2024转专业要求-部分.png)
 
 ## 辅修专业/双学位
 1. 双学位是教育局承认的，会记录到学信网。辅修是学校承认的，不会记录到学信网
