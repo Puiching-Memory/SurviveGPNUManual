@@ -1,12 +1,16 @@
+---
+title: 升学
+description: 
+published: true
+date: 2025-10-26T05:49:08.621Z
+tags: 
+editor: markdown
+dateCreated: 2025-10-14T08:47:25.981Z
+---
+
 <!-- 图表脚本已移至全站 javascripts/charts-init.js 中，以适配 MkDocs Material 的 SPA 导航并确保容器渲染后再初始化 -->
 
 ## 学校排名
-
-!!! Bug 025-06-29
-    FIXME[错误]：此处图表第一次不会加载，需要一次手动刷新才可见
-
-!!! Bug 025-06-30
-    FIXME[错误]：专业名称未添加入静态索引，无法被搜索工具找到
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
