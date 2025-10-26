@@ -2,7 +2,7 @@
 title: README
 description: 
 published: true
-date: 2025-10-26T05:33:53.383Z
+date: 2025-10-26T05:34:34.192Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:16.494Z
@@ -11,6 +11,7 @@ dateCreated: 2025-10-14T08:47:16.494Z
 # SurviveGPNUManual
 
 广师大生存手册
+https://www.pullmypush.xyz/
 
 ## 开发环境
 
