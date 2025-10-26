@@ -2,78 +2,43 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T05:49:08.621Z
+date: 2025-10-26T06:03:49.792Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
 ---
 
-<!-- 图表脚本已移至全站 javascripts/charts-init.js 中，以适配 MkDocs Material 的 SPA 导航并确保容器渲染后再初始化 -->
-
 ## 学校排名
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
-```vegalite 
-{
-    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "background": "transparent",
-    "config": { "view": { "fill": "transparent" }},
-    "title": { "text": "软科中国大学排名--广东技术师范大学", "frame": "bounds" },
-    "data": { "url": "assets/charts/shanghairranking.csv" },
-    "encoding": {
-        "x": { "field": "年份", "type": "nominal", "axis": { "labelAngle": 0, "grid": true, "ticks": true, "tickSize": 6 } },
-        "tooltip": [
-            { "field": "年份", "type": "nominal" },
-            { "field": "排名", "type": "quantitative" }
-        ]
-    },
-    "layer": [
-        {
-            "mark": { "type": "line", "interpolate": "monotone" },
-            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false }, "axis": { "grid": true, "ticks": true} } }
-        },
-        {
-            "mark": { "type": "point", "filled": false, "fill": "white", "size": 60 },
-            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
-        }
-        ,
-        {
-            "mark": { "type": "point", "filled": true, "opacity": 0, "size": 400 },
-            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
-        }
-    ]
-}
-```
+var echarts = require('echarts');
+
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
+
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [150, 230, 224, 218, 135, 147, 260],
+      type: 'line'
+    }
+  ]
+};
+
+option && myChart.setOption(option);
+
 
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
 
-```vegalite 
-{
-    "$schema": "https://vega.github.io/schema/vega-lite/v6.json",
-    "background": "transparent",
-    "config": { "view": { "fill": "transparent" }},
-    "title": { "text": "武书连中国大学排名--广东技术师范大学", "frame": "bounds" },
-    "data": { "url": "assets/charts/wurank.csv" },
-    "encoding": {
-        "x": { "field": "年份", "type": "nominal", "axis": { "labelAngle": 0, "grid": true, "ticks": true, "tickSize": 6 } },
-        "tooltip": [
-            { "field": "年份", "type": "nominal" },
-            { "field": "排名", "type": "quantitative" }
-        ]
-    },
-    "layer": [
-        {
-            "mark": { "type": "line", "interpolate": "monotone" },
-            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false }, "axis": { "grid": true, "ticks": true} } }
-        },
-        {
-            "mark": { "type": "point", "filled": false, "fill": "white", "size": 60 },
-            "encoding": { "y": { "field": "排名", "type": "quantitative", "scale": { "zero": false } } }
-        }
-    ]
-}
-```
 
 ## 高考招生
 **志愿代码：10588**  
