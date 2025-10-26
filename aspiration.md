@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T06:29:30.761Z
+date: 2025-10-26T06:29:51.631Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -41,7 +41,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
       // 使用刚指定的配置项和数据显示图表。
       myChart.setOption(option);
-    </script>
+</script>
 
 
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
