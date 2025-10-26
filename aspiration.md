@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:13:49.198Z
+date: 2025-10-26T08:31:55.094Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -12,7 +12,26 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
-<iframe src="/iframe/shanghairanking.html" title="销售数据图表"></iframe>
+<!-- 引入 ECharts CDN -->
+<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+
+<!-- 图表容器 -->
+<div id="chart" style="width: 600px; height: 400px;"></div>
+
+<!-- 初始化图表 -->
+<script>
+  const chart = echarts.init(document.getElementById('chart'));
+  chart.setOption({
+    title: { text: '示例折线图' },
+    tooltip: {},
+    xAxis: { type: 'category', data: ['A', 'B', 'C', 'D'] },
+    yAxis: { type: 'value' },
+    series: [{
+      data: [120, 200, 150, 80],
+      type: 'line'
+    }]
+  });
+</script>
 
 [shanghairanking.html](/iframe/shanghairanking.html)[shanghairanking.html](/assets/shanghairanking.html)
 
