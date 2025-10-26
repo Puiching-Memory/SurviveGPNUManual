@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T06:29:51.631Z
+date: 2025-10-26T06:32:50.578Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -12,6 +12,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
+<script src="echarts.js"></script>
 <div id="main" style="width: 600px;height:400px;"></div>
 <script type="text/javascript">
       // 基于准备好的dom，初始化echarts实例
