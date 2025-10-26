@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:34:08.362Z
+date: 2025-10-26T08:40:09.598Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -12,12 +12,14 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<canvas id="myChart" width="400" height="200"></canvas>
-<script>
-  const ctx = document.getElementById('myChart').getContext('2d');
-  new Chart(ctx, { type: 'bar', data: { labels: ['A','B'], datasets: [{ label: '值', data: [10,20] }] } });
-</script>
+```mermaid
+flowchart TD
+    A[Christmas] -->|Get money| B(Go shopping)
+    B --> C{Let me think}
+    C -->|One| D[Laptop]
+    C -->|Two| E[iPhone]
+    C -->|Three| F[fa:fa-car Car]
+```
 
 [shanghairanking.html](/iframe/shanghairanking.html)[shanghairanking.html](/assets/shanghairanking.html)
 
