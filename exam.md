@@ -2,17 +2,19 @@
 title: 学业
 description: 
 published: true
-date: 2025-10-14T12:28:23.302Z
+date: 2025-10-26T05:47:16.286Z
 tags: 
 editor: markdown
-dateCreated: 2025-10-14T12:28:23.302Z
+dateCreated: 2025-10-14T09:45:18.739Z
 ---
 
 ## 课程学习资料
 
-!!! 提示
-    使用 ++ctrl+f++ 可搜索当前页面关键词或使用网站顶部搜索工具  
-    大学生唯一指定考试周视频：[【考试周破防】4K高清重制版](https://www.bilibili.com/video/BV1XM4y1c7Jp/)
+> 信息
+> 使用 <kbd>ctrl+f</kbd> 可搜索当前页面关键词或使用网站顶部搜索工具  
+> 大学生唯一指定考试周视频：[【考试周破防】4K高清重制版](https://www.bilibili.com/video/BV1XM4y1c7Jp/)
+{.is-info}
+
 
 数据将存放于Github Release页面  
 课程分类参考开课学院
