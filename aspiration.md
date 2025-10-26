@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:48:33.118Z
+date: 2025-10-26T08:56:53.272Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -17,28 +17,234 @@ dateCreated: 2025-10-14T08:47:25.981Z
   height="400"
   frameborder="0"
   srcdoc="
-    <!DOCTYPE html>
-    <html>
-    <head>
-      <meta charset='utf-8'>
-      <script src='https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js'></script>
-      <style>
-        html, body, #main { width: 100%; height: 100%; margin: 0; }
-      </style>
-    </head>
-    <body>
-      <div id='main'></div>
-      <script>
-        const chart = echarts.init(document.getElementById('main'));
-        chart.setOption({
-          title: { text: '内联图表' },
-          xAxis: { type: 'category', data: ['X', 'Y'] },
-          yAxis: { type: 'value' },
-          series: [{ type: 'bar', data: [5, 15] }]
-        });
-      </script>
-    </body>
-    </html>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
+                &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/v5/echarts.min.js&quot;&gt;&lt;/script&gt;
+
+    
+&lt;/head&gt;
+&lt;body &gt;
+    &lt;div id=&quot;b72e10a2f2ae48f5b3c88de00c286157&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px; &quot;&gt;&lt;/div&gt;
+    &lt;script&gt;
+        var chart_b72e10a2f2ae48f5b3c88de00c286157 = echarts.init(
+            document.getElementById(&#x27;b72e10a2f2ae48f5b3c88de00c286157&#x27;), &#x27;white&#x27;, {renderer: &#x27;canvas&#x27;, locale: &#x27;ZH&#x27;});
+        var option_b72e10a2f2ae48f5b3c88de00c286157 = {
+    &quot;animation&quot;: true,
+    &quot;animationThreshold&quot;: 2000,
+    &quot;animationDuration&quot;: 1000,
+    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelay&quot;: 0,
+    &quot;animationDurationUpdate&quot;: 300,
+    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+    &quot;animationDelayUpdate&quot;: 0,
+    &quot;aria&quot;: {
+        &quot;enabled&quot;: false
+    },
+    &quot;color&quot;: [
+        &quot;#5470c6&quot;,
+        &quot;#91cc75&quot;,
+        &quot;#fac858&quot;,
+        &quot;#ee6666&quot;,
+        &quot;#73c0de&quot;,
+        &quot;#3ba272&quot;,
+        &quot;#fc8452&quot;,
+        &quot;#9a60b4&quot;,
+        &quot;#ea7ccc&quot;
+    ],
+    &quot;series&quot;: [
+        {
+            &quot;type&quot;: &quot;line&quot;,
+            &quot;name&quot;: &quot;\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d&quot;,
+            &quot;connectNulls&quot;: false,
+            &quot;xAxisIndex&quot;: 0,
+            &quot;symbolSize&quot;: 4,
+            &quot;showSymbol&quot;: true,
+            &quot;smooth&quot;: false,
+            &quot;clip&quot;: true,
+            &quot;step&quot;: false,
+            &quot;stackStrategy&quot;: &quot;samesign&quot;,
+            &quot;data&quot;: [
+                [
+                    &quot;2021&quot;,
+                    306
+                ],
+                [
+                    &quot;2022&quot;,
+                    292
+                ],
+                [
+                    &quot;2023&quot;,
+                    314
+                ],
+                [
+                    &quot;2024&quot;,
+                    328
+                ],
+                [
+                    &quot;2025&quot;,
+                    319
+                ]
+            ],
+            &quot;hoverAnimation&quot;: true,
+            &quot;label&quot;: {
+                &quot;show&quot;: true,
+                &quot;margin&quot;: 8,
+                &quot;valueAnimation&quot;: false
+            },
+            &quot;logBase&quot;: 10,
+            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
+            &quot;lineStyle&quot;: {
+                &quot;show&quot;: true,
+                &quot;width&quot;: 1,
+                &quot;opacity&quot;: 1,
+                &quot;curveness&quot;: 0,
+                &quot;type&quot;: &quot;solid&quot;
+            },
+            &quot;areaStyle&quot;: {
+                &quot;opacity&quot;: 0
+            },
+            &quot;zlevel&quot;: 0,
+            &quot;z&quot;: 0
+        }
+    ],
+    &quot;legend&quot;: [
+        {
+            &quot;data&quot;: [
+                &quot;\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d&quot;
+            ],
+            &quot;selected&quot;: {},
+            &quot;show&quot;: true,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;itemWidth&quot;: 25,
+            &quot;itemHeight&quot;: 14,
+            &quot;backgroundColor&quot;: &quot;transparent&quot;,
+            &quot;borderColor&quot;: &quot;#ccc&quot;,
+            &quot;borderRadius&quot;: 0,
+            &quot;pageButtonItemGap&quot;: 5,
+            &quot;pageButtonPosition&quot;: &quot;end&quot;,
+            &quot;pageFormatter&quot;: &quot;{current}/{total}&quot;,
+            &quot;pageIconColor&quot;: &quot;#2f4554&quot;,
+            &quot;pageIconInactiveColor&quot;: &quot;#aaa&quot;,
+            &quot;pageIconSize&quot;: 15,
+            &quot;animationDurationUpdate&quot;: 800,
+            &quot;selector&quot;: false,
+            &quot;selectorPosition&quot;: &quot;auto&quot;,
+            &quot;selectorItemGap&quot;: 7,
+            &quot;selectorButtonGap&quot;: 10
+        }
+    ],
+    &quot;tooltip&quot;: {
+        &quot;show&quot;: true,
+        &quot;trigger&quot;: &quot;item&quot;,
+        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
+        &quot;axisPointer&quot;: {
+            &quot;type&quot;: &quot;line&quot;
+        },
+        &quot;showContent&quot;: true,
+        &quot;alwaysShowContent&quot;: false,
+        &quot;showDelay&quot;: 0,
+        &quot;hideDelay&quot;: 100,
+        &quot;enterable&quot;: false,
+        &quot;confine&quot;: false,
+        &quot;appendToBody&quot;: false,
+        &quot;transitionDuration&quot;: 0.4,
+        &quot;textStyle&quot;: {
+            &quot;fontSize&quot;: 14
+        },
+        &quot;borderWidth&quot;: 0,
+        &quot;padding&quot;: 5,
+        &quot;order&quot;: &quot;seriesAsc&quot;
+    },
+    &quot;xAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: true,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;animation&quot;: true,
+            &quot;animationThreshold&quot;: 2000,
+            &quot;animationDuration&quot;: 1000,
+            &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+            &quot;animationDelay&quot;: 0,
+            &quot;animationDurationUpdate&quot;: 300,
+            &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+            &quot;animationDelayUpdate&quot;: 0,
+            &quot;data&quot;: [
+                &quot;2021&quot;,
+                &quot;2022&quot;,
+                &quot;2023&quot;,
+                &quot;2024&quot;,
+                &quot;2025&quot;
+            ]
+        }
+    ],
+    &quot;yAxis&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;scale&quot;: false,
+            &quot;nameLocation&quot;: &quot;end&quot;,
+            &quot;nameGap&quot;: 15,
+            &quot;inverse&quot;: false,
+            &quot;offset&quot;: 0,
+            &quot;splitNumber&quot;: 5,
+            &quot;min&quot;: &quot;dataMin&quot;,
+            &quot;max&quot;: &quot;dataMax&quot;,
+            &quot;minInterval&quot;: 0,
+            &quot;splitLine&quot;: {
+                &quot;show&quot;: true,
+                &quot;lineStyle&quot;: {
+                    &quot;show&quot;: true,
+                    &quot;width&quot;: 1,
+                    &quot;opacity&quot;: 1,
+                    &quot;curveness&quot;: 0,
+                    &quot;type&quot;: &quot;solid&quot;
+                }
+            },
+            &quot;animation&quot;: true,
+            &quot;animationThreshold&quot;: 2000,
+            &quot;animationDuration&quot;: 1000,
+            &quot;animationEasing&quot;: &quot;cubicOut&quot;,
+            &quot;animationDelay&quot;: 0,
+            &quot;animationDurationUpdate&quot;: 300,
+            &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
+            &quot;animationDelayUpdate&quot;: 0
+        }
+    ],
+    &quot;title&quot;: [
+        {
+            &quot;show&quot;: true,
+            &quot;target&quot;: &quot;blank&quot;,
+            &quot;subtarget&quot;: &quot;blank&quot;,
+            &quot;padding&quot;: 5,
+            &quot;itemGap&quot;: 10,
+            &quot;textAlign&quot;: &quot;auto&quot;,
+            &quot;textVerticalAlign&quot;: &quot;auto&quot;,
+            &quot;triggerEvent&quot;: false
+        }
+    ]
+};
+        chart_b72e10a2f2ae48f5b3c88de00c286157.setOption(option_b72e10a2f2ae48f5b3c88de00c286157);
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
   "
 ></iframe>
 
