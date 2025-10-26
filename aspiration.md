@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:58:09.320Z
+date: 2025-10-26T08:58:51.651Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -20,228 +20,228 @@ dateCreated: 2025-10-14T08:47:25.981Z
 &lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
-    &lt;meta charset=&quot;UTF-8&quot;&gt;
+    &lt;meta charset="UTF-8"&gt;
     &lt;title&gt;Awesome-pyecharts&lt;/title&gt;
-                &lt;script type=&quot;text/javascript&quot; src=&quot;https://assets.pyecharts.org/assets/v5/echarts.min.js&quot;&gt;&lt;/script&gt;
+                &lt;script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"&gt;&lt;/script&gt;
 
     
 &lt;/head&gt;
 &lt;body &gt;
-    &lt;div id=&quot;b72e10a2f2ae48f5b3c88de00c286157&quot; class=&quot;chart-container&quot; style=&quot;width:900px; height:500px; &quot;&gt;&lt;/div&gt;
+    &lt;div id="450545a024484fdfb2f5503d41a30bc6" class="chart-container" style="width:900px; height:500px; "&gt;&lt;/div&gt;
     &lt;script&gt;
-        var chart_b72e10a2f2ae48f5b3c88de00c286157 = echarts.init(
-            document.getElementById(&#x27;b72e10a2f2ae48f5b3c88de00c286157&#x27;), &#x27;white&#x27;, {renderer: &#x27;canvas&#x27;, locale: &#x27;ZH&#x27;});
-        var option_b72e10a2f2ae48f5b3c88de00c286157 = {
-    &quot;animation&quot;: true,
-    &quot;animationThreshold&quot;: 2000,
-    &quot;animationDuration&quot;: 1000,
-    &quot;animationEasing&quot;: &quot;cubicOut&quot;,
-    &quot;animationDelay&quot;: 0,
-    &quot;animationDurationUpdate&quot;: 300,
-    &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
-    &quot;animationDelayUpdate&quot;: 0,
-    &quot;aria&quot;: {
-        &quot;enabled&quot;: false
+        var chart_450545a024484fdfb2f5503d41a30bc6 = echarts.init(
+            document.getElementById('450545a024484fdfb2f5503d41a30bc6'), 'white', {renderer: 'canvas', locale: 'ZH'});
+        var option_450545a024484fdfb2f5503d41a30bc6 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "aria": {
+        "enabled": false
     },
-    &quot;color&quot;: [
-        &quot;#5470c6&quot;,
-        &quot;#91cc75&quot;,
-        &quot;#fac858&quot;,
-        &quot;#ee6666&quot;,
-        &quot;#73c0de&quot;,
-        &quot;#3ba272&quot;,
-        &quot;#fc8452&quot;,
-        &quot;#9a60b4&quot;,
-        &quot;#ea7ccc&quot;
+    "color": [
+        "#5470c6",
+        "#91cc75",
+        "#fac858",
+        "#ee6666",
+        "#73c0de",
+        "#3ba272",
+        "#fc8452",
+        "#9a60b4",
+        "#ea7ccc"
     ],
-    &quot;series&quot;: [
+    "series": [
         {
-            &quot;type&quot;: &quot;line&quot;,
-            &quot;name&quot;: &quot;\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d&quot;,
-            &quot;connectNulls&quot;: false,
-            &quot;xAxisIndex&quot;: 0,
-            &quot;symbolSize&quot;: 4,
-            &quot;showSymbol&quot;: true,
-            &quot;smooth&quot;: false,
-            &quot;clip&quot;: true,
-            &quot;step&quot;: false,
-            &quot;stackStrategy&quot;: &quot;samesign&quot;,
-            &quot;data&quot;: [
+            "type": "line",
+            "name": "\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d",
+            "connectNulls": false,
+            "xAxisIndex": 0,
+            "symbolSize": 4,
+            "showSymbol": true,
+            "smooth": false,
+            "clip": true,
+            "step": false,
+            "stackStrategy": "samesign",
+            "data": [
                 [
-                    &quot;2021&quot;,
+                    "2021",
                     306
                 ],
                 [
-                    &quot;2022&quot;,
+                    "2022",
                     292
                 ],
                 [
-                    &quot;2023&quot;,
+                    "2023",
                     314
                 ],
                 [
-                    &quot;2024&quot;,
+                    "2024",
                     328
                 ],
                 [
-                    &quot;2025&quot;,
+                    "2025",
                     319
                 ]
             ],
-            &quot;hoverAnimation&quot;: true,
-            &quot;label&quot;: {
-                &quot;show&quot;: true,
-                &quot;margin&quot;: 8,
-                &quot;valueAnimation&quot;: false
+            "hoverAnimation": true,
+            "label": {
+                "show": true,
+                "margin": 8,
+                "valueAnimation": false
             },
-            &quot;logBase&quot;: 10,
-            &quot;seriesLayoutBy&quot;: &quot;column&quot;,
-            &quot;lineStyle&quot;: {
-                &quot;show&quot;: true,
-                &quot;width&quot;: 1,
-                &quot;opacity&quot;: 1,
-                &quot;curveness&quot;: 0,
-                &quot;type&quot;: &quot;solid&quot;
+            "logBase": 10,
+            "seriesLayoutBy": "column",
+            "lineStyle": {
+                "show": true,
+                "width": 1,
+                "opacity": 1,
+                "curveness": 0,
+                "type": "solid"
             },
-            &quot;areaStyle&quot;: {
-                &quot;opacity&quot;: 0
+            "areaStyle": {
+                "opacity": 0
             },
-            &quot;zlevel&quot;: 0,
-            &quot;z&quot;: 0
+            "zlevel": 0,
+            "z": 0
         }
     ],
-    &quot;legend&quot;: [
+    "legend": [
         {
-            &quot;data&quot;: [
-                &quot;\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d&quot;
+            "data": [
+                "\u8f6f\u79d1\u4e2d\u56fd\u5927\u5b66\u6392\u540d\uff08\u4e3b\u699c\uff09- \u8d8a\u5c0f\u8d8a\u597d"
             ],
-            &quot;selected&quot;: {},
-            &quot;show&quot;: true,
-            &quot;padding&quot;: 5,
-            &quot;itemGap&quot;: 10,
-            &quot;itemWidth&quot;: 25,
-            &quot;itemHeight&quot;: 14,
-            &quot;backgroundColor&quot;: &quot;transparent&quot;,
-            &quot;borderColor&quot;: &quot;#ccc&quot;,
-            &quot;borderRadius&quot;: 0,
-            &quot;pageButtonItemGap&quot;: 5,
-            &quot;pageButtonPosition&quot;: &quot;end&quot;,
-            &quot;pageFormatter&quot;: &quot;{current}/{total}&quot;,
-            &quot;pageIconColor&quot;: &quot;#2f4554&quot;,
-            &quot;pageIconInactiveColor&quot;: &quot;#aaa&quot;,
-            &quot;pageIconSize&quot;: 15,
-            &quot;animationDurationUpdate&quot;: 800,
-            &quot;selector&quot;: false,
-            &quot;selectorPosition&quot;: &quot;auto&quot;,
-            &quot;selectorItemGap&quot;: 7,
-            &quot;selectorButtonGap&quot;: 10
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14,
+            "backgroundColor": "transparent",
+            "borderColor": "#ccc",
+            "borderRadius": 0,
+            "pageButtonItemGap": 5,
+            "pageButtonPosition": "end",
+            "pageFormatter": "{current}/{total}",
+            "pageIconColor": "#2f4554",
+            "pageIconInactiveColor": "#aaa",
+            "pageIconSize": 15,
+            "animationDurationUpdate": 800,
+            "selector": false,
+            "selectorPosition": "auto",
+            "selectorItemGap": 7,
+            "selectorButtonGap": 10
         }
     ],
-    &quot;tooltip&quot;: {
-        &quot;show&quot;: true,
-        &quot;trigger&quot;: &quot;item&quot;,
-        &quot;triggerOn&quot;: &quot;mousemove|click&quot;,
-        &quot;axisPointer&quot;: {
-            &quot;type&quot;: &quot;line&quot;
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
         },
-        &quot;showContent&quot;: true,
-        &quot;alwaysShowContent&quot;: false,
-        &quot;showDelay&quot;: 0,
-        &quot;hideDelay&quot;: 100,
-        &quot;enterable&quot;: false,
-        &quot;confine&quot;: false,
-        &quot;appendToBody&quot;: false,
-        &quot;transitionDuration&quot;: 0.4,
-        &quot;textStyle&quot;: {
-            &quot;fontSize&quot;: 14
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "enterable": false,
+        "confine": false,
+        "appendToBody": false,
+        "transitionDuration": 0.4,
+        "textStyle": {
+            "fontSize": 14
         },
-        &quot;borderWidth&quot;: 0,
-        &quot;padding&quot;: 5,
-        &quot;order&quot;: &quot;seriesAsc&quot;
+        "borderWidth": 0,
+        "padding": 5,
+        "order": "seriesAsc"
     },
-    &quot;xAxis&quot;: [
+    "xAxis": [
         {
-            &quot;show&quot;: true,
-            &quot;scale&quot;: false,
-            &quot;nameLocation&quot;: &quot;end&quot;,
-            &quot;nameGap&quot;: 15,
-            &quot;inverse&quot;: false,
-            &quot;offset&quot;: 0,
-            &quot;splitNumber&quot;: 5,
-            &quot;minInterval&quot;: 0,
-            &quot;splitLine&quot;: {
-                &quot;show&quot;: true,
-                &quot;lineStyle&quot;: {
-                    &quot;show&quot;: true,
-                    &quot;width&quot;: 1,
-                    &quot;opacity&quot;: 1,
-                    &quot;curveness&quot;: 0,
-                    &quot;type&quot;: &quot;solid&quot;
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
                 }
             },
-            &quot;animation&quot;: true,
-            &quot;animationThreshold&quot;: 2000,
-            &quot;animationDuration&quot;: 1000,
-            &quot;animationEasing&quot;: &quot;cubicOut&quot;,
-            &quot;animationDelay&quot;: 0,
-            &quot;animationDurationUpdate&quot;: 300,
-            &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
-            &quot;animationDelayUpdate&quot;: 0,
-            &quot;data&quot;: [
-                &quot;2021&quot;,
-                &quot;2022&quot;,
-                &quot;2023&quot;,
-                &quot;2024&quot;,
-                &quot;2025&quot;
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0,
+            "data": [
+                "2021",
+                "2022",
+                "2023",
+                "2024",
+                "2025"
             ]
         }
     ],
-    &quot;yAxis&quot;: [
+    "yAxis": [
         {
-            &quot;show&quot;: true,
-            &quot;scale&quot;: false,
-            &quot;nameLocation&quot;: &quot;end&quot;,
-            &quot;nameGap&quot;: 15,
-            &quot;inverse&quot;: false,
-            &quot;offset&quot;: 0,
-            &quot;splitNumber&quot;: 5,
-            &quot;min&quot;: &quot;dataMin&quot;,
-            &quot;max&quot;: &quot;dataMax&quot;,
-            &quot;minInterval&quot;: 0,
-            &quot;splitLine&quot;: {
-                &quot;show&quot;: true,
-                &quot;lineStyle&quot;: {
-                    &quot;show&quot;: true,
-                    &quot;width&quot;: 1,
-                    &quot;opacity&quot;: 1,
-                    &quot;curveness&quot;: 0,
-                    &quot;type&quot;: &quot;solid&quot;
+            "show": true,
+            "scale": false,
+            "nameLocation": "end",
+            "nameGap": 15,
+            "inverse": false,
+            "offset": 0,
+            "splitNumber": 5,
+            "min": "dataMin",
+            "max": "dataMax",
+            "minInterval": 0,
+            "splitLine": {
+                "show": true,
+                "lineStyle": {
+                    "show": true,
+                    "width": 1,
+                    "opacity": 1,
+                    "curveness": 0,
+                    "type": "solid"
                 }
             },
-            &quot;animation&quot;: true,
-            &quot;animationThreshold&quot;: 2000,
-            &quot;animationDuration&quot;: 1000,
-            &quot;animationEasing&quot;: &quot;cubicOut&quot;,
-            &quot;animationDelay&quot;: 0,
-            &quot;animationDurationUpdate&quot;: 300,
-            &quot;animationEasingUpdate&quot;: &quot;cubicOut&quot;,
-            &quot;animationDelayUpdate&quot;: 0
+            "animation": true,
+            "animationThreshold": 2000,
+            "animationDuration": 1000,
+            "animationEasing": "cubicOut",
+            "animationDelay": 0,
+            "animationDurationUpdate": 300,
+            "animationEasingUpdate": "cubicOut",
+            "animationDelayUpdate": 0
         }
     ],
-    &quot;title&quot;: [
+    "title": [
         {
-            &quot;show&quot;: true,
-            &quot;target&quot;: &quot;blank&quot;,
-            &quot;subtarget&quot;: &quot;blank&quot;,
-            &quot;padding&quot;: 5,
-            &quot;itemGap&quot;: 10,
-            &quot;textAlign&quot;: &quot;auto&quot;,
-            &quot;textVerticalAlign&quot;: &quot;auto&quot;,
-            &quot;triggerEvent&quot;: false
+            "show": true,
+            "target": "blank",
+            "subtarget": "blank",
+            "padding": 5,
+            "itemGap": 10,
+            "textAlign": "auto",
+            "textVerticalAlign": "auto",
+            "triggerEvent": false
         }
     ]
 };
-        chart_b72e10a2f2ae48f5b3c88de00c286157.setOption(option_b72e10a2f2ae48f5b3c88de00c286157);
+        chart_450545a024484fdfb2f5503d41a30bc6.setOption(option_450545a024484fdfb2f5503d41a30bc6);
     &lt;/script&gt;
 &lt;/body&gt;
 &lt;/html&gt;
