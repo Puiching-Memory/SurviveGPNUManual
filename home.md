@@ -2,7 +2,7 @@
 title: 序章
 description: 
 published: true
-date: 2025-10-25T15:14:09.836Z
+date: 2025-10-26T05:47:58.149Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:39.639Z
@@ -13,11 +13,11 @@ dateCreated: 2025-10-14T08:47:39.639Z
     广师大生存手册
   </h1>
   <p class="theme-text-secondary" style="font-size: 1.15em; margin: 0; margin-top: 0.15rem; font-weight: 300; letter-spacing: 0.04em; opacity: 0.9;">
-    Survive GPNU Manual V2025.09.21
+    Survive GPNU Manual V2025.10.26
   </p>
 
   <p class="theme-text-secondary" style="font-size: 0.85em; margin: 0.35rem 0 0; opacity: 0.7;">
-    梦归云帆 &nbsp; L1NINE &nbsp; mybear123 &nbsp; 光钻 &nbsp; eisofia &nbsp; 林登徒 &nbsp; Dimo &nbsp; 我可以 &nbsp; 猫的双月术 &nbsp; 小小登下士
+    梦归云帆 &nbsp; L1NINE &nbsp; mybear123 &nbsp; 光钻 &nbsp; eisofia &nbsp; 林登徒 &nbsp; Dimo &nbsp; 我可以 &nbsp; 猫的双月术 &nbsp; 小小登下士 &nbsp; gjs201
   </p>
 </div>
 
