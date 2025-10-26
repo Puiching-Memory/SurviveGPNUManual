@@ -2,7 +2,7 @@
 title: 技巧
 description: 
 published: true
-date: 2025-10-26T05:35:50.532Z
+date: 2025-10-26T05:42:28.418Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:48.362Z
@@ -12,8 +12,10 @@ dateCreated: 2025-10-14T08:47:48.362Z
 
 [关于开通师生校内电子邮箱自助申请服务的通知](https://www.gpnu.edu.cn/info/1040/59634.htm)  
 邮箱地址: [https://mail.stu.gpnu.edu.cn/](https://mail.stu.gpnu.edu.cn/)
-!!! 注意
-    mail.gpnu.edu.cn为教职工邮箱，mail.stu.gpnu.edu.cn为学生邮箱
+> 注意
+> mail.gpnu.edu.cn为教职工邮箱，mail.stu.gpnu.edu.cn为学生邮箱
+{.is-warning}
+
 
 ## 广东技术师范大学教务系统
 
