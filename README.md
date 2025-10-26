@@ -23,6 +23,19 @@ conda activate gpnu
 pip install -r requirements.txt
 ```
 
+挂载卷：
+/root/NekoLLM/config.yml -> /wiki/config.yml
+/ssl/cert.key -> /ssl/cert.key
+/ssl/cert.pem -> /ssl/cert.pem
+
+等待迁移：
+- tieba-8394029114
+- tieba-9053331608
+- tieba-9754849630
+- tieba-9790547930
+- tieba-9839420997
+- tieba-10042897710
+
 推荐使用等宽字体，如[Maple Mono](https://github.com/subframe7536/maple-font)
 
 ## 致谢

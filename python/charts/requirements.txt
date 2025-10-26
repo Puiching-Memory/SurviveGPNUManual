@@ -1,0 +1,1 @@
+pyecharts<3.0.0
