@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:40:09.598Z
+date: 2025-10-26T08:48:33.118Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -12,16 +12,38 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
-```mermaid
-flowchart TD
-    A[Christmas] -->|Get money| B(Go shopping)
-    B --> C{Let me think}
-    C -->|One| D[Laptop]
-    C -->|Two| E[iPhone]
-    C -->|Three| F[fa:fa-car Car]
-```
+<iframe
+  width="600"
+  height="400"
+  frameborder="0"
+  srcdoc="
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset='utf-8'>
+      <script src='https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js'></script>
+      <style>
+        html, body, #main { width: 100%; height: 100%; margin: 0; }
+      </style>
+    </head>
+    <body>
+      <div id='main'></div>
+      <script>
+        const chart = echarts.init(document.getElementById('main'));
+        chart.setOption({
+          title: { text: '内联图表' },
+          xAxis: { type: 'category', data: ['X', 'Y'] },
+          yAxis: { type: 'value' },
+          series: [{ type: 'bar', data: [5, 15] }]
+        });
+      </script>
+    </body>
+    </html>
+  "
+></iframe>
 
 [shanghairanking.html](/iframe/shanghairanking.html)[shanghairanking.html](/assets/shanghairanking.html)
+
 
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
 
