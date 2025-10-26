@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:33:18.672Z
+date: 2025-10-26T08:34:08.362Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -12,25 +12,11 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 [软科中国大学排名-直达链接](https://www.shanghairanking.cn/institution/guangdong-polytechnic-normal-university)
 
-<!-- 引入 ECharts CDN -->
-<script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
-
-<!-- 图表容器 -->
-<div id="chart" style="width: 600px; height: 400px;"></div>
-
-<!-- 初始化图表 -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<canvas id="myChart" width="400" height="200"></canvas>
 <script>
-  const chart = echarts.init(document.getElementById('chart'));
-  chart.setOption({
-    title: { text: '示例折线图' },
-    tooltip: {},
-    xAxis: { type: 'category', data: ['A', 'B', 'C', 'D'] },
-    yAxis: { type: 'value' },
-    series: [{
-      data: [120, 200, 150, 80],
-      type: 'line'
-    }]
-  });
+  const ctx = document.getElementById('myChart').getContext('2d');
+  new Chart(ctx, { type: 'bar', data: { labels: ['A','B'], datasets: [{ label: '值', data: [10,20] }] } });
 </script>
 
 [shanghairanking.html](/iframe/shanghairanking.html)[shanghairanking.html](/assets/shanghairanking.html)
