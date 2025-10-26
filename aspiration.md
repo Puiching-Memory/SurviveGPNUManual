@@ -2,7 +2,7 @@
 title: 升学
 description: 
 published: true
-date: 2025-10-26T08:10:06.441Z
+date: 2025-10-26T08:13:49.198Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:25.981Z
@@ -14,7 +14,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 
 <iframe src="/iframe/shanghairanking.html" title="销售数据图表"></iframe>
 
-[shanghairanking.html](/iframe/shanghairanking.html)
+[shanghairanking.html](/iframe/shanghairanking.html)[shanghairanking.html](/assets/shanghairanking.html)
 
 [武书连中国大学排名-直达链接](https://www.wurank.net/university/detail/24300,25,360)
 
