@@ -1,3 +1,13 @@
+---
+title: README
+description: 
+published: true
+date: 2025-10-26T05:33:53.383Z
+tags: 
+editor: markdown
+dateCreated: 2025-10-14T08:47:16.494Z
+---
+
 # SurviveGPNUManual
 
 广师大生存手册
@@ -16,4 +26,4 @@ pip install -r requirements.txt
 
 ## 致谢
 
-@梦归云帆 @L1NINE @mybear123 @光钻 @eisofia @林登徒 @Dimo @我可以 @猫的双月术 @小小登下士
+@梦归云帆 @L1NINE @mybear123 @光钻 @eisofia @林登徒 @Dimo @我可以 @猫的双月术 @小小登下士 @gjs201
