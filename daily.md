@@ -2,7 +2,7 @@
 title: 校园生活
 description: 
 published: true
-date: 2025-10-26T05:45:07.089Z
+date: 2025-10-28T11:13:52.016Z
 tags: 
 editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
@@ -328,7 +328,10 @@ Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaus
 
 ### 医务室
 
-一饭南方对面楼，又称职工居住楼，一楼
+职工居住楼，一楼
+校医在岗时间：早上8:30~12:00  下午14:00~17:00  晚上19:00~21:30
+*需要学生卡才能使用医保
+*看病记得带病历本
 
 ### 药店
 
