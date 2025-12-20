@@ -34,7 +34,10 @@ def main():
         # 将部署标记为非活动以允许删除
         status_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}/statuses"
         status_response = requests.post(status_url, headers=headers, json={"state": "inactive"})
-        status_response.raise_for_status()
+        try:
+            status_response.raise_for_status()
+        except requests.HTTPError as exc:
+            raise requests.HTTPError(f"标记部署 {deployment_id} 为 inactive 失败") from exc
 
         # 删除部署
         delete_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}"
