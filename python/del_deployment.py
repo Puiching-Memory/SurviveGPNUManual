@@ -8,6 +8,15 @@ cmd set GITHUB_TOKEN=your_token_here
 import os
 import requests
 
+REQUEST_TIMEOUT = 10
+
+
+def _format_request_error(exc):
+    response = getattr(exc, "response", None)
+    status_code = response.status_code if response else "unknown"
+    error_body = response.text if response else "No response body"
+    return f"{status_code} {error_body}"
+
 def main():
     owner = "Puiching-Memory"
     repo = "SurviveGPNUManual"
@@ -22,29 +31,41 @@ def main():
 
     # 获取部署列表
     url = f"https://api.github.com/repos/{owner}/{repo}/deployments"
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
+    try:
+        response = requests.get(url, headers=headers, timeout=REQUEST_TIMEOUT)
+        response.raise_for_status()
+    except requests.RequestException as exc:
+        raise RuntimeError(f"获取部署列表失败: {_format_request_error(exc)}") from exc
     deployments = response.json()
 
-    for index,deployment in enumerate(deployments):
-        print(deployment)
-        print("="*80)
+    for deployment in deployments:
         deployment_id = deployment['id']
+        print(f"处理部署 {deployment_id}")
+        print("="*80)
 
         # 将部署标记为非活动以允许删除
         status_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}/statuses"
-        status_response = requests.post(status_url, headers=headers, json={"state": "inactive"})
+        print(f"将部署 {deployment_id} 标记为非活动状态")
         try:
+            status_response = requests.post(
+                status_url, headers=headers, json={"state": "inactive"}, timeout=REQUEST_TIMEOUT
+            )
             status_response.raise_for_status()
-        except requests.HTTPError as exc:
-            raise requests.HTTPError(f"标记部署 {deployment_id} 为 inactive 失败") from exc
+        except requests.RequestException as exc:
+            print(f"标记部署 {deployment_id} 为非活动状态失败: {_format_request_error(exc)}")
+            continue
 
         # 删除部署
         delete_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}"
-        print(f"尝试删除 Deployment {deployment_id}")
+        print(f"尝试删除部署 {deployment_id}")
 
-        delete_response = requests.delete(delete_url, headers=headers)
-        delete_response.raise_for_status()
+        try:
+            delete_response = requests.delete(delete_url, headers=headers, timeout=REQUEST_TIMEOUT)
+            delete_response.raise_for_status()
+        except requests.RequestException as exc:
+            print(f"删除部署 {deployment_id} 失败: {_format_request_error(exc)}")
+            continue
+        print(f"部署 {deployment_id} 删除成功")
 
 if __name__ == "__main__":
     main()
