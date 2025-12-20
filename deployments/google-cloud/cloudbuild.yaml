@@ -1,0 +1,72 @@
+# Google Cloud Build configuration for deploying to Cloud Run
+
+steps:
+  # 1. Build and push the backend Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - '$_GCR_HOSTNAME/$PROJECT_ID/$_BACKEND_SERVICE_NAME:$COMMIT_SHA'
+      - './backend'
+    id: 'Build Backend'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '$_GCR_HOSTNAME/$PROJECT_ID/$_BACKEND_SERVICE_NAME:$COMMIT_SHA']
+    id: 'Push Backend'
+
+  # 2. Deploy the backend to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - '$_BACKEND_SERVICE_NAME'
+      - '--image=$_GCR_HOSTNAME/$PROJECT_ID/$_BACKEND_SERVICE_NAME:$COMMIT_SHA'
+      - '--region'
+      - '$_REGION'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+    id: 'Deploy Backend'
+
+  # 3. Build and push the frontend Docker image
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - 'build'
+      - '-t'
+      - '$_GCR_HOSTNAME/$PROJECT_ID/$_FRONTEND_SERVICE_NAME:$COMMIT_SHA'
+      - './frontend'
+    id: 'Build Frontend'
+
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['push', '$_GCR_HOSTNAME/$PROJECT_ID/$_FRONTEND_SERVICE_NAME:$COMMIT_SHA']
+    id: 'Push Frontend'
+
+  # 4. Deploy the frontend to Cloud Run
+  - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
+    entrypoint: gcloud
+    args:
+      - 'run'
+      - 'deploy'
+      - '$_FRONTEND_SERVICE_NAME'
+      - '--image=$_GCR_HOSTNAME/$PROJECT_ID/$_FRONTEND_SERVICE_NAME:$COMMIT_SHA'
+      - '--region'
+      - '$_REGION'
+      - '--platform'
+      - 'managed'
+      - '--allow-unauthenticated'
+    id: 'Deploy Frontend'
+
+# Substitutions - these can be set in your Cloud Build trigger
+substitutions:
+  _GCR_HOSTNAME: us-central1-docker.pkg.dev
+  _REGION: us-central1
+  _BACKEND_SERVICE_NAME: api-service
+  _FRONTEND_SERVICE_NAME: frontend-service
+
+images:
+  - '$_GCR_HOSTNAME/$PROJECT_ID/$_BACKEND_SERVICE_NAME:$COMMIT_SHA'
+  - '$_GCR_HOSTNAME/$PROJECT_ID/$_FRONTEND_SERVICE_NAME:$COMMIT_SHA'
+
+options:
+  logging: CLOUD_LOGGING_ONLY

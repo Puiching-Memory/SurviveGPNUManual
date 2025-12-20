@@ -1,0 +1,60 @@
+site_name: FastAPI React Starter Docs
+site_url: https://raythurman2386.github.io/fastapi-react-starter/
+
+nav:
+  - Home: index.md
+  - Initial Setup: initial_setup.md
+  - Development: development.md
+  - Frontend Guides:
+    - Tailwind CSS v4: frontend/tailwind-v4.md
+    - Shadcn UI: frontend/shadcn-ui.md
+  - Backend Guides:
+    - FastAPI Overview: backend/fastapi-guide.md
+    - Alembic Migrations: backend/alembic-migrations.md
+  - Make it Yours: make_it_yours.md
+  - Deployment: deployment.md
+  - Roadmap: roadmap.md
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - admonition
+  - toc:
+      permalink: true
+
+
+# Explicitly point to the current directory for markdown files
+docs_dir: docs

@@ -1,0 +1,75 @@
+services:
+  postgres:
+    container_name: starter-db
+    image: postgres:17-alpine
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USER:-postgres}
+      - POSTGRES_PASSWORD=${DB_PASSWORD:-postgres}
+      - POSTGRES_DB=${DB_NAME:-fastapi_db}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-postgres} -d ${DB_NAME:-fastapi_db}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+
+  backend:
+    container_name: starter-backend
+    build: ./backend
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+    environment:
+      - DB_NAME=${DB_NAME:-fastapi_db}
+      - DB_USER=${DB_USER:-postgres}
+      - DB_PASSWORD=${DB_PASSWORD:-postgres}
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - CORS_ORIGINS=["http://localhost:5173"]
+      - ENVIRONMENT=development
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    command: bash -c "python manage.py run"
+
+  frontend:
+    container_name: starter-frontend
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      backend:
+        condition: service_healthy
+    command: npm run dev
+
+  docs:
+    container_name: starter-docs
+    build:
+      context: .
+      dockerfile: docs/Dockerfile
+    ports:
+      - "8001:8001"
+    volumes:
+      - ./docs:/usr/src/app/docs
+      - ./mkdocs.yml:/usr/src/app/mkdocs.yml
+
+volumes:
+  postgres_data:
