@@ -27,10 +27,14 @@ def main():
     deployments = response.json()
 
     for index,deployment in enumerate(deployments):
-        if index == 0:continue # 第一个部署为活动部署,无法删除
         print(deployment)
         print("="*80)
         deployment_id = deployment['id']
+
+        # 将部署标记为非活动以允许删除
+        status_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}/statuses"
+        status_response = requests.post(status_url, headers=headers, json={"state": "inactive"})
+        status_response.raise_for_status()
 
         # 删除部署
         delete_url = f"https://api.github.com/repos/{owner}/{repo}/deployments/{deployment_id}"
