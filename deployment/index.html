@@ -1,0 +1,1279 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://raythurman2386.github.io/fastapi-react-starter/deployment/">
+      
+      
+        <link rel="prev" href="../make_it_yours/">
+      
+      
+        <link rel="next" href="../roadmap/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+    
+    
+      
+        <title>Deployment - FastAPI React Starter Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="FastAPI React Starter Docs" class="md-header__button md-logo" aria-label="FastAPI React Starter Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FastAPI React Starter Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Deployment
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../initial_setup/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Initial Setup
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../development/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Development
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../frontend/tailwind-v4/" class="md-tabs__link">
+          
+  
+  
+  Frontend Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../backend/fastapi-guide/" class="md-tabs__link">
+          
+  
+  
+  Backend Guides
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../make_it_yours/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Make it Yours
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Deployment
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../roadmap/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Roadmap
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="FastAPI React Starter Docs" class="md-nav__button md-logo" aria-label="FastAPI React Starter Docs" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    FastAPI React Starter Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../initial_setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Initial Setup
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../development/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Development
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontend Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Frontend Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontend/tailwind-v4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tailwind CSS v4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontend/shadcn-ui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shadcn UI
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Backend Guides
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Backend Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backend/fastapi-guide/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FastAPI Overview
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../backend/alembic-migrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alembic Migrations
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../make_it_yours/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Make it Yours
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deployment
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. 部署概述
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. 先决条件
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. 生产配置
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. 生产配置">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-env-docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1. 根 .env 文件（用于 Docker Compose）
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-docker-compose" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2. 用于生产的 Docker Compose 调整
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. 在生产中构建和运行
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. 数据持久性
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-https" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. 反向代理和 HTTPS（推荐）
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. 部署文档 (MkDocs)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. 监控和日志记录
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. 云提供商部署
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="9. 云提供商部署">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#91-google-cloud-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.1. Google Cloud Run
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#92-aws-elastic-container-service-ecs-with-fargate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9.2. AWS Elastic Container Service (ECS) with Fargate
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="_1">部署指南<a class="headerlink" href="#_1" title="Permanent link">&para;</a></h1>
+<p>本指南提供了将 FastAPI React Starter 应用程序部署到生产环境的说明。主要描述的方法使用 Docker 和 Docker Compose。</p>
+<h2 id="1">1. 部署概述<a class="headerlink" href="#1" title="Permanent link">&para;</a></h2>
+<p>部署此应用程序的推荐方法是使用 Docker Compose。此方法将后端、前端和数据库打包到可管理的服务中。</p>
+<p>对于强大的生产设置，您通常会在应用程序前面放置反向代理（如 Nginx 或 Traefik）来处理 HTTPS、负载平衡，并可能更高效地提供静态前端资源。</p>
+<h2 id="2">2. 先决条件<a class="headerlink" href="#2" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>服务器：</strong> 运行 Linux 发行版的服务器（VPS、专用服务器或云实例）。</li>
+<li><strong>Docker &amp; Docker Compose：</strong> 确保在服务器上安装了 Docker 和 Docker Compose（v2 插件）。遵循官方安装指南。</li>
+<li><strong>域名：</strong> 指向服务器 IP 地址的注册域名。</li>
+<li><strong>SSL 证书：</strong> 用于启用 HTTPS 的域名的 SSL 证书（例如，来自 Let's Encrypt）。</li>
+<li><strong>防火墙：</strong> 配置服务器防火墙以允许必要端口上的流量（例如，80 用于 HTTP，443 用于 HTTPS）。</li>
+</ul>
+<h2 id="3">3. 生产配置<a class="headerlink" href="#3" title="Permanent link">&para;</a></h2>
+<p>在部署之前，您<strong>必须</strong>为生产配置环境变量。强烈建议为生产使用单独的 <code>.env</code> 文件，或通过部署环境安全地管理这些变量。</p>
+<h3 id="31-env-docker-compose">3.1. 根 <code>.env</code> 文件（用于 Docker Compose）<a class="headerlink" href="#31-env-docker-compose" title="Permanent link">&para;</a></h3>
+<p>在服务器上的项目根目录创建或更新 <code>.env</code> 文件：</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a># 数据库配置（确保这些是强且唯一的凭据）
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>DB_USER=your_prod_db_user
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>DB_PASSWORD=your_prod_db_password
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>DB_NAME=your_prod_db_name
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a># 后端生产设置（在 docker-compose.yml 中传递给后端服务）
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>ENVIRONMENT=production
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>JWT_SECRET_KEY=generate_a_very_strong_random_secret_key # 重要！更改此值！
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>PROD_CORS_ORIGINS=[&quot;https://yourdomain.com&quot;,&quot;https://www.yourdomain.com&quot;] # 您的前端域名
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a># 前端生产设置（在 docker-compose.yml 中传递给前端服务）
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>PROD_VITE_API_URL=https://yourdomain.com/api # 您的后端 API 的 URL
+</code></pre></div>
+<p><strong>关键生产变量：</strong></p>
+<ul>
+<li><code>DB_USER</code>、<code>DB_PASSWORD</code>、<code>DB_NAME</code>：为生产数据库使用强且唯一的凭据。</li>
+<li><code>ENVIRONMENT=production</code>：将应用程序设置为在生产模式下运行（影响日志记录、错误处理等，如 <code>backend/app/config/config.py</code> 中定义）。</li>
+<li><code>JWT_SECRET_KEY</code>：<strong>关键！</strong> 此密钥用于签署 JWT。它<strong>必须</strong>是一个长、随机且保密的字符串。不要使用开发默认值。您可以使用 <code>openssl rand -hex 32</code> 生成一个。</li>
+<li><code>PROD_CORS_ORIGINS</code>：允许的 CORS 源的 JSON 格式字符串数组。将 <code>https://yourdomain.com</code> 替换为您实际的前端域名。</li>
+<li><code>PROD_VITE_API_URL</code>：您的后端 API 可访问的公共 URL（例如，如果通过反向代理在 <code>/api</code> 下提供）。</li>
+</ul>
+<h3 id="32-docker-compose">3.2. 用于生产的 Docker Compose 调整<a class="headerlink" href="#32-docker-compose" title="Permanent link">&para;</a></h3>
+<p>最佳实践是为生产使用特定的 Docker Compose 文件（例如，<code>docker-compose.prod.yml</code>）或修改现有的 <code>docker-compose.yml</code> 以满足生产需求。以下是需要考虑的关键更改：</p>
+<ul>
+<li><strong>删除开发卷：</strong> 对于 <code>backend</code> 和 <code>frontend</code> 服务，删除将本地代码映射到容器中的主机挂载卷（例如，<code>volumes: - ./backend:/app</code>）。在生产中，代码应在构建过程中复制到镜像中。</li>
+<li><strong>生产命令：</strong><ul>
+<li><strong>后端：</strong> 将 <code>command</code> 更改为使用生产级 ASGI 服务器，如带有 Uvicorn 工作器的 Gunicorn。示例：
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="c1"># 在 docker-compose.yml 中用于后端服务</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gunicorn -k uvicorn.workers.UvicornWorker -w 4 app.main:app --bind 0.0.0.0:8000</span>
+</code></pre></div>
+    根据服务器的 CPU 核心数调整工作器数量（<code>-w 4</code>）。</li>
+<li><strong>前端：</strong> <code>command</code> 应该提供构建的静态资源或运行生产 Node.js 服务器（如果适用）。如果您的 <code>frontend/Dockerfile</code> 构建静态资源（例如，到 <code>/app/dist</code>），您可能使用多阶段 Dockerfile 和轻量级 Web 服务器（如 Nginx）来提供这些文件。或者，如果 <code>npm run build</code> 创建 <code>dist</code> 文件夹，并且您的 <code>Dockerfile</code> 复制它并且 <code>npm start</code>（或 <code>package.json</code> 中的类似命令）使用生产就绪的静态服务器提供它，那也可以工作。
+    <em>如果通过 Nginx（在前端容器中或单独的反向代理容器中）提供前端静态文件，<code>docker-compose.yml</code> 中的前端服务可能不需要直接暴露端口或可以简化。</em></li>
+</ul>
+</li>
+<li><strong>环境变量：</strong> 更新 <code>docker-compose.yml</code> 中 <code>backend</code> 和 <code>frontend</code> 服务的 <code>environment</code> 部分，以使用根 <code>.env</code> 文件中定义的生产值：
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="c1"># backend 服务</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="nt">environment</span><span class="p">:</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DB_NAME=${DB_NAME}</span>
+<a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DB_USER=${DB_USER}</span>
+<a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DB_PASSWORD=${DB_PASSWORD}</span>
+<a id="__codelineno-2-6" name="__codelineno-2-6" href="#__codelineno-2-6"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DB_HOST=postgres</span><span class="w"> </span><span class="c1"># 保持为服务名称</span>
+<a id="__codelineno-2-7" name="__codelineno-2-7" href="#__codelineno-2-7"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">DB_PORT=5432</span>
+<a id="__codelineno-2-8" name="__codelineno-2-8" href="#__codelineno-2-8"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CORS_ORIGINS=${PROD_CORS_ORIGINS}</span>
+<a id="__codelineno-2-9" name="__codelineno-2-9" href="#__codelineno-2-9"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ENVIRONMENT=${ENVIRONMENT:-production}</span><span class="w"> </span><span class="c1"># 默认为生产</span>
+<a id="__codelineno-2-10" name="__codelineno-2-10" href="#__codelineno-2-10"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">JWT_SECRET_KEY=${JWT_SECRET_KEY}</span><span class="w">      </span><span class="c1"># 从根 .env 传递</span>
+<a id="__codelineno-2-11" name="__codelineno-2-11" href="#__codelineno-2-11"></a>
+<a id="__codelineno-2-12" name="__codelineno-2-12" href="#__codelineno-2-12"></a><span class="c1"># frontend 服务</span>
+<a id="__codelineno-2-13" name="__codelineno-2-13" href="#__codelineno-2-13"></a><span class="nt">environment</span><span class="p">:</span>
+<a id="__codelineno-2-14" name="__codelineno-2-14" href="#__codelineno-2-14"></a><span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VITE_API_URL=${PROD_VITE_API_URL}</span><span class="w"> </span><span class="c1"># 从根 .env 传递</span>
+<a id="__codelineno-2-15" name="__codelineno-2-15" href="#__codelineno-2-15"></a><span class="w">  </span><span class="c1"># 添加前端构建/运行时所需的任何其他生产环境变量</span>
+</code></pre></div></li>
+<li><strong>端口：</strong> 仅暴露需要外部访问的端口（通常通过反向代理，例如，端口 80 或 443）。内部服务到服务的通信使用 Docker 的内部网络。</li>
+</ul>
+<p><strong>示例 <code>docker-compose.prod.yml</code>（说明性 - 与您的基础 <code>docker-compose.yml</code> 结合）：</strong></p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="c1"># docker-compose.prod.yml</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="nt">version</span><span class="p">:</span><span class="w"> </span><span class="s">&#39;3.8&#39;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a>
+<a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="nt">services</span><span class="p">:</span>
+<a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">  </span><span class="nt">backend</span><span class="p">:</span>
+<a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="w">    </span><span class="c1"># 如果基础文件中存在，删除开发卷挂载</span>
+<a id="__codelineno-3-7" name="__codelineno-3-7" href="#__codelineno-3-7"></a><span class="w">    </span><span class="c1"># volumes: [] # 如果使用 extends，清除基础文件中的卷</span>
+<a id="__codelineno-3-8" name="__codelineno-3-8" href="#__codelineno-3-8"></a><span class="w">    </span><span class="nt">command</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gunicorn -k uvicorn.workers.UvicornWorker -w 4 app.main:app --bind 0.0.0.0:8000</span>
+<a id="__codelineno-3-9" name="__codelineno-3-9" href="#__codelineno-3-9"></a><span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
+<a id="__codelineno-3-10" name="__codelineno-3-10" href="#__codelineno-3-10"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">ENVIRONMENT=production</span>
+<a id="__codelineno-3-11" name="__codelineno-3-11" href="#__codelineno-3-11"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">CORS_ORIGINS=${PROD_CORS_ORIGINS}</span>
+<a id="__codelineno-3-12" name="__codelineno-3-12" href="#__codelineno-3-12"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">JWT_SECRET_KEY=${JWT_SECRET_KEY}</span>
+<a id="__codelineno-3-13" name="__codelineno-3-13" href="#__codelineno-3-13"></a><span class="w">    </span><span class="c1"># 如果通过反向代理访问，可能删除端口映射</span>
+<a id="__codelineno-3-14" name="__codelineno-3-14" href="#__codelineno-3-14"></a><span class="w">    </span><span class="c1"># ports:</span>
+<a id="__codelineno-3-15" name="__codelineno-3-15" href="#__codelineno-3-15"></a><span class="w">    </span><span class="c1">#   - &quot;8000:8000&quot;</span>
+<a id="__codelineno-3-16" name="__codelineno-3-16" href="#__codelineno-3-16"></a>
+<a id="__codelineno-3-17" name="__codelineno-3-17" href="#__codelineno-3-17"></a><span class="w">  </span><span class="nt">frontend</span><span class="p">:</span>
+<a id="__codelineno-3-18" name="__codelineno-3-18" href="#__codelineno-3-18"></a><span class="w">    </span><span class="c1"># 删除开发卷挂载</span>
+<a id="__codelineno-3-19" name="__codelineno-3-19" href="#__codelineno-3-19"></a><span class="w">    </span><span class="c1"># volumes: []</span>
+<a id="__codelineno-3-20" name="__codelineno-3-20" href="#__codelineno-3-20"></a><span class="w">    </span><span class="c1"># command: npm run start # 或提供构建静态文件的命令</span>
+<a id="__codelineno-3-21" name="__codelineno-3-21" href="#__codelineno-3-21"></a><span class="w">    </span><span class="nt">environment</span><span class="p">:</span>
+<a id="__codelineno-3-22" name="__codelineno-3-22" href="#__codelineno-3-22"></a><span class="w">      </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">VITE_API_URL=${PROD_VITE_API_URL}</span>
+<a id="__codelineno-3-23" name="__codelineno-3-23" href="#__codelineno-3-23"></a><span class="w">    </span><span class="c1"># 可能删除端口映射</span>
+<a id="__codelineno-3-24" name="__codelineno-3-24" href="#__codelineno-3-24"></a><span class="w">    </span><span class="c1"># ports:</span>
+<a id="__codelineno-3-25" name="__codelineno-3-25" href="#__codelineno-3-25"></a><span class="w">    </span><span class="c1">#  - &quot;5173:5173&quot;</span>
+<a id="__codelineno-3-26" name="__codelineno-3-26" href="#__codelineno-3-26"></a>
+<a id="__codelineno-3-27" name="__codelineno-3-27" href="#__codelineno-3-27"></a><span class="c1"># 确保 postgres_data 卷仍如基础 docker-compose.yml 中定义的那样定义</span>
+<a id="__codelineno-3-28" name="__codelineno-3-28" href="#__codelineno-3-28"></a><span class="c1"># volumes:</span>
+<a id="__codelineno-3-29" name="__codelineno-3-29" href="#__codelineno-3-29"></a><span class="c1">#   postgres_data:</span>
+</code></pre></div>
+<p>要使用多个 compose 文件：<code>docker compose -f docker-compose.yml -f docker-compose.prod.yml up --build -d</code></p>
+<h2 id="4">4. 在生产中构建和运行<a class="headerlink" href="#4" title="Permanent link">&para;</a></h2>
+<ol>
+<li><strong>传输项目：</strong> 将项目文件（包括生产就绪的 Dockerfile 和 Docker Compose 文件）复制到服务器。</li>
+<li><strong>创建 <code>.env</code> 文件：</strong> 在服务器上创建根 <code>.env</code> 文件，其中包含上述生产值。</li>
+<li><strong>拉取最新镜像（可选但推荐）：</strong>
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>docker<span class="w"> </span>compose<span class="w"> </span>pull<span class="w"> </span><span class="c1"># 拉取基础镜像，如 postgres:17-alpine</span>
+</code></pre></div></li>
+<li>
+<p><strong>构建并启动服务：</strong>
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="c1"># 如果使用单个修改的 docker-compose.yml</span>
+<a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a>docker<span class="w"> </span>compose<span class="w"> </span>up<span class="w"> </span>--build<span class="w"> </span>-d
+<a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a>
+<a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="c1"># 如果使用 docker-compose.prod.yml 来覆盖/扩展</span>
+<a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a>docker<span class="w"> </span>compose<span class="w"> </span>-f<span class="w"> </span>docker-compose.yml<span class="w"> </span>-f<span class="w"> </span>docker-compose.prod.yml<span class="w"> </span>up<span class="w"> </span>--build<span class="w"> </span>-d
+</code></pre></div>
+    <code>--build</code> 标志确保重建镜像。<code>-d</code> 标志在分离模式下运行服务。</p>
+</li>
+<li>
+<p><strong>数据库迁移：</strong> 后端服务配置为 <code>command: bash -c "python manage.py run"</code>，它在内部在启动应用程序之前调用 <code>migrate</code>。如果您为生产更改此命令（例如，直接使用 Gunicorn），请确保迁移作为单独步骤运行，或作为容器入口点脚本的一部分在主应用程序启动之前运行。
+    <div class="highlight"><pre><span></span><code><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># 如果需要，手动运行迁移的示例</span>
+<a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>docker<span class="w"> </span>compose<span class="w"> </span><span class="nb">exec</span><span class="w"> </span>backend<span class="w"> </span>python<span class="w"> </span>manage.py<span class="w"> </span>migrate
+</code></pre></div></p>
+</li>
+</ol>
+<h2 id="5">5. 数据持久性<a class="headerlink" href="#5" title="Permanent link">&para;</a></h2>
+<p><code>docker-compose.yml</code> 为 PostgreSQL 数据库定义了一个命名卷 <code>postgres_data</code>。这确保即使 <code>postgres</code> 容器停止或删除，您的数据库数据也会持久化。确保此卷作为服务器维护例程的一部分得到适当管理和备份。</p>
+<h2 id="6-https">6. 反向代理和 HTTPS（推荐）<a class="headerlink" href="#6-https" title="Permanent link">&para;</a></h2>
+<p>对于生产，强烈建议使用反向代理，如 <strong>Nginx</strong> 或 <strong>Traefik</strong>。</p>
+<p><strong>好处：</strong>
+*   <strong>HTTPS/SSL 终止：</strong> 处理 SSL 证书并加密流量。
+*   <strong>负载平衡：</strong> （如果您扩展到多个后端实例）。
+*   <strong>提供静态文件：</strong> Nginx 在提供静态前端资源方面非常高效。
+*   <strong>自定义域名：</strong> 轻松将您的域名映射到应用程序。
+*   <strong>安全性：</strong> 可以添加安全标头、速率限制等。</p>
+<p><strong>使用 Nginx 的一般设置（概念性）：</strong>
+1.  在服务器上安装 Nginx。
+2.  将 Nginx 配置为反向代理，将请求转发到您的容器化服务：
+    *   对 <code>yourdomain.com/api/*</code> 的请求可以转到 <code>backend</code> 服务（例如，<code>http://localhost:8000</code>）。
+    *   对 <code>yourdomain.com/*</code> 的请求可以提供静态前端资源（如果由 Nginx 构建和提供）或转到 <code>frontend</code> 服务（例如，<code>http://localhost:5173</code>）。
+3.  在 Nginx 中为您的域名设置 SSL 证书（例如，使用 Certbot 和 Let's Encrypt）。</p>
+<p><em>有关详细配置说明，请参阅 Nginx 或 Traefik 文档。</em></p>
+<h2 id="7-mkdocs">7. 部署文档 (MkDocs)<a class="headerlink" href="#7-mkdocs" title="Permanent link">&para;</a></h2>
+<p><code>docker-compose.yml</code> 中的 <code>docs</code> 服务提供文档。</p>
+<ol>
+<li>确保在运行 <code>docker compose up</code> 时包含 <code>docs</code> 服务。</li>
+<li>如果您有反向代理，配置它从子域（例如，<code>docs.yourdomain.com</code>）或路径（例如，<code>yourdomain.com/project-docs/</code>）路由流量到 <code>docs</code> 服务（例如，<code>http://localhost:8001</code>）。</li>
+</ol>
+<p>或者，您可以将 MkDocs 站点构建为静态 HTML 文件，并将它们部署到任何静态托管提供商（例如，GitHub Pages、Netlify、AWS S3）：</p>
+<p><div class="highlight"><pre><span></span><code><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># 从本地计算机，在项目根目录</span>
+<a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>docker<span class="w"> </span>compose<span class="w"> </span>run<span class="w"> </span>--rm<span class="w"> </span>docs<span class="w"> </span>mkdocs<span class="w"> </span>build
+</code></pre></div>
+这将在 <code>docs/site/</code> 目录（或根据 <code>mkdocs.yml</code> 配置）中生成静态站点。然后您可以上传此 <code>site</code> 目录。</p>
+<h2 id="8">8. 监控和日志记录<a class="headerlink" href="#8" title="Permanent link">&para;</a></h2>
+<ul>
+<li><strong>应用程序日志：</strong> 使用 <code>docker compose logs backend</code> 和 <code>docker compose logs frontend</code> 查看应用程序日志。</li>
+<li><strong>服务器监控：</strong> 实施服务器级监控，用于 CPU、内存、磁盘空间和网络流量。</li>
+<li><strong>日志聚合：</strong> 对于更强大的日志记录，考虑设置集中式日志记录解决方案（例如，ELK 堆栈、Grafana Loki 或云提供商的日志记录服务）。</li>
+</ul>
+<hr />
+<h2 id="9">9. 云提供商部署<a class="headerlink" href="#9" title="Permanent link">&para;</a></h2>
+<p>虽然 Docker Compose 非常适合单服务器部署，但您可能希望利用托管云平台（如 Google Cloud Run 或 AWS ECS）以获得更好的可扩展性、可靠性和更轻松的管理。</p>
+<p>此项目中的 <code>deployments/</code> 目录包含这些平台的即用型配置文件。</p>
+<h3 id="91-google-cloud-run">9.1. Google Cloud Run<a class="headerlink" href="#91-google-cloud-run" title="Permanent link">&para;</a></h3>
+<p>Google Cloud Run 是一个无服务器平台，可自动扩展您的容器化应用程序。</p>
+<ul>
+<li><strong>配置文件：</strong> <code>deployments/google-cloud/cloudbuild.yaml</code></li>
+<li><strong>方法：</strong> 此文件与 Google Cloud Build 一起使用，自动构建后端和前端的 Docker 镜像，将它们推送到 Google Container Registry (GCR)，并将它们作为 Cloud Run 上的两个独立服务部署。</li>
+</ul>
+<p><strong>部署：</strong>
+1.  <strong>先决条件：</strong>
+    *   启用了计费的 Google Cloud 项目。
+    *   安装并配置了 <code>gcloud</code> CLI。
+    *   启用了 Cloud Build、Cloud Run 和 Container Registry API。
+2.  <strong>配置替换：</strong> <code>cloudbuild.yaml</code> 使用替换变量（例如，<code>_REGION</code>、<code>_BACKEND_SERVICE_NAME</code>）。您可以直接在 Cloud Build 触发器或手动运行构建时设置这些。
+3.  <strong>设置触发器：</strong> 在 Google Cloud Console 中，导航到 Cloud Build 并创建一个指向源代码仓库的触发器。配置它使用 <code>deployments/google-cloud/cloudbuild.yaml</code> 文件。
+4.  <strong>推送到部署：</strong> 将提交推送到配置的分支将自动触发构建和部署过程。</p>
+<p><em>有关详细步骤，请参阅 <a href="https://cloud.google.com/run/docs">Google Cloud Run 文档</a>。</em></p>
+<h3 id="92-aws-elastic-container-service-ecs-with-fargate">9.2. AWS Elastic Container Service (ECS) with Fargate<a class="headerlink" href="#92-aws-elastic-container-service-ecs-with-fargate" title="Permanent link">&para;</a></h3>
+<p>AWS ECS 是一个高度可扩展的容器编排服务。Fargate 是 ECS 的无服务器计算引擎，因此您无需管理服务器。</p>
+<ul>
+<li><strong>配置文件：</strong><ul>
+<li><code>deployments/aws/buildspec.yml</code>：用于 AWS CodeBuild 构建镜像并推送到 ECR。</li>
+<li><code>deployments/aws/task-definitions/</code>：包含后端和前端的 ECS 任务定义 JSON 模板。</li>
+</ul>
+</li>
+<li><strong>方法：</strong><ol>
+<li><strong>AWS CodePipeline：</strong> 创建一个使用源代码仓库（例如，GitHub、AWS CodeCommit）的管道。</li>
+<li><strong>构建阶段：</strong> 添加一个使用 AWS CodeBuild 和 <code>buildspec.yml</code> 文件的构建阶段。这将构建您的 Docker 镜像并将它们推送到 Amazon ECR。</li>
+<li><strong>部署阶段：</strong> 添加一个使用"Amazon ECS"操作来使用任务定义部署服务的部署阶段。</li>
+</ol>
+</li>
+</ul>
+<p><strong>部署：</strong>
+1.  <strong>先决条件：</strong>
+    *   AWS 账户。
+    *   安装并配置了 <code>aws</code> CLI。
+    *   用于后端和前端镜像的 ECR 仓库。
+    *   ECS 集群。
+2.  <strong>自定义任务定义：</strong> 更新 <code>*.json</code> 任务定义文件中的占位符值（例如，<code>&lt;YOUR_BACKEND_ECR_REPO_URI&gt;</code>、<code>&lt;YOUR_AWS_ACCOUNT_ID&gt;</code>）。
+3.  <strong>设置 CodePipeline：</strong> 按照 AWS 文档创建从仓库到 ECS 集群自动化构建和部署过程的管道。</p>
+<p><em>有关详细步骤，请参阅 <a href="https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html">AWS ECS 用户指南</a>。</em></p>
+<p>部署 Web 应用程序涉及许多考虑因素。本指南为自托管和两个顶级云提供商提供了一个起点。始终根据您的特定安全和性能要求调整配置。在您可以从此模板部署项目之前，您还有很长的路要走，一旦您达到可以部署项目的程度，请联系维护者寻求帮助。</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
