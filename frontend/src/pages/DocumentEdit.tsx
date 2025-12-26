@@ -30,13 +30,13 @@ export default function DocumentEdit() {
     try {
       setLoading(true)
       const doc = await documentApi.getBySlug(id!)
-      const contentData = await documentApi.getContent(id!)
+      const contentText = await documentApi.getContent(id!)
       setDocument(doc)
       setTitle(doc.title)
       setSlug(doc.slug)
       setCategory(doc.category || '')
       setTags(doc.tags || [])
-      setContent(contentData.content)
+      setContent(contentText)
       setError(null)
     } catch (err) {
       setError(err instanceof Error ? err.message : '加载文档失败')
@@ -46,12 +46,17 @@ export default function DocumentEdit() {
   }
 
   const handleSave = async () => {
+    if (!document || !document.id) {
+      setError('文档 ID 不存在')
+      return
+    }
+
     try {
       setSaving(true)
       setError(null)
 
       // Update document metadata
-      await documentApi.update(document!.id, {
+      await documentApi.update(document.id, {
         title,
         slug,
         category: category || null,

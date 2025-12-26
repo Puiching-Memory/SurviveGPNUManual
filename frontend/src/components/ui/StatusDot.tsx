@@ -1,5 +1,11 @@
-export function StatusDot({ status }) {
-  const colors = {
+type Status = 'healthy' | 'error' | 'loading'
+
+interface StatusDotProps {
+  status: Status
+}
+
+export function StatusDot({ status }: StatusDotProps) {
+  const colors: Record<Status, string> = {
     healthy: 'bg-green-500',
     error: 'bg-red-500',
     loading: 'bg-gray-300 animate-pulse',

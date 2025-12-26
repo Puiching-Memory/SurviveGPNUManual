@@ -11,13 +11,13 @@ import { Button } from '../components/ui/Button'
 export default function DocumentView() {
   const { slug } = useParams<{ slug: string }>()
   const navigate = useNavigate()
-  const { isAuthenticated, user } = useAuth()
+  const { user } = useAuth()
   const [document, setDocument] = useState<Document | null>(null)
   const [content, setContent] = useState<string>('')
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  const isAdmin = user?.role === 'admin' || user?.role === 'superuser'
+  const isAdmin = user?.role === 'admin' || user?.is_superuser === true
 
   useEffect(() => {
     if (slug) {
@@ -28,12 +28,12 @@ export default function DocumentView() {
   const loadDocument = async () => {
     try {
       setLoading(true)
-      const [doc, contentData] = await Promise.all([
+      const [doc, contentText] = await Promise.all([
         documentApi.getBySlug(slug!),
         documentApi.getContent(slug!),
       ])
       setDocument(doc)
-      setContent(contentData.content)
+      setContent(contentText)
       setError(null)
     } catch (err) {
       setError(err instanceof Error ? err.message : '加载文档失败')
@@ -74,7 +74,7 @@ export default function DocumentView() {
               {document.category}
             </span>
           )}
-          {document.tags.length > 0 && (
+          {document.tags && document.tags.length > 0 && (
             <div className="flex flex-wrap gap-2 mb-4">
               {document.tags.map((tag) => (
                 <span
@@ -89,7 +89,7 @@ export default function DocumentView() {
         </div>
         {isAdmin && (
           <Button
-            onClick={() => navigate(`/docs/${document.id}/edit`)}
+            onClick={() => navigate(`/docs/${document.slug}/edit`)}
             variant="outline"
           >
             编辑
@@ -97,11 +97,99 @@ export default function DocumentView() {
         )}
       </div>
 
-      <div className="prose prose-lg max-w-none">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+      <div className="prose prose-lg max-w-none markdown-content">
+        <ReactMarkdown
+          remarkPlugins={[remarkGfm]}
+          components={{
+            table: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <div className="overflow-x-auto my-4 -mx-4 px-4">
+                <table className="w-full border-collapse border border-border rounded-lg" {...props}>
+                  {children}
+                </table>
+              </div>
+            ),
+            thead: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <thead className="bg-muted" {...props}>
+                {children}
+              </thead>
+            ),
+            tbody: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <tbody {...props}>
+                {children}
+              </tbody>
+            ),
+            tr: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <tr className="border-b border-border hover:bg-muted/50 transition-colors" {...props}>
+                {children}
+              </tr>
+            ),
+            th: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <th className="border border-border px-4 py-2 text-left font-semibold bg-muted" {...props}>
+                {children}
+              </th>
+            ),
+            td: ({ children, ...props }: { children?: React.ReactNode; [key: string]: any }) => (
+              <td className="border border-border px-4 py-2" {...props}>
+                {children}
+              </td>
+            ),
+            img: ({ src, alt, ...props }: { src?: string; alt?: string; [key: string]: any }) => {
+              // 转换图片路径为完整的 API URL
+              const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:8000'
+              let imageSrc = src || ''
+              
+              if (!src) {
+                return <img src="" alt={alt || ''} {...props} className="max-w-full h-auto" />
+              }
+              
+              // 处理 HTTP/HTTPS 外部链接（保持原样）
+              if (src.startsWith('http://') || src.startsWith('https://')) {
+                imageSrc = src
+              }
+              // 处理 /api 开头的路径（直接转换为完整 URL）
+              else if (src.startsWith('/api')) {
+                imageSrc = `${apiUrl}${src}`
+              }
+              // 处理相对路径 ./ 或 ../
+              else if (src.startsWith('./') || src.startsWith('../')) {
+                // 移除 ./ 或 ../ 前缀，转换为共享资源路径
+                const filename = src.replace(/^\.\.?\//, '')
+                imageSrc = `${apiUrl}/api/documents/assets/shared/${filename}`
+              }
+              // 处理其他路径（文件名或路径）
+              else if (!src.startsWith('/')) {
+                // 直接文件名或相对路径，转换为共享资源路径
+                imageSrc = `${apiUrl}/api/documents/assets/shared/${src}`
+              }
+              // 处理绝对路径（以 / 开头但不是 /api）
+              else {
+                // 其他绝对路径，尝试转换为共享资源路径
+                const filename = src.replace(/^\//, '')
+                imageSrc = `${apiUrl}/api/documents/assets/shared/${filename}`
+              }
+              
+              return (
+                <img
+                  src={imageSrc}
+                  alt={alt || ''}
+                  {...props}
+                  className="max-w-full h-auto"
+                  onError={(e) => {
+                    // 图片加载失败时的处理
+                    const target = e.target as HTMLImageElement
+                    target.style.display = 'none'
+                    console.warn(`Failed to load image: ${imageSrc}`)
+                  }}
+                />
+              )
+            },
+          }}
+        >
+          {content}
+        </ReactMarkdown>
       </div>
 
-      {document.relations.length > 0 && (
+      {document.relations && document.relations.length > 0 && (
         <div className="mt-8 pt-6 border-t">
           <h3 className="text-xl font-semibold mb-4">相关文档</h3>
           <ul className="space-y-2">

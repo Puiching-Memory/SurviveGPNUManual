@@ -12,7 +12,7 @@ from app.routes.documents import router as documents_router
 from app.routes.filesystem_documents import router as filesystem_documents_router
 from app.db.database import init_db, engine
 from app.db.models import User, Document  # Import models to ensure they are registered
-from app.config import get_settings, ASSETS_DIR, DOCUMENTS_DIR, UPLOADS_DIR, ATTACHMENTS_DIR
+from app.config import get_settings, ASSETS_DIR, DOCUMENTS_DIR, UPLOADS_DIR, ATTACHMENTS_DIR, ensure_storage_directories
 
 settings = get_settings()
 logger = setup_logger(__name__)
@@ -55,18 +55,24 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routers
+# Ensure storage directories exist (new modern structure)
+ensure_storage_directories()
+
+# Mount static files BEFORE routers to ensure they take precedence
+# StaticFiles automatically handles URL encoding/decoding
+shared_assets_dir = ASSETS_DIR / "shared"
+logger.info(f"Mounting static files - shared_assets_dir: {shared_assets_dir}, exists: {shared_assets_dir.exists()}")
+if shared_assets_dir.exists():
+    files_list = list(shared_assets_dir.iterdir())
+    logger.info(f"Files in shared_assets_dir (first 5): {[f.name for f in files_list[:5]]}")
+    # Mount static files - this will handle URL-encoded filenames automatically
+    app.mount("/api/documents/assets/shared", StaticFiles(directory=str(shared_assets_dir)), name="shared-assets")
+    logger.info("Static files mounted successfully")
+
+# Include routers (after static files so routes can still handle dynamic requests)
 app.include_router(health_router, prefix="/api")
 app.include_router(auth_router, prefix="/api")
 app.include_router(documents_router, prefix="/api")
 app.include_router(filesystem_documents_router, prefix="/api")
-
-# Ensure storage directories exist (new modern structure)
-ensure_storage_directories()
-
-# Mount static files for assets
-shared_assets_dir = ASSETS_DIR / "shared"
-app.mount("/api/documents/assets/shared", StaticFiles(directory=str(shared_assets_dir)), name="shared-assets")
-app.mount("/api/assets", StaticFiles(directory=str(ASSETS_DIR)), name="assets")
 
 logger.info("Application routes configured")

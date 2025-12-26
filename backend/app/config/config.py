@@ -9,9 +9,9 @@ load_dotenv()
 
 
 class Settings(BaseSettings):
-    APP_VERSION: str = "1.0.0"
-    APP_NAME: str = "FastAPI React Starter"
-    APP_DESCRIPTION: str = "FastAPI React Starter Template"
+    APP_VERSION: str = "2025.10.26"
+    APP_NAME: str = "广师大生存手册"
+    APP_DESCRIPTION: str = "Survive GPNU Manual - 广师大生存手册文档管理系统"
     ENVIRONMENT: str = "development"
     DATABASE_URL: str = ""
     TEST_DATABASE_URL: Optional[str] = "sqlite+aiosqlite:///./test_app.db"

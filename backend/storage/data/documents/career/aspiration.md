@@ -124,7 +124,7 @@ dateCreated: 2025-10-14T08:47:25.981Z
 [广东技术师范大学2025年国际班招生简章](https://mp.weixin.qq.com/s/0BlayJsTstNvzbAS23iDMA)
 
 ## 转专业
-[关于做好我校2025年学生转专业工作通知](https://www.gpnu.edu.cn/info/1039/61509.htm)
+[关于做好我校2025年学生转专业工作通知](/api/documents/assets/shared/61509.htm)
 
 有下列情况之一者，一般**不予**以转专业：  
 1. 入学未满一学年的学生。  

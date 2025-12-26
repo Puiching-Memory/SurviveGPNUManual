@@ -1,6 +1,6 @@
-# FastAPI React 启动模板
+# 广师大生存手册
 
-一个现代化的、功能齐全的启动模板，包含 FastAPI 后端和 React 19 前端，使用 TypeScript、Tailwind CSS 和 shadcn/ui 组件。
+一个现代化的文档管理系统，包含 FastAPI 后端和 React 19 前端，使用 TypeScript、Tailwind CSS 和 shadcn/ui 组件。
 
 ![image](frontend/public/starter.svg)
 
@@ -32,66 +32,6 @@
   - Tailwind CSS 用于样式设计
   - 环境配置
   - Vite 提供快速开发体验
-
-## 项目结构
-
-```
-fastapi-react-starter/
-├── backend/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py              # FastAPI 应用入口
-│   │   ├── config/              # 配置管理
-│   │   │   ├── __init__.py
-│   │   │   └── config.py        # 环境设置
-│   │   ├── db/                  # 数据库
-│   │   │   ├── __init__.py
-│   │   │   ├── database.py      # 数据库连接
-│   │   │   └── models.py        # SQLAlchemy 模型
-│   │   ├── routes/              # API 路由
-│   │   │   ├── __init__.py
-│   │   │   ├── auth.py         # 身份验证端点
-│   │   │   └── health.py       # 健康检查端点
-│   │   ├── schemas/            # Pydantic 模型
-│   │   │   ├── __init__.py
-│   │   │   └── auth.py        # 身份验证模式
-│   │   ├── services/          # 业务逻辑
-│   │   │   ├── __init__.py
-│   │   │   └── auth.py       # 身份验证服务
-│   │   └── utils/            # 工具函数
-│   │       ├── __init__.py
-│   │       └── logger.py     # 日志配置
-│   ├── .env                  # 环境变量
-│   └── requirements.txt      # Python 依赖
-├── frontend/
-│   ├── src/
-│   │   ├── components/       # 可复用的 UI 组件
-│   │   │   └── ui/          # shadcn/ui 组件
-│   │   │       ├── button.tsx
-│   │   │       ├── card.tsx
-│   │   │       └── status-dot.tsx
-│   │   ├── features/         # 功能模块
-│   │   │   ├── auth/        # 身份验证功能
-│   │   │   │   ├── LoginForm.tsx
-│   │   │   │   └── RegisterForm.tsx
-│   │   │   └── health/      # 健康检查功能
-│   │   │       └── HealthStatus.tsx
-│   │   ├── hooks/           # 自定义 React 钩子
-│   │   │   ├── useAuth.ts
-│   │   │   └── useHealthStatus.ts
-│   │   ├── layouts/         # 页面布局
-│   │   │   └── MainLayout.tsx
-│   │   ├── lib/             # 工具函数和配置
-│   │   │   └── utils.ts
-│   │   ├── routes/          # 路由组件和配置
-│   │   │   └── root.tsx
-│   │   ├── types/           # TypeScript 类型定义
-│   │   │   └── index.d.ts
-│   │   └── App.tsx          # 主 React 组件
-│   ├── .env                 # 前端环境变量
-│   └── package.json         # Node.js 依赖
-└── README.md               # 项目文档
-```
 
 ## 快速开始
 
@@ -161,69 +101,44 @@ fastapi-react-starter/
 
 此脚本执行与 Windows 版本相同的设置步骤，但适用于基于 Unix 的系统。
 
-### 手动设置（替代方案）
+### 创建管理员账号
 
-1. 后端设置：
+在容器运行后，你可以通过以下命令创建管理员账号：
 
-   a. 安装 PostgreSQL 并创建数据库：
+```bash
+# 进入后端容器
+docker compose exec backend python manage.py createsuperuser
+```
 
-   ```bash
-   # macOS 使用 Homebrew
-   brew install postgresql
-   brew services start postgresql
+这将提示你输入：
+- 邮箱地址
+- 用户名
+- 密码（需要确认）
 
-   # 创建数据库
-   createdb fastapi_db
-   ```
-
-   b. 在 backend 目录创建 `.env` 文件：
-
-   ```env
-   # 数据库配置
-   DB_NAME=fastapi_db
-   DB_USER=postgres  # 您的数据库用户
-   DB_PASSWORD=postgres  # 您的数据库密码
-   DB_HOST=localhost
-   DB_PORT=5432
-   CORS_ORIGINS=["http://localhost:5173"]
-   ENVIRONMENT=development
-   ```
-
-   c. 安装 Python 依赖并运行迁移：
-
-   ```bash
-   cd backend
-   pip install -r requirements.txt
-   python manage.py migrate
-   uvicorn app.main:app --reload
-   ```
-
-2. 前端设置：
-   ```bash
-   cd frontend
-   npm install
-   npm run dev
-   ```
+管理员账号创建后，可以使用该账号登录并访问管理功能。
 
 ### 数据库管理
 
-项目包含多个数据库管理命令：
+项目包含多个数据库管理命令，需要在 Docker 容器内执行：
 
 ```bash
+# 进入后端容器
+docker compose exec backend python manage.py <command>
+
 # 生成新迁移
-python manage.py makemigrations "变更描述"
+docker compose exec backend python manage.py makemigrations "变更描述"
 
 # 应用待处理的迁移
-python manage.py migrate
-
-# 将所有迁移应用到（假设是）新数据库（运行 'alembic upgrade head'）
-python manage.py reset_db
+docker compose exec backend python manage.py migrate
 
 # 检查迁移状态
-python manage.py db-status
+docker compose exec backend python manage.py db-status
 
 # 回滚最后一次迁移
-python manage.py downgrade
+docker compose exec backend python manage.py downgrade
+
+# 创建管理员账号
+docker compose exec backend python manage.py createsuperuser
 ```
 
 如果遇到数据库错误并需要完全重置：

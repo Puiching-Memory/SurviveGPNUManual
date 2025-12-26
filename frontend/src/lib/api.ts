@@ -61,7 +61,7 @@ async function handleResponse<T>(response: Response): Promise<T> {
   return response.json()
 }
 
-// Document API
+// Filesystem Document API (直接从文件系统读取)
 export const documentApi = {
   async list(params?: {
     category?: string
@@ -77,18 +77,22 @@ export const documentApi = {
     if (params?.skip) queryParams.append('skip', String(params.skip))
     if (params?.limit) queryParams.append('limit', String(params.limit))
 
-    const response = await apiFetch(`${API_URL}/api/documents?${queryParams}`)
-    return handleResponse(response)
+    const response = await apiFetch(`${API_URL}/api/filesystem-documents?${queryParams}`)
+    const data = await handleResponse<{ documents: any[]; total: number }>(response)
+    return data.documents || []
   },
 
   async getBySlug(slug: string): Promise<any> {
-    const response = await apiFetch(`${API_URL}/api/documents/${slug}`)
+    const response = await apiFetch(`${API_URL}/api/filesystem-documents/${slug}`)
     return handleResponse(response)
   },
 
-  async getContent(slug: string): Promise<{ content: string }> {
-    const response = await apiFetch(`${API_URL}/api/documents/${slug}/content`)
-    return handleResponse(response)
+  async getContent(slug: string): Promise<string> {
+    const response = await apiFetch(`${API_URL}/api/filesystem-documents/${slug}/content`)
+    if (!response.ok) {
+      throw new Error('Failed to fetch content')
+    }
+    return response.text()
   },
 
   async create(data: any): Promise<any> {
@@ -120,65 +124,4 @@ export const documentApi = {
   },
 }
 
-// Package API
-export const packageApi = {
-  async importPackage(
-    file: File,
-    options: {
-      conflict_strategy?: string
-      import_assets?: boolean
-      import_attachments?: boolean
-    }
-  ): Promise<any> {
-    const formData = new FormData()
-    formData.append('file', file)
-    if (options.conflict_strategy) {
-      formData.append('conflict_strategy', options.conflict_strategy)
-    }
-    if (options.import_assets !== undefined) {
-      formData.append('import_assets', String(options.import_assets))
-    }
-    if (options.import_attachments !== undefined) {
-      formData.append('import_attachments', String(options.import_attachments))
-    }
-
-    const response = await apiFetch(`${API_URL}/api/documents/import-package`, {
-      method: 'POST',
-      body: formData,
-    })
-    
-    return handleResponse(response)
-  },
-
-  async exportPackage(params?: {
-    category?: string
-    tags?: string
-    published?: boolean
-  }): Promise<Blob> {
-    const queryParams = new URLSearchParams()
-    if (params?.category) queryParams.append('category', params.category)
-    if (params?.tags) queryParams.append('tags', params.tags)
-    if (params?.published !== undefined) queryParams.append('published', String(params.published))
-
-    const response = await apiFetch(`${API_URL}/api/documents/export-package?${queryParams}`)
-
-    if (!response.ok) {
-      throw new Error('Failed to export package')
-    }
-
-    return response.blob()
-  },
-
-  async validatePackage(file: File): Promise<any> {
-    const formData = new FormData()
-    formData.append('file', file)
-
-    const response = await apiFetch(`${API_URL}/api/documents/validate-package`, {
-      method: 'POST',
-      body: formData,
-    })
-    
-    return handleResponse(response)
-  },
-}
 

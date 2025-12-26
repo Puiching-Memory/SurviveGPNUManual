@@ -8,17 +8,20 @@ import { AdminRoute } from '../components/AdminRoute'
 const Dashboard = lazy(() => import('../pages/Dashboard'))
 const Login = lazy(() => import('../pages/Login'))
 const Register = lazy(() => import('../pages/Register'))
+const Home = lazy(() => import('../pages/Home'))
 const DocumentList = lazy(() => import('../pages/DocumentList'))
 const DocumentView = lazy(() => import('../pages/DocumentView'))
 const DocumentEdit = lazy(() => import('../pages/DocumentEdit'))
-const DocumentPackage = lazy(() => import('../pages/DocumentPackage'))
 
 // Error boundary component
 function ErrorBoundary() {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="text-4xl font-bold text-red-600 mb-4">出错了！</h1>
-      <p className="text-lg">发生了错误，请重试。</p>
+      <p className="text-lg mb-4">发生了错误，请重试。</p>
+      <a href="/" className="text-blue-600 hover:underline">
+        返回首页
+      </a>
     </div>
   )
 }
@@ -36,6 +39,10 @@ const routes = {
   public: [
     {
       index: true,
+      element: <Home />,
+    },
+    {
+      path: 'docs',
       element: <DocumentList />,
     },
     {
@@ -59,10 +66,6 @@ const routes = {
     {
       path: 'docs/:id/edit',
       element: <DocumentEdit />,
-    },
-    {
-      path: 'admin/packages',
-      element: <DocumentPackage />,
     },
   ],
 }
@@ -95,7 +98,7 @@ export const router = createBrowserRouter([
       ...routes.protected.map((route) => ({
         ...route,
         element:
-          route.path === 'docs/:id/edit' || route.path === 'admin/packages'
+          route.path === 'docs/:id/edit'
             ? withAdminProtection(route.element)
             : withProtection(route.element),
       })),

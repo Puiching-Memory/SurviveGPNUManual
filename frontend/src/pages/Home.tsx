@@ -12,14 +12,14 @@ type FeatureItem = {
 }
 
 const features: FeatureItem[] = [
-  { id: '1', text: 'FastAPI 后端与健康检查' },
-  { id: '2', text: 'React 19 现代模式' },
-  { id: '3', text: '原生 Fetch API 集成' },
-  { id: '4', text: '现代数据获取' },
-  { id: '5', text: 'Tailwind CSS 深色模式' },
-  { id: '6', text: '响应式设计' },
-  { id: '7', text: '错误边界' },
-  { id: '8', text: 'Docker 支持' },
+  { id: '1', text: '主题化文档组织（指南/职业/博客）' },
+  { id: '2', text: '文件系统文档管理' },
+  { id: '3', text: '文档内容搜索与浏览' },
+  { id: '4', text: '基于角色的访问控制' },
+  { id: '5', text: 'JWT 身份验证' },
+  { id: '6', text: '响应式设计，支持移动端' },
+  { id: '7', text: '深色模式支持' },
+  { id: '8', text: '现代化 UI 组件' },
 ]
 
 export default function Home() {
@@ -29,10 +29,10 @@ export default function Home() {
     <div className="space-y-12 py-8">
       <div className="text-center">
         <h1 className="text-4xl font-bold mb-4 text-foreground">
-          欢迎使用在线文档系统
+          广师大生存手册
         </h1>
         <p className="text-lg text-muted-foreground">
-          基于 React 19 和 FastAPI 的现代化全栈文档管理平台
+          Survive GPNU Manual - 为广师大学子提供全方位的校园生活指南
         </p>
       </div>
 
@@ -80,8 +80,11 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center space-x-4">
-        <Button onClick={() => navigate('/dashboard')} variant="secondary">
-          查看仪表板
+        <Button onClick={() => navigate('/docs')} variant="secondary">
+          浏览文档
+        </Button>
+        <Button onClick={() => navigate('/dashboard')} variant="default">
+          进入仪表板
         </Button>
       </div>
     </div>

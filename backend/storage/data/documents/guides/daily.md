@@ -1,4 +1,4 @@
----
+﻿---
 title: 校园生活
 description: 
 published: true
@@ -8,17 +8,13 @@ editor: markdown
 dateCreated: 2025-10-14T08:47:33.049Z
 ---
 
-<script src="https://cdn.bootcdn.net/ajax/libs/three.js/0.174.0/three.core.js"></script>
-
-## 校历 2024-2025年度
-
-![2025xiaoli-1.jpg](/api/documents/assets/shared/2025xiaoli-1.jpg)
+![image](/api/documents/assets/shared/2025xiaoli-1.jpg)
 ![2025xiaoli-2.jpg](/api/documents/assets/shared/2025xiaoli-2.jpg)
 ![2025xiaoli-3.jpg](/api/documents/assets/shared/2025xiaoli-3.jpg)
 
 > 注意
 > 目前(2025年)晚上，白云校区：熄灯无强制要求，河源校区：11：30后熄灯，晚上不断网不断电。作息时间表**仅上课时间强制要求**，其他时间同学们自己安排生活作息  
-> 校历源：[学校官网](https://gpnu.edu.cn/dfiles/2024-2025xiaoli.pdf)
+> 校历源：[学校官网](/api/documents/assets/shared/2024-2025xiaoli.pdf)
 {.is-warning}
 
 
@@ -147,7 +143,7 @@ dateCreated: 2025-10-14T08:47:33.049Z
 
 
 ### 地图
-白云校区MC版本交互式地图:[https://map.gpnumcer.top/](https://map.gpnumcer.top/)  
+白云校区MC版本交互式地图:[/api/documents/assets/shared/)  
 白云校区卫星标注地图（带定位）:[施工中]()
 
 ![白云校区-地图.webp](/api/documents/assets/shared/白云校区-地图.webp)
@@ -219,251 +215,6 @@ TODO餐馆列表：
 ![byq-th2-1.jpg](/api/documents/assets/shared/byq-th2-1.jpg)
 ![byq-th2-2.jpg](/api/documents/assets/shared/byq-th2-2.jpg)
 
-Power by <a href="https://github.com/graphdeco-inria/gaussian-splatting">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a>
-
-
-<div style="width: 100%; max-width: 800px; margin: 0 auto;">
-  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
-    <iframe 
-      src="https://poly.cam/capture/faa1bd81-14a0-467c-b8d9-acb40f10cf82/embed"
-      title="第二教学楼 - Polycam 3D扫描"
-      frameborder="0"
-      allowfullscreen
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-    </iframe>
-  </div>
-  <div style="background-color: #e6f2ff; color: #004085; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
-    第二教学楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
-  </div>
-</div>
-
-
-### 第三教学楼
-
-### 第一实训楼
-### 第二实训楼
-![白云校区-第二实训楼.jpg](/api/documents/assets/shared/白云校区-第二实训楼.jpg)
+Power by ![image](/api/documents/assets/shared/白云校区-第二实训楼.jpg)
 ![白云校区-二训-3d.jpg](/api/documents/assets/shared/白云校区-二训-3d.jpg)
 
-
-<div style="width: 100%; max-width: 800px; margin: 0 auto;">
-  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
-    <iframe 
-      src="https://poly.cam/capture/fe6354d5-824d-49fa-893f-a47bacdb1f65/embed"
-      title="第二实训楼 - Polycam 3D扫描"
-      frameborder="0"
-      allowfullscreen
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-    </iframe>
-  </div>
-  <div style="background-color: #e6f2ff; color: #004085; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
-    第二实训楼 3D扫描模型：点击拖拽旋转视角，滚轮缩放，右键平移，不支持全屏
-  </div>
-</div>
-
-
-### 第三实训楼
-
-### 第四实训楼
-
-属于电子与信息学院
-
-- 晚上10点保安会开始清场
-
-### 科研楼
-
-半完工，仅部分教室可用
-
-### 青春广场
-
-### 学生活动中心
-![白云校区-学生活动中心-1.jpg](/api/documents/assets/shared/白云校区-学生活动中心-1.jpg)
-
-三楼和四楼：创新创业学院
-
-### 大咖广场/小塘公寓
-<div style="width: 100%; max-width: 800px; margin: 0 auto;">
-  <div style="position: relative; width: 100%; padding-bottom: 75%; height: 0; overflow: hidden;">
-    <iframe 
-      title="大咖3D模型" 
-      frameborder="0" 
-      allowfullscreen 
-      mozallowfullscreen="true" 
-      webkitallowfullscreen="true" 
-      allow="autoplay; fullscreen; xr-spatial-tracking" 
-      xr-spatial-tracking 
-      execution-while-out-of-viewport 
-      execution-while-not-rendered 
-      web-share 
-      src="https://sketchfab.com/models/0b4e15231f8a4d3dbae673c5325969cf/embed?autostart=1&transparent=1&ui_controls=1&ui_infos=1&ui_inspector=1&ui_stop=1&ui_watermark=1&ui_watermark_link=1"
-      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;">
-    </iframe>
-  </div>
-  <p style="margin: 8px 0; font-size: 14px; line-height: 1.4; color: #333;">
-    <a href="https://sketchfab.com/3d-models/0b4e15231f8a4d3dbae673c5325969cf?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
-      校园大咖3D模型
-    </a> 
-    by 
-    <a href="https://sketchfab.com/Puiching-Memory?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
-      Puiching-Memory
-    </a> 
-    on 
-    <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=0b4e15231f8a4d3dbae673c5325969cf" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9; text-decoration: none;">
-      Sketchfab
-    </a>
-  </p>
-  <div style="background-color: #e0f7fa; color: #006064; padding: 8px 12px; font-size: 14px; border-radius: 4px; margin-top: 8px;">
-    💡 提示：点击并拖拽可旋转视角，滚轮缩放，右键拖拽平移视角
-  </div>
-</div>
-
-![白云校区-小塘公寓.jpg](/api/documents/assets/shared/白云校区-小塘公寓.jpg)
-
-- 有两家复印店，都配有很多打印机，有红印泥，本科毕业论文需要特殊纸张，可以去那里打印
-- 小塘公寓在大咖广场上面
-
-### 后街
-
-何布村最大的夜市，从东门出就是了
-
-### 医务室
-
-一饭南方对面楼，又称职工居住楼，一楼
-
-### 药店
-
-### 电动车充电站
-
-位置：二教和三教之间，B2南方，B6南方
-
-### 通勤
-
-最近的地铁站：8号线，滘心
-
-### 订水
-
-微信小程序->真如校园
-- 订水每次至少两桶，9.5元/桶或13元/桶
-- 押金150元，赠送饮水机
-- 下单后第二天会送上门
-
-### 快递
-- 你的快递不能直接送到宿舍门前（有同学提供此类服务）
-- 校内有3大快递站，B6架空层一个，大咖广场一个，A2架空层一个
-- 大咖广场有菜鸟驿站，京东派，顺丰，喵站，菜鸟驿站
-- 快递站晚上7点关门
-
-### 校园点餐外卖平台
-
-> 危险
-> 不建议**任何人**使用该平台。  
-> 商家会将这里的单最晚做,骑手会等一个饭堂的单都装满一个箱子后才出发  
-> 平均送达时间在1~2个小时，超时没有**任何赔偿**  
-> 在美团，淘宝等平台下的单，会在超时前给你点送达，但实际上**并没有**送达
-{.is-danger}
-
-
-微信小程序：校园食堂智慧点餐--广州市安开信息科技有限公司  
-
-- 假期该平台不提供服务
-- 可以点校内所有饭堂的饭，会有外卖员送到各个宿舍指定的存餐柜中，扫码解锁即可取餐。
-- B区有三个存餐柜，B5/B6北方一个，B1/B2南方一个，B4一个，小塘一个
-- **下雨天不要点**，外卖员不会立刻送的，而且该平台没有超时惩罚，所以大概要提前1小时。
-- 有些饭馆会在美团/淘宝/京东开店，通常比直接在这个小程序点便宜的多（例如淘宝闪购）
-- 该平台和拼好饭没有任何关系
-
-### 外卖
-> 危险
-> 注意有些校外的人会**偷外卖**！  
-{.is-danger}
-
-
-外校的外卖不能入校，但是可以放在围栏旁边，以下是一些经典点位。  
-基本地址：广东省广州市白云区江高镇环镇西路155号广东技术师范大学
-
-- 2教篮球场  
-- 3教篮球场  
-- 慢慢选超市对面栏杆  
-- 后街coco广场铁门  
-- 燕塘栏杆  
-- 二三教中间栏杆  
-- 南门  
-- 大咖广场  
-
-*或参考白云地图*
-
----
-
-## 东校区
-
-### 地图
-
-### 推荐阅读
-[blog/广东技术师范大学 东校区 食用指北](/blog/tieba-9053331608)
-
-### 广东工业实训中心
-![东校区-广东工业实训中心-1.jpg](/api/documents/assets/shared/东校区-广东工业实训中心-1.jpg)
-
-### 春晖园
-![东校区-春晖园-1.jpg](/api/documents/assets/shared/东校区-春晖园-1.jpg)
-
-### 操场
-![东校区-操场-1.jpg](/api/documents/assets/shared/东校区-操场-1.jpg)
-
-
----
-
-## 西校区
-
-### 地图
-
-### 饭堂
-![xq-ft-1.jpg](/api/documents/assets/shared/xq-ft-1.jpg)
-
-### 操场
-![xq-cc-1.jpg](/api/documents/assets/shared/xq-cc-1.jpg)
-
-### 信创楼
-![xq-xcl-1.jpg](/api/documents/assets/shared/xq-xcl-1.jpg)
-
-### 宿舍
-![西校区宿舍.jpg](/api/documents/assets/shared/西校区宿舍.jpg)
-
-### 
-
-## 北校区
-
-### 地图
-
----
-
-## 团委机构
-### 学生会
-### 社团联合会
-红十字会，开放原子社团，口才与演讲协会，数学建模协会，数智新商科，智能科学与技术协会，投资理财协会，岭南文化传播研究协会，低空领航社，信息技术协会，FB轮滑协会，茶文化协会，木槿韩语协会，广师大篮协，轮动科技协会，数智教师团，focus摄影协会，法律服务中心，科创联盟，哲社调研会，英语俱乐部，ERP企业沙盘协会，人工智能与算法协会，校学生会，羽毛球协会，乒乓球协会，飞盘社团，魔术协会，创意手工社，足球？，halo音乐协会，山泉诗社，师缘协会，自行车旅游俱乐部，大学生职业生涯发展协会，街舞协会，调酒协会，星星文学社，学生陶知行研究会，定向协会，ccc棋社，旋风毽球协会，电竞社，拉丁舞协会，无双动漫社，滑板协会，古风民乐社
-
-### 志愿者协会
-一般负责组织校园志愿活动，刷志愿时长可以考虑参加他们发布的一些校内志愿活动（有时会和外面组织合作举办一些校外活动，比如去河源万绿湖捡垃圾）
-
-### 研究生会
-### 艺术团
-### 红十字会
-
-## 校园活动
-### 新年音乐会
-### 文体艺术季
-### 歌手大赛
-### 草地音乐节
-### 三月三诗歌节
-### 世界读书日
-### 宿舍文化节
-### 校/院运动会
-
-## 邮政编码
-
-| 校区                     | 邮政编码   | 地址                                         |
-| ------------------------ | ---------- | -------------------------------------------- |
-| 广东技术师范大学白云校区 | **510450** | 广州市白云区江高镇环镇西路155号              |
-| 广东技术师范大学东校区   | **510665** | 广州市天河区中山大道西293号                  |
-| 广东技术师范大学西校区   | **510630** | 广州市天河区龙口西路576号                    |
-| 广东技术师范大学河源校区 | **517500** | 广东省河源市东源县仙塘镇东江教育城东环路东侧 |

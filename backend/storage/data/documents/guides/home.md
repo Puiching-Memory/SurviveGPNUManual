@@ -24,7 +24,7 @@ dateCreated: 2025-10-14T08:47:39.639Z
 <br>
 <br>
 
-<img src="https://repobeats.axiom.co/api/embed/dd55f73a4fa23af7b285d5071e7f128e5e870016.svg" alt="Repobeats analytics" style="display: block; margin: 0 auto; max-width: 100%;">
+<img src="/api/documents/assets/shared/dd55f73a4fa23af7b285d5071e7f128e5e870016.svg" alt="Repobeats analytics" style="display: block; margin: 0 auto; max-width: 100%;">
 
 ---
 

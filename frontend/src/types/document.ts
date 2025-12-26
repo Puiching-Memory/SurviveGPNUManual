@@ -11,17 +11,21 @@ export interface DocumentRelation {
 }
 
 export interface Document {
-  id: string
+  id?: string  // 可选，文件系统文档可能没有 id
   slug: string
   title: string
   file_path: string
   category?: string | null
-  content_summary?: string | null
+  description?: string | null
+  content_summary?: string | null  // 兼容旧字段
+  content_preview?: string | null  // 文件系统文档的预览
   author_id?: number | null
   published: boolean
-  tags: string[]
-  relations: DocumentRelation[]
-  extra_metadata: Record<string, any>
+  tags?: string[]  // 可选，文件系统文档可能为空数组
+  relations?: DocumentRelation[]  // 可选
+  extra_metadata?: Record<string, any>  // 可选
+  frontmatter?: Record<string, any>  // 文件系统文档的前置元数据
+  content?: string  // 完整内容（仅在详情页时存在）
   created_at: string
   updated_at: string
 }
@@ -30,68 +34,4 @@ export interface DocumentContent {
   content: string
 }
 
-export interface PackageExportedBy {
-  user_id: number
-  email: string
-  username: string
-}
-
-export interface PackageInfo {
-  name?: string
-  description?: string
-  version?: string
-}
-
-export interface PackageStatistics {
-  total_documents: number
-  total_assets: number
-  total_attachments: number
-}
-
-export interface DocumentInManifest {
-  id: string
-  file_path: string
-  slug: string
-  title: string
-  category?: string | null
-  tags: string[]
-  authors: DocumentAuthor[]
-  created_at?: string
-  updated_at?: string
-  published: boolean
-  frontmatter: Record<string, any>
-  relations: DocumentRelation[]
-  assets: string[]
-  attachments: string[]
-}
-
-export interface DocumentPackageManifest {
-  format_version: string
-  format_spec?: string
-  exported_at: string
-  exported_by: PackageExportedBy
-  package_info?: PackageInfo
-  statistics?: PackageStatistics
-  documents: DocumentInManifest[]
-}
-
-export interface ImportOptions {
-  conflict_strategy: 'skip' | 'overwrite' | 'rename'
-  import_assets: boolean
-  import_attachments: boolean
-}
-
-export interface ImportResult {
-  success: boolean
-  total: number
-  imported: number
-  skipped: number
-  failed: number
-  errors: string[]
-}
-
-export interface ValidationResult {
-  valid: boolean
-  error?: string
-}
 

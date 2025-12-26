@@ -9,11 +9,13 @@ from uuid import uuid4
 
 # Configure bcrypt context
 # Use bcrypt with explicit configuration to avoid version detection issues
+# Note: bcrypt 4.0.1 is used for compatibility with passlib 1.7.4
 pwd_context = CryptContext(
     schemes=["bcrypt"],
     deprecated="auto",
     bcrypt__rounds=12,
     bcrypt__ident="2b",  # Use bcrypt 2b identifier
+    bcrypt__min_rounds=10,  # Minimum rounds for security
 )
 
 
