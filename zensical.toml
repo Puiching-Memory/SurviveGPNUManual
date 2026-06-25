@@ -1,0 +1,60 @@
+[project]
+site_name = "广师大生存手册"
+site_url = "https://puiching-memory.github.io/SurviveGPNUManual/"
+site_description = "一份由广师大学子共同维护的校园生活指南"
+site_author = "广师大生存手册贡献者"
+copyright = "Copyright &copy; 广师大生存手册贡献者"
+docs_dir = "docs"
+site_dir = "site"
+
+nav = [
+  {"首页" = "index.md"},
+  {"手册指南" = [
+    "guides/home.md",
+    "guides/daily.md",
+    "guides/exam.md",
+    "guides/tips.md",
+    "guides/data.md",
+    "guides/community.md"
+  ]},
+  {"职业与升学" = [
+    "career/job.md",
+    "career/aspiration.md",
+    "career/postgraduate.md",
+    "career/after.md"
+  ]},
+  {"博客文章" = [
+    "blog/git-usage.md",
+    "blog/echo-01.md",
+    "blog/photoTop-2025G1.md",
+    "blog/tieba-8394029114.md",
+    "blog/tieba-9053331608.md",
+    "blog/tieba-9754849630.md",
+    "blog/tieba-9790547930.md",
+    "blog/tieba-9839420997.md",
+    "blog/tieba-10042897710.md"
+  ]},
+  {"关于" = [
+    "STRUCTURE.md",
+    "guides/README.md"
+  ]}
+]
+
+[project.theme]
+variant = "modern"
+features = [
+  "navigation.tabs",
+  "navigation.sections",
+  "toc.integrate",
+  "navigation.top",
+  "search.suggest",
+  "search.highlight",
+  "content.tabs.link",
+  "content.code.annotation",
+  "content.code.copy"
+]
+
+[project.extra]
+social = [
+  {"icon" = "fontawesome/brands/github", "link" = "https://github.com/Puiching-Memory/SurviveGPNUManual"}
+]

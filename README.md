@@ -1,170 +1,72 @@
 # 广师大生存手册
 
-一个现代化的文档管理系统，包含 FastAPI 后端和 React 19 前端，使用 TypeScript、Tailwind CSS 和 shadcn/ui 组件。
+一份由广师大学子共同维护的校园生活指南，使用 [Zensical](https://zensical.org/) 生成静态站点。
 
-![image](frontend/public/starter.svg)
+本仓库已移除原 FastAPI + React 前后端，只保留 `docs/` 目录下的手册正文，并改用 Zensical 直接生成静态站点。
 
-## 功能特性
+## 目录结构
 
-- **后端 (FastAPI)**
-
-  - 快速且现代化的 Python Web 框架
-  - 支持 PostgreSQL/SQLite 数据库，使用异步 SQLAlchemy ORM
-  - 基于 JWT 的身份验证系统
-  - 基于角色的访问控制
-  - 异步数据库操作
-  - 适当的连接池和清理
-  - 使用 pydantic 进行环境配置
-  - 结构化日志记录
-  - 健康检查端点
-  - 优雅的关闭处理
-  - 模块化项目结构
-
-- **前端 (React 19)**
-  - 最新的 React 特性，包括 `use` 钩子
-  - TypeScript 提供类型安全和更好的开发体验
-  - React Router 7 用于客户端路由
-  - shadcn/ui 组件提供美观、可访问的 UI
-  - 基于组件的架构
-  - 用于数据获取的自定义钩子
-  - 使用 Error Boundaries 进行现代错误处理
-  - 使用 Suspense 处理加载状态
-  - Tailwind CSS 用于样式设计
-  - 环境配置
-  - Vite 提供快速开发体验
-
-## 快速开始
-
-### 使用 Docker（推荐）
-
-1. 克隆仓库：
-
-   ```bash
-   git clone https://github.com/raythurman2386/fastapi-react-starter.git
-   cd fastapi-react-starter
-   ```
-
-2. 创建环境文件：
-
-   在根目录创建 `.env` 文件：
-
-   ```env
-   # 数据库配置
-   DB_USER=postgres
-   DB_PASSWORD=postgres
-   DB_NAME=fastapi_db
-   ```
-
-3. 使用 Docker 启动应用：
-
-   ```bash
-   docker compose up --build
-   ```
-
-   这将：
-
-   - 启动 PostgreSQL 数据库
-   - 对新数据库应用迁移（例如，在删除 Docker 卷后）
-   - 在 http://localhost:8000 启动 FastAPI 后端
-   - 在 http://localhost:5173 启动 React 前端
-
-   Swagger 文档可在 http://localhost:8000/docs 访问
-
-### 自动化设置脚本
-
-为了方便使用，本项目包含了适用于 Windows 和 Linux/Mac 的自动化设置脚本：
-
-#### Windows 设置
-
-1. 以管理员身份打开 PowerShell
-2. 导航到项目目录
-3. 运行设置脚本：
-   ```powershell
-   .\setup.ps1
-   ```
-
-此脚本将：
-
-- 检查必需的依赖项（Docker、Docker Compose V2）
-- 安装系统推荐的正确版本的 Docker
-- 设置环境变量
-
-#### Linux/Mac 设置
-
-1. 打开终端
-2. 导航到项目目录
-3. 使脚本可执行并运行：
-   ```bash
-   chmod +x setup.sh
-   ./setup.sh
-   ```
-
-此脚本执行与 Windows 版本相同的设置步骤，但适用于基于 Unix 的系统。
-
-### 创建管理员账号
-
-在容器运行后，你可以通过以下命令创建管理员账号：
-
-```bash
-# 进入后端容器
-docker compose exec backend python manage.py createsuperuser
+```
+.
+├── docs/              # 手册 Markdown 源文件
+│   ├── index.md       # 站点首页
+│   ├── guides/        # 核心指南
+│   ├── career/        # 职业与升学
+│   ├── blog/          # 博客文章
+│   └── STRUCTURE.md   # 文档结构说明
+├── zensical.toml      # Zensical 站点配置
+└── README.md          # 本文件
 ```
 
-这将提示你输入：
-- 邮箱地址
-- 用户名
-- 密码（需要确认）
+## 本地预览
 
-管理员账号创建后，可以使用该账号登录并访问管理功能。
-
-### 数据库管理
-
-项目包含多个数据库管理命令，需要在 Docker 容器内执行：
+### 安装 Zensical
 
 ```bash
-# 进入后端容器
-docker compose exec backend python manage.py <command>
-
-# 生成新迁移
-docker compose exec backend python manage.py makemigrations "变更描述"
-
-# 应用待处理的迁移
-docker compose exec backend python manage.py migrate
-
-# 检查迁移状态
-docker compose exec backend python manage.py db-status
-
-# 回滚最后一次迁移
-docker compose exec backend python manage.py downgrade
-
-# 创建管理员账号
-docker compose exec backend python manage.py createsuperuser
+python -m venv .venv
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
+pip install zensical
 ```
 
-如果遇到数据库错误并需要完全重置：
+或使用 uv：
 
-1. 停止所有运行的服务：`docker compose down`
-2. 删除 PostgreSQL Docker 卷（例如，`docker volume rm fastapi-react-starter_postgres_data` - 使用 `docker volume ls` 验证卷名）
-3. 重启服务：`docker compose up -d --build`
+```bash
+uv add --dev zensical
+uv run zensical serve
+```
 
-### 故障排除
+### 启动预览服务器
 
-1. 后端状态显示 "error"：
+```bash
+zensical serve
+```
 
-   - 确保 PostgreSQL 正在运行
-   - 检查 `.env` 中的数据库凭据
-   - 如需完全重置，请参阅上面的"如果遇到数据库错误"部分（涉及 Docker 卷删除）
-   - 检查后端日志以获取具体错误消息
+默认访问 http://localhost:8000。
 
-2. 用户注册失败：
-   - 确保数据库已正确初始化
-   - 检查后端是否正在运行且可访问
-   - 验证后端 `.env` 中的 CORS 设置
-   - 检查浏览器控制台以获取具体错误消息
+### 构建静态站点
+
+```bash
+zensical build
+```
+
+构建输出位于 `site/` 目录。
+
+## 添加/修改内容
+
+直接编辑 `docs/` 下的 Markdown 文件即可。新增页面后，若需调整导航顺序，修改 `zensical.toml` 中的 `nav` 配置。
+
+## 部署
+
+Zensical 生成的是纯静态文件，可将 `site/` 目录部署到任意静态托管服务，例如：
+
+- GitHub Pages
+- Cloudflare Pages
+- Vercel / Netlify
+- 自有 Nginx/CDN
 
 ## 贡献
 
-欢迎贡献！请随时提交 Pull Request。
+欢迎提交 Pull Request 或发送邮件到 1138663075@qq.com。
 
 ## 许可证
 
