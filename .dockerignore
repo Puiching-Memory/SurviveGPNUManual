@@ -1,0 +1,8 @@
+.venv
+site
+.git
+.gitignore
+Dockerfile
+.dockerignore
+*.tar
+*.tar.gz

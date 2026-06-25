@@ -1,0 +1,26 @@
+name: 广师大生存手册
+tags:
+  - WebSite
+title: 广师大校园生活指南静态站点
+description: 广师大校园生活指南静态站点
+additionalProperties:
+  key: survivegpnumanual
+  name: 广师大生存手册
+  tags:
+    - WebSite
+  shortDescZh: 广师大校园生活指南静态站点
+  shortDescEn: GPNUManual campus life guide static site
+  description:
+    en: GPNUManual campus life guide static site
+    zh: 广师大校园生活指南静态站点
+  type: website
+  crossVersionUpdate: true
+  limit: 0
+  recommend: 16
+  batchInstallSupport: true
+  website: https://www.pullmypush.xyz
+  github: https://github.com/Puiching-Memory/SurviveGPNUManual
+  document: https://www.pullmypush.xyz
+  architectures:
+    - amd64
+    - arm64

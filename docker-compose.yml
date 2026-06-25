@@ -1,0 +1,7 @@
+services:
+  survivegpnumanual:
+    build: .
+    container_name: survivegpnumanual
+    ports:
+      - "80:80"
+    restart: unless-stopped
